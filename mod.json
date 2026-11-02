@@ -7,13 +7,15 @@
 	"compatibility": {
 		"min": "1.7.3"
 	},
+	"softDepends": [
+		"vcmi-extras"
+	],
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
 	"conflicts": [
 		"hota",
 		"forge",
 		"highlands-town",
-		"vcmi-extras",
 		"tides-of-war",
 		"forge2k",
 		"the-great-expansion"

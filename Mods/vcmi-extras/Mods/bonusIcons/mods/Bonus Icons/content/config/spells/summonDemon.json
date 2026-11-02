@@ -1,7 +1,0 @@
-{
-	"core:summonDemons" : {
-		"graphics" : {
-			"iconEffect" : "zvs/Lib1.res/s_demon.png"
-		}
-	}
-}
