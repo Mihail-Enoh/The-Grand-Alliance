@@ -737,6 +737,7 @@
                         "gold": 150
                 },
                 "abilities": {
+                        "dummyVulnerablityIcon": null,
                         "meteorShowerImmunity": null,
                         "lightingVulnerablity": null,
                         "chainLightingVulnerablity": null,
@@ -796,6 +797,7 @@
                         "gold": 200
                 },
                 "abilities": {
+                        "dummyVulnerablityIcon": null,
                         "meteorShowerImmunity": null,
                         "lightingVulnerablity": null,
                         "chainLightingVulnerablity": null,
@@ -924,6 +926,7 @@
                         "gold": 500
                 },
                 "abilities": {
+                        "dummyVulneablityIcon": null,
                         "lightingImmunity": null,
                         "chainLightingImmunity": null,
                         "armageddonImmunity": null,
@@ -980,6 +983,7 @@
                         "gold": 575
                 },
                 "abilities": {
+                        "dummyVulneablityIcon": null,
                         "lightingImmunity": null,
                         "chainLightingImmunity": null,
                         "armageddonImmunity": null,
