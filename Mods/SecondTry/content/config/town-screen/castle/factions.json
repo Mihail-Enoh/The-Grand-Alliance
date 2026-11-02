@@ -1,0 +1,262 @@
+{
+	"core:castle": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/castle/icons/towerSmall",
+				"towerIconLarge": "town-screen/castle/icons/towerLarge"
+			},
+			"hallBackground": "town-screen/castle/CastleHallBg.BMP",
+			"buildingsIcons": "town-screen/castle/ALTHALLCSTL.DEF",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern",
+						"special3"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"shipyard",
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"pikeman",
+					"halberdier"
+				],
+				[
+					"archer",
+					"marksman"
+				],
+				[
+					"griffin",
+					"royalGriffin"
+				],
+				[
+					"swordsman",
+					"crusader"
+				],
+				[
+					"monk",
+					"zealot"
+				],
+				[
+					"cavalier",
+					"champion"
+				],
+				[
+					"mdtTemplar",
+					"mdtPaladin"
+				],
+				[
+					"angel",
+					"archangel"
+				]
+			],
+			"structures": {
+				"dwellingLvl8": {
+					"animation": "TBCSDW_6.def",
+					"x": 303,
+					"y": 0,
+					"z": -2,
+					"campaignBonus": "BoCsAng1.pcx",
+					"border": "TOCSANG1.bmp",
+					"area": "TZCSANG1.bmp"
+				},
+				"dwellingUpLvl8": {
+					"animation": "TBCSUP_6.def",
+					"x": 303,
+					"y": 0,
+					"z": -2,
+					"campaignBonus": "BoCsAng2.pcx",
+					"border": "TOCSANG2.bmp",
+					"area": "TZCSANG2.bmp"
+				},
+				"dwellingLvl7": {
+					"border": "town-screen/castle/buildings-border/TBCAlt7border.bmp",
+					"area": "town-screen/castle/buildings-area/TBCAlt7area.bmp",
+					"animation": "town-screen/castle/TBCAlt7.def",
+					"x": 0,
+					"y": 0,
+					"z": 1
+				},
+				"dwellingUpLvl7": {
+					"border": "town-screen/castle/buildings-border/TBCAlt7UPborder.bmp",
+					"area": "town-screen/castle/buildings-area/TBCAlt7UParea.bmp",
+					"animation": "town-screen/castle/TBCAlt7UP.def",
+					"x": 0,
+					"y": 0,
+					"z": 1
+				}
+			},
+			"buildings": {
+				"dwellingUpLvl1": {
+					"name": "Upg. Guardhouse",
+					"description": "The Upg. Guardhouse allows you to recruit Halberdiers."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Archers' Tower",
+					"description": "The Upg. Archers' Tower allows you to recruit Marksmen."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Griffin Tower",
+					"description": "The Upg. Griffin Tower allows you to recruit Royal Griffins."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Barracks",
+					"description": "The Upg. Barracks allows you to recruit Crusaders."
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Monastery",
+					"description": "The Upg. Monastery allows you to recruit Zealots."
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Training Grounds",
+					"description": "The Upg. Training Grounds allows you to recruit Champions."
+				},
+				"dwellingLvl8": {
+					"name": "Portal of Glory",
+					"description": "The Portal of Glory allows you to recruit Angels.",
+					"requires": [
+						"dwellingLvl5"
+					],
+					"cost": {
+						"gold": 20000,
+						"wood": 0,
+						"ore": 0,
+						"gems": 10,
+						"crystal": 10,
+						"sulfur": 10,
+						"mercury": 10
+					}
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Portal of Glory",
+					"description": "The Upg. Portal of Glory allows you to recruit Archangels.",
+					"cost": {
+						"gold": 20000,
+						"wood": 0,
+						"ore": 0,
+						"gems": 10,
+						"crystal": 10,
+						"sulfur": 10,
+						"mercury": 10
+					},
+					"upgrades": "dwellingLvl8"
+				},
+				"dwellingLvl7": {
+					"name": "Cathedral",
+					"description": "The Cathedral allows you to recruit Templars.",
+					"cost": {
+						"gold": 10000,
+						"wood": 10,
+						"ore": 10,
+						"gems": 5,
+						"crystal": 5,
+						"sulfur": 5,
+						"mercury": 5
+					},
+					"requires": [
+						"dwellingLvl6"
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Cathedral",
+					"description": "The Upg. Cathedral allows you to recruit Paladins.",
+					"cost": {
+						"gold": 15000,
+						"wood": 20,
+						"ore": 20,
+						"gems": 5,
+						"crystal": 5,
+						"sulfur": 5,
+						"mercury": 5
+					},
+					"upgrades": "dwellingLvl7"
+				},
+				"grail": {
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 2,
+							"propagator": "PLAYER",
+							"sourceType": "TOWN_BUILDING",
+							"sourceID": "grail"
+						}
+					]
+				}
+			}
+		}
+	}
+}

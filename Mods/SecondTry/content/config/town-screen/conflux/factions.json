@@ -1,0 +1,319 @@
+{
+	"core:conflux": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/conflux/icons/towerSmall",
+				"towerIconLarge": "town-screen/conflux/icons/towerLarge"
+			},
+			"buildingsIcons": "town-screen/conflux/ALTHALLELEM.DEF",
+			"hallBackground": "town-screen/conflux/ConfluxHallBg.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"pixie",
+					"sprite"
+				],
+				[
+					"airElemental",
+					"stormElemental"
+				],
+				[
+					"waterElemental",
+					"iceElemental"
+				],
+				[
+					"fireElemental",
+					"energyElemental"
+				],
+				[
+					"earthElemental",
+					"magmaElemental"
+				],
+				[
+					"psychicElemental",
+					"magicElemental"
+				],
+				[
+					"firebird",
+					"phoenix"
+				],
+				[
+					"mdtTriton",
+					"mdtAbyssalTriton"
+				]
+			],
+			"structures": {
+				"dwellingLvl8": {
+					"border": "town-screen/conflux/buildings-border/ToBzT1.bmp",
+					"area": "town-screen/conflux/buildings-area/TBzT1.bmp",
+					"animation": "town-screen/conflux/TBzTrtn.def",
+					"x": 460,
+					"y": 281,
+					"z": 8
+				},
+				"dwellingUpLvl8": {
+					"border": "town-screen/conflux/buildings-border/ToBzT1Up.bmp",
+					"area": "town-screen/conflux/buildings-area/TBzT1Up.bmp",
+					"animation": "town-screen/conflux/TBzTrtUp.def",
+					"x": 460,
+					"y": 281,
+					"z": 8
+				},
+				"dwellingUpLvl6": {
+					"x": 345,
+					"y": 285,
+					"z": 9
+				},
+				"dwellingLvl6": {
+					"x": 345,
+					"y": 285,
+					"z": 9
+				},
+				"horde2": {
+					"animation": "town-screen/conflux/TBELHrd3.def",
+					"border": "town-screen/conflux/buildings-border/phoenixHordeBorder.png",
+					"area": "town-screen/conflux/buildings-area/phoenixHordeArea.png",
+					"x": 685,
+					"y": 105,
+					"z": 3
+				},
+				"horde2Upgr": {
+					"animation": "town-screen/conflux/TBELHrd4.def",
+					"border": "town-screen/conflux/buildings-border/phoenixHordeUpgradedBorder.png",
+					"area": "town-screen/conflux/buildings-area/phoenixHordeUpgradedArea.png",
+					"x": 685,
+					"y": 105,
+					"z": 3
+				}
+			},
+			"horde": [
+				0,
+				6
+			],
+			"buildings": {
+				"horde2": {
+					"description": "The Vault of Ashes increases Firebirds production by 1 per week.",
+					"name": "Vault of Ashes",
+					"cost": {
+						"mercury": 5,
+						"gold": 5000
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl7"
+						]
+					]
+				},
+				"horde2Upgr": {
+					"description": "The Vault of Ashes increases Phoenixes production by 1 per week.",
+					"name": "Vault of Ashes",
+					"cost": {
+						"mercury": 5,
+						"gold": 5000
+					},
+					"upgrades": "horde2",
+					"requires": [
+						"allOf",
+						[
+							"dwellingUpLvl7"
+						]
+					],
+					"mode": "auto"
+				},
+				"dwellingLvl8": {
+					"description": "The Drowned Hall allows you to recruit Tritons.",
+					"name": "Drowned Hall",
+					"cost": {
+						"gold": 10000,
+						"wood": 10,
+						"sulfur": 5,
+						"ore": 10,
+						"mercury": 5,
+						"crystal": 5,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					]
+				},
+				"dwellingUpLvl8": {
+					"description": "The Upg. Drowned Hall allows you to recruit Abyssal Tritons.",
+					"name": "Upg. Drowned Hall",
+					"cost": {
+						"gold": 15000,
+						"wood": 5,
+						"sulfur": 5,
+						"ore": 5,
+						"mercury": 5,
+						"crystal": 5,
+						"gems": 5
+					},
+					"upgrades": "dwellingLvl8"
+				},
+				"dwellingUpLvl1": {
+					"name": "Upg. Magic Lantern",
+					"description": "The Upg. Magic Lantern allows you to recruit Sprites."
+				},
+				"dwellingLvl2": {
+					"cost": {
+						"gold": 1500,
+						"gems": 0,
+						"mercury": 0,
+						"ore":3,
+						"wood":0
+					}
+				},
+				"dwellingLvl3": {
+					"cost": {
+						"gold": 1500,
+						"gems": 0,
+						"mercury": 0,
+						"ore":2,
+						"wood":2
+					}
+				},
+				"dwellingLvl4": {
+					"cost": {
+						"ore":4,
+						"wood":4
+					}
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Altar of Air",
+					"description": "The Upg. Altar of Air allows you to recruit Storm Elementals.",
+					"cost": {
+						"gold": 1500,
+						"gems": 4,
+						"mercury": 0
+					}
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Altar of Water",
+					"description": "The Upg. Altar of Water allows you to recruit Ice Elementals.",
+					"cost": {
+						"gold": 2000,
+						"crystal": 4,
+						"mercury": 0,
+						"ore":4
+					}
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Altar of Fire",
+					"description": "The Upg. Altar of Fire allows you to recruit Energy Elementals.",
+					"cost": {
+						"mercury": 4
+					}
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Altar of Earth",
+					"description": "The Upg. Altar of Earth allows you to recruit Magma Elementals.",
+					"cost": {
+						"gold": 2000,
+						"ore":3,
+						"wood":3
+					}
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Altar of Thought",
+					"description": "The Upg. Altar of Thought allows you to recruit Magic Elementals."
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Pyre",
+					"description": "The Upg. Pyre allows you to recruit Phoenixes."
+				}
+			}
+		}
+	}
+}

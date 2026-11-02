@@ -1,0 +1,55 @@
+{
+	"mdtTartarr": {
+		"class": "battlemage",
+		"female": true,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/stronghold/tartarr_spec-small.bmp",
+			"specialtyLarge": "heroes/stronghold/tartarr_spec-large.bmp",
+			"large": "heroes/stronghold/tartarr_portrait-large.bmp",
+			"small": "heroes/stronghold/tartarr_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "goblin",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "goblinWolfRider",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "orc",
+				"min": 5,
+				"max": 6
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "behemoth"
+		},
+		"spellbook": [
+			"shield"
+		],
+		"texts": {
+			"name": "Tartarr",
+			"biography": "Born into a poor Ogre family, Tartarr always dreamed of glorious conquests. Leaving home at fourteen to become a mercenary, her fierce stubbornness and innate defensive magic helped her survive the unforgiving wilds of Krulaw. It was this unbreakable resilience that earned her the respect of the continent's most fearsome apex predators. Now, when Tartarr marches to war, massive Behemoths willingly follow her lead.",
+			"specialty": {
+				"name": "Behemoths",
+				"tooltip": "Creature Bonus: Behemoths",
+				"description": "Increases the Speed of any Behemoths or Ancient Behemoths by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"name" : "Chinese buttons",
+	"description" : "Chinese buttons",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"depends" : [
+		"chinese-translation"
+	],
+	"softDepends" : [
+		"hota.mainMenu",
+		"hota.mainMenu.mainMenuLegacy"
+	],
+	"chinese" : {
+		"name" : "中文按钮",
+		"description" : "中文按钮"
+	},
+	"german" : {
+		"name" : "Chinesische Schaltflächen",
+		"description" : "Chinesische Schaltflächen"
+	},
+	"hungarian" : {
+		"name" : "Kínai gombok",
+		"description" : "Kínai gombok"
+	},
+	"polish" : {
+		"name" : "Chińskie przyciski",
+		"description" : "Chińskie przyciski"
+	},
+	"swedish" : {
+		"name" : "Kinesiska knappar",
+		"description" : "Kinesiska knappar"
+	},
+	"ukrainian" : {
+		"name" : "Китайські кнопки",
+		"description" : "Китайські кнопки"
+	},
+	"vietnamese" : {
+		"name" : "Nút tiếng Trung",
+		"description" : "Nút tiếng Trung"
+	}
+}

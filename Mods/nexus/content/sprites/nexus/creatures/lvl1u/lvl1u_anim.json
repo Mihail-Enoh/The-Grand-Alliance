@@ -1,0 +1,162 @@
+{
+        "basepath": "nexus/creatures/lvl1u/",
+        "sequences": [
+                {
+                        "group": 0,
+                        "frames": [
+                                "frame_06.png",
+                                "frame_07.png",
+                                "frame_08.png",
+                                "frame_09.png",
+                                "frame_10.png",
+                                "frame_11.png"
+                        ]
+                },
+                {
+                        "group": 1,
+                        "frames": [
+                                "frame_00.png",
+                                "frame_01.png",
+                                "frame_02.png"
+                        ]
+                },
+                {
+                        "group": 2,
+                        "frames": [
+                                "cadru_pur_00.png",
+                                "cadru_pur_01.png",
+                                "cadru_pur_02.png",
+                                "cadru_pur_03.png",
+                                "cadru_pur_04.png",
+                                "cadru_pur_05.png",
+                                "cadru_pur_06.png",
+                                "cadru_pur_07.png",
+                                "cadru_pur_08.png",
+                                "cadru_pur_09.png",
+                                "cadru_pur_10.png",
+                                "cadru_pur_11.png",
+                                "cadru_pur_12.png",
+                                "cadru_pur_13.png",
+                                "cadru_pur_14.png",
+                                "cadru_pur_15.png"
+                        ]
+                },
+                {
+                        "group": 3,
+                        "frames": [
+                                "frame_12.png",
+                                "frame_13.png",
+                                "frame_14.png"
+                        ]
+                },
+                {
+                        "group": 4,
+                        "frames": [
+                                "frame_14.png",
+                                "frame_13.png",
+                                "frame_12.png"
+                        ]
+                },
+                {
+                        "group": 5,
+                        "frames": [
+                                "frame_12.png",
+                                "frame_13.png",
+                                "frame_14.png",
+                                "frame_15.png",
+                                "frame_16.png",
+                                "frame_17.png"
+                        ]
+                },
+                {
+                        "group": 11,
+                        "frames": [
+                                "att_frame_00.png",
+                                "att_frame_01.png",
+                                "att_frame_02.png",
+                                "att_frame_03.png",
+                                "att_frame_04.png",
+                                "att_frame_05.png",
+                                "att_frame_06.png",
+                                "att_frame_07.png",
+                                "att_frame_08.png",
+                                "att_frame_09.png",
+                                "att_frame_10.png",
+                                "att_frame_11.png",
+                                "att_frame_12.png",
+                                "att_frame_13.png",
+                                "att_frame_14.png",
+                                "att_frame_15.png",
+                                "att_frame_16.png",
+                                "att_frame_17.png",
+                                "att_frame_18.png",
+                                "att_frame_19.png",
+                                "att_frame_20.png",
+                                "att_frame_21.png",
+                                "att_frame_22.png",
+                                "att_frame_23.png",
+                                "att_frame_24.png"
+                        ]
+                },
+                {
+                        "group": 12,
+                        "frames": [
+                                "att_frame_00.png",
+                                "att_frame_01.png",
+                                "att_frame_02.png",
+                                "att_frame_03.png",
+                                "att_frame_04.png",
+                                "att_frame_05.png",
+                                "att_frame_06.png",
+                                "att_frame_07.png",
+                                "att_frame_08.png",
+                                "att_frame_09.png",
+                                "att_frame_10.png",
+                                "att_frame_11.png",
+                                "att_frame_12.png",
+                                "att_frame_13.png",
+                                "att_frame_14.png",
+                                "att_frame_15.png",
+                                "att_frame_16.png",
+                                "att_frame_17.png",
+                                "att_frame_18.png",
+                                "att_frame_19.png",
+                                "att_frame_20.png",
+                                "att_frame_21.png",
+                                "att_frame_22.png",
+                                "att_frame_23.png",
+                                "att_frame_24.png"
+                        ]
+                },
+                {
+                        "group": 13,
+                        "frames": [
+                                "att_frame_00.png",
+                                "att_frame_01.png",
+                                "att_frame_02.png",
+                                "att_frame_03.png",
+                                "att_frame_04.png",
+                                "att_frame_05.png",
+                                "att_frame_06.png",
+                                "att_frame_07.png",
+                                "att_frame_08.png",
+                                "att_frame_09.png",
+                                "att_frame_10.png",
+                                "att_frame_11.png",
+                                "att_frame_12.png",
+                                "att_frame_13.png",
+                                "att_frame_14.png",
+                                "att_frame_15.png",
+                                "att_frame_16.png",
+                                "att_frame_17.png",
+                                "att_frame_18.png",
+                                "att_frame_19.png",
+                                "att_frame_20.png",
+                                "att_frame_21.png",
+                                "att_frame_22.png",
+                                "att_frame_23.png",
+                                "att_frame_24.png"
+                        ]
+                }
+        ]
+}

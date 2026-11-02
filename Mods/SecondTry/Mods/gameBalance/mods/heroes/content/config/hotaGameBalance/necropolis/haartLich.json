@@ -1,0 +1,19 @@
+{
+	"core:undeadHaart" : {
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 10
+				},
+				"defence" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Black Knights or Dread Knights Attack, Defense, and Damage by 10."
+			}
+		}
+	}
+}

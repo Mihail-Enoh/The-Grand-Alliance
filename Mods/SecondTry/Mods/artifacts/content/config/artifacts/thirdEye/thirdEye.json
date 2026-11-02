@@ -1,0 +1,56 @@
+{
+	"mdtThirdEye" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "MISC",
+		"class" : "MAJOR",
+		"value" : 7000,
+		"components" : [
+			"birdOfPerception",
+			"stoicWatchman",
+			"emblemOfCognizance"
+		],
+		"bonuses" : {
+			"baseSpellLimitNoSkill" : {
+				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+				"val" : 2,
+				"valueType" : "INDEPENDENT_MAX"
+			},
+			"extraSpellChanceWithSkill" : {
+				"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				"val" : 40,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.eagleEye"
+					}
+				]
+			},
+			"extraSpellLimitWithSkill" : {
+				"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.eagleEye"
+					}
+				]
+			}
+		},
+		"graphics" : {
+			"image" : "artifacts/iconsSmall/thirdEyeS",
+			"scenarioBonus" : "artifacts/iconsBig/thirdEyeL",
+			"map" : "artifacts/map/thirdEye"
+		},
+		"text" : {
+			"name" : "Third Eye",
+			"description" : "{Third Eye}\r\n\r\nGrants heroes without Eagle Eye a 30% chance to learn 1st and 2nd level spells in battle. For heroes with Eagle Eye, increases spell learning chance up to 100% and maximum spell level up to 5th level.",
+			"event" : "An old woman, seemingly some hag living in hermitage, is screaming at you right after you meet her, possibly due to her lack of sight. After a while of her effing and blinding, she suddenly hands you some sort of a golden bust and disappears in thin air."
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"name" : "More Skills",
+	"description" : "Heroes can learn up to 10 skills",
+	"version" : "1.0.0",
+	"author" : "Mihail-Enoh Bodnarciuc",
+	"modType" : "Mechanics",
+	"settings" : {
+		"heroes" : {
+			"skillPerHero" : 10
+		}
+	}
+}

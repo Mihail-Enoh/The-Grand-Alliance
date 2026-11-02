@@ -1,0 +1,55 @@
+{
+	"mdtOdetta": {
+		"class": "alchemist",
+		"female": false,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/tower/odetta_spec-small.bmp",
+			"specialtyLarge": "heroes/tower/odetta_spec-big.bmp",
+			"large": "heroes/tower/odetta_portrait-big.bmp",
+			"small": "heroes/tower/odetta_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "gremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "giant"
+		},
+		"spellbook": [
+			"mdtDivineArrows"
+		],
+		"texts": {
+			"name": "Primus",
+			"biography": "Primus is a towering force of nature, known as the mightiest of all Titans. A blunt, no-nonsense commander, he earned his supremacy through relentless discipline and sheer willpower. Revered as the first among the storm-wielders to take up the mantle of a general, he worked tirelessly to master the raw fury of the tempest and turn warfare into an exact science. When he marches onto the battlefield, the Giants and Titans of the Tower rally proudly behind their colossal leader, striking with devastating precision and unmatched fury.",
+			"specialty": {
+				"name": "Giants",
+				"description": "Increases the Speed of any Giants or Titans by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip": "Creature Bonus: Giants"
+			}
+		}
+	}
+}

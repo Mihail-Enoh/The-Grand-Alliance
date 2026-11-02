@@ -1,0 +1,97 @@
+{
+	"halflingGrenadier" : {
+		"name" : {
+			"plural" : "Halfling Grenadiers",
+			"singular" : "Halfling Grenadier"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "factory",
+		"aiValue" : 99,
+		"attack" : 5,
+		"cost" : {
+			"gold" : 65
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 2,
+		"fightValue" : 97,
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CHALFB.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWhbom.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS002F.png",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL002F.png",
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/factory/creatures/AVWattak/AvWat342",
+			"mapAttackFromLeft" : "hota/factory/creatures/AVWattak/AvWat343",
+			"animationTime" : {
+				"walk" : 1.4,
+				"attack" : 1.5,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "hota/factory/creatures/battle/projectile/PBOMB.def",
+				"attackClimaxFrame" : 10,
+				"offset" : {
+					"upperX" : 32,
+					"upperY" : -77,
+					"middleX" : 36,
+					"middleY" : -36,
+					"lowerX" : 18,
+					"lowerY" : -55
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
+			}
+		},
+		"growth" : 15,
+		"hitPoints" : 4,
+		"level" : 1,
+		"shots" : 24,
+		"sound" : {
+			"attack" : "HALFATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "HALFKILL.wav",
+			"move" : "HALFMOVE.wav",
+			"shoot" : "hota/factory/creatures/halfling/HALGSHOT.wav",
+			"wince" : "HALFWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"reduceDefence" : {
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 20
+			},
+			"throwingGrenade" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaGrenade"
+			},
+			"hasluck" : {
+				"type" : "LUCK",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX",
+				"description": "{Positive luck}\nHalfling Grenadier's luck cannot be decreased below +1."
+			}
+		}
+	}
+}

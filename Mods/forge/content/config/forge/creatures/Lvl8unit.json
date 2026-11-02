@@ -1,0 +1,195 @@
+{
+	"juggernaut2k" : {
+		"name" : {
+			"plural" : "Annihilator",
+			"singular" : "Annihilators"
+		},
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "forge",
+		"aiValue" : 4977,
+		"fightValue" : 3384,
+		"attack" : 17,
+		"defense" : 17,
+		"hitPoints" : 200,
+		"speed" : 6,
+		"cost" : {
+			"gold" : 2800,
+			"sulfur" : 1
+		},
+		"damage" : {
+			"max" : 60,
+			"min" : 50
+		},
+		"graphics" : {
+			"animation" : "forge/battle/CR209.DEF",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"map" : "forge/map/jugger.def",
+			"iconSmall" : "forge/iconsSmall/CPrS209F.bmp",
+			"iconLarge" : "forge/iconsBig/CPrL209B.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"horde" : -1,
+		"level" : 7,
+		"upgrades" : [
+			"dreadnought2k"
+		],
+		"sound" : {
+			"attack" : "forge/juggerATTK.wav",
+			"defend" : "forge/juggerDFND.wav",
+			"killed" : "forge/juggerKILL.wav",
+			"move" : "forge/juggerMOVE.wav",
+			"wince" : "forge/juggerWNCE.wav"
+		},
+		"abilities" : {
+
+			"expSlayer" : {
+				"type" : "KING",
+				"val" : 3
+			},
+			"mechanical" : {
+				"type" : "NON_LIVING"
+			},
+			"onePunch": {
+				"type": "DESTRUCTION",
+				"subtype": "destructionKillAmount",
+				"val": 50,
+				"addInfo": 1,
+				"description": "{Lethal Strike}\nHas a 50% chance to instantly kill 1 additional creatures after attacking."
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "BLOCKS_RETALIATION"
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					20,
+					20,
+					20
+				]
+			}
+		]
+	}
+}

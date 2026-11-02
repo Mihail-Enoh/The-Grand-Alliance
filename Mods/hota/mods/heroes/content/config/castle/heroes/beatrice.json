@@ -1,0 +1,65 @@
+{
+	"beatrice": {
+		"class": "cleric",
+		"female": true,
+		"images": {
+			"large": "hota/castle/heroes/beatrice/icons/portraitLarge.png",
+			"small": "hota/castle/heroes/beatrice/icons/portraitSmall.png",
+			"specialtyLarge": "hota/castle/heroes/beatrice/icons/specialtyLarge.png",
+			"specialtySmall": "hota/castle/heroes/beatrice/icons/specialtySmall.png"
+		},
+		"army": [
+			{
+				"creature": "pikeman",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "archer",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "griffin",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "scouting",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"sight": {
+					"type": "SIGHT_RADIUS",
+					"val": 0,
+					"valueType": "BASE_NUMBER",
+					"updater": {
+						"type": "GROWS_WITH_LEVEL",
+						"valPer20": 20,
+						"stepSize": 6
+					}
+				}
+			}
+		},
+		"spellbook": [
+			"viewAir"
+		],
+		"texts": {
+			"name": "Beatrice",
+			"biography": "Beatrice was a talented follower of Erathian scouts - not yielding much to famous elven pathfinders. Talents of the girl had been noticed by Catherine herself, and thence the former scout became a devout cleric. However, her keen skills are still with her; she is one of the finest in her sacred calling.",
+			"specialty": {
+				"name": "Scouting",
+				"description": "Increases Scouting radius by 1 for every 6 levels.",
+				"tooltip": "Secondary Skill Bonus: Scouting"
+			}
+		}
+	}
+}

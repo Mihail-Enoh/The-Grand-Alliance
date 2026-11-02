@@ -1,0 +1,12 @@
+{
+	"grandalliance.hota.cove:haspid" : {
+		"abilities" : {
+			"poisonous" : {
+				"icon" : "bonuses/poison.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "hota/bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

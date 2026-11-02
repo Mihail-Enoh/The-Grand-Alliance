@@ -1,0 +1,56 @@
+{
+	"stina" : {
+		"class" : "mercenary",
+		"female" : true,
+		"special" : true,
+
+		"texts" : {
+			"name" : "Stina",
+			"biography" : "Stina, who has always lived in Burton, is willing to cooperate with anyone for survival. This girl is incredibly brave; it is said she dared to face over a dozen raiders alone in the desert and repel them.",
+			"specialty" : {
+				"description" : "Increases the Speed of any Mechanics or Engineers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Mechanics",
+				"name" : "Mechanics"
+			}
+		},
+
+		"images" : {
+			"large" : "hota/factory/heroes/stina/icons/portraitLarge.png",
+			"small" : "hota/factory/heroes/stina/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/factory/heroes/sam/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/sam/icons/specialtySmall.png"
+		},
+
+		"army" : [
+			{
+				"creature" : "hotaMechanic",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 9,
+				"min" : 7
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "grandalliance.hota.factory:hotaMechanic"
+		}
+	}
+}

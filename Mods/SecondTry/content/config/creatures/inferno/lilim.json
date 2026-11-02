@@ -1,0 +1,119 @@
+{
+	"mdtLilim": {
+		"name": {
+			"singular": "Abyssal Succubus",
+			"plural": "Abyssal Succubi"
+		},
+		"faction": "inferno",
+		"level": 7,
+		"cost": {
+			"gold": 4300,
+			"mercury": 1
+		},
+		"speed": 14,
+		"hitPoints": 200,
+		"shots": 32,
+		"attack": 26,
+		"defense": 26,
+		"damage": {
+			"min": 35,
+			"max": 45
+		},
+		"fightValue": 4800,
+		"aiValue": 6700,
+		"advMapAmount": {
+			"min": 3,
+			"max": 8
+		},
+		"growth": 1,
+		"abilities": {
+			"shooter": {
+				"type": "SHOOTER"
+			},
+			"canFly": {
+				"type": "FLYING",
+				"icon": "icons/sucfly.png"
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			},
+			"rangedRetaliation": {
+				"type": "RANGED_RETALIATION"
+			},
+			"blockedRangedRetaliation": {
+				"type": "BLOCKS_RANGED_RETALIATION"
+			},
+			"unlimitedRetaliation" : {
+				"type" : "UNLIMITED_RETALIATIONS",
+				"icon" : "icons/sucreta.png"
+			},
+			"spellLikeAttack": {
+				"type": "SPELL_LIKE_ATTACK",
+				"subtype": "mdtHateSpike",
+				"icon": "icons/suc2.png"
+			},
+			"spellAfterAttack": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "hated",
+				"val": 100,
+				"addInfo": [
+					0,
+					1,
+					0
+				],
+				"hidden": true
+			},
+			"KING_2":
+			{
+				"type": "KING",
+				"val": 2
+			}
+		},
+		"graphics": {
+			"iconLarge": "creatures/inferno/iconsBig/lilimBig.png",
+			"iconSmall": "creatures/inferno/iconsSmall/lilimSmall.png",
+			"map": "creatures/inferno/map/lilimMap.def",
+			"animation": "creatures/inferno/battle/Clilim.def",
+			"animationTime": {
+				"attack": 1,
+				"idle": 10,
+				"walk": 0.8
+			},
+			"timeBetweenFidgets": 1,
+			"missile": {
+				"projectile": "creatures/inferno/battle/projectile/null.def",
+				"attackClimaxFrame": 8,
+				"offset": {
+					"lowerX": 28,
+					"lowerY": 3,
+					"middleX": 62,
+					"middleY": -53,
+					"upperX": 37,
+					"upperY": -98
+				},
+				"frameAngles": [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"sound": {
+			"attack": "creatures/inferno/sukkub/SUCCATTACK.wav",
+			"defend": "creatures/inferno/sukkub/SUCCDFND.wav",
+			"killed": "creatures/inferno/sukkub/SUCCDEAD.wav",
+			"move": "creatures/inferno/sukkub/SUCCMOVE.wav",
+			"wince": "creatures/inferno/sukkub/SUCCHIT.wav",
+			"shoot": "creatures/inferno/sukkub/SUCCSHOT.wav"
+		}
+	}
+}

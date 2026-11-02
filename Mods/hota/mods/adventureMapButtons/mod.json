@@ -1,0 +1,41 @@
+{
+	"name" : "Adventure map buttons",
+	"description" : "Adds Revisit and Anchor button",
+	"modType" : "Compatibility",
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+	"depends" : [
+		"vcmi-extras.adventuremap"
+	],
+	"french" : {
+		"name" : "Boutons de carte d'aventure",
+		"description" : "Ajoute les boutons Revisiter et Ancrer"
+	},
+	"latvian" : {
+		"name" : "Piedzīvojumu kartes pogas",
+		"description" : "Pievieno pogu “Atkārtota apmeklējums” un “Enkurs”."
+	},
+	"german" : {
+		"name" : "Abenteuerkarten-Buttons",
+		"description" : "Fügt auf der Abenteuerkarte 2 Schaltflächen zum Spielinterface hinzu:\nErneutes Besuchen eines Objekts und einen Anker-Knopf für das Luftschiff."
+	},
+	"chinese" : {
+		"name" : "冒险地图按钮",
+		"description" : "添加重新访问和锚点按钮"
+	},
+	"hungarian" : {
+		"name" : "Kalandtérkép-gombok",
+		"description" : "Hozzáadja az Újralátogatás és a Horgony gombot"
+	},
+	"polish" : {
+		"name" : "Przyciski dla opcji mapy przygody",
+		"description" : "Dodaje przyciski \"Odwiedź ponownie\" i \"Zakotwicz\""
+	},
+	"ukrainian" : {
+		"name" : "Кнопки мапи пригод",
+		"description" : "Додає кнопки Відвідати Об'єкт та Якір"
+	}
+}

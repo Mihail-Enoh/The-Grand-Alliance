@@ -1,0 +1,257 @@
+{
+        "alma": {
+                "class": "navigator",
+                "female": true,
+                "special": true,
+                "spellbook": [
+                        "cure"
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "intelligence",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "nymph",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "crewmate",
+                                "min": 6,
+                                "max": 9
+                        },
+                        {
+                                "creature": "pirate",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "images": {
+                        "large": "heroes/covefactbul/alma_large.png",
+                        "small": "heroes/covefactbul/alma_small.png",
+                        "specialtyLarge": "heroes/covefactbul/alma_spec_large.png",
+                        "specialtySmall": "heroes/covefactbul/alma_spec_small.png"
+                },
+                "specialty": {
+                        "creature": "seaserpent"
+                },
+                "texts": {
+                        "name": "Alma",
+                        "biography": "Ever since she was a little girl, Alma believed that every creature, no matter how small or terrifying, deserved to be loved, for they all belong to a family. Her gentle touch and innate healing magic allowed her to form bonds with beasts others would kill on sight. Through unconditional compassion, she managed to tame even the most ferocious leviathans of the deep. Now, the fearsome Sea Serpents willingly swim alongside her ship, fiercely protecting the one navigator who treats them not as monsters, but as kin.",
+                        "specialty": {
+                                "name": "Sea Serpents",
+                                "tooltip": "Creature Bonus: Sea Serpents",
+                                "description": "Increases the Speed of any Sea Serpents or Haspids by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "tudor": {
+                "class": "artificer",
+                "female": false,
+                "special": true,
+                "spellbook": [
+                        "chainLightning"
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "halfling",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "hotaMechanic",
+                                "min": 7,
+                                "max": 9
+                        },
+                        {
+                                "creature": "armadillo",
+                                "min": 4,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/covefactbul/tudor_large.png",
+                        "small": "heroes/covefactbul/tudor_small.png",
+                        "specialtyLarge": "heroes/covefactbul/tudor_spec_large.png",
+                        "specialtySmall": "heroes/covefactbul/tudor_spec_small.png"
+                },
+                "specialty": {
+                        "creature": "hotaDreadnought"
+                },
+                "texts": {
+                        "name": "Tudor",
+                        "biography": "Tudor is a surprisingly shy but brilliant Artificer who often uses quick banter to deflect attention. Yet, he is one of the Factory's most gifted engineers—his friends always tell him he knows exactly what he's doing, and as a man of his absolute word, he always gets the job done. His genius led him to design and build the colossal Juggernauts. Under his precise command, these mechanical titans operate with devastating efficiency, earning Tudor his classic chant, 'Long Live, Sir Engineer!' wherever he goes.",
+                        "specialty": {
+                                "name": "Dreadnoughts",
+                                "tooltip": "Creature Bonus: Dreadnoughts",
+                                "description": "Increases the Speed of any Dreadnoughts or Juggernauts by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "skar": {
+                "class": "captain",
+                "female": false,
+                "army": [
+                        {
+                                "creature": "nymph",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "crewmate",
+                                "min": 6,
+                                "max": 9
+                        },
+                        {
+                                "creature": "pirate",
+                                "min": 4,
+                                "max": 7
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "armorer",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        }
+                ],
+                "images": {
+                        "large": "heroes/covefactbul/skar_large.png",
+                        "small": "heroes/covefactbul/skar_small.png",
+                        "specialtyLarge": "heroes/covefactbul/skar_spec_large.png",
+                        "specialtySmall": "heroes/covefactbul/skar_spec_small.png"
+                },
+                "specialty": {
+                        "creature": "nix"
+                },
+                "texts": {
+                        "name": "Skar",
+                        "biography": "Skar is a formidable reptilian warrior who rose through the Cove fleets by sheer brute force. Clad in heavy bronze armor, he commands the absolute loyalty of the Nix, leading them to crush any opposition.",
+                        "specialty": {
+                                "name": "Nix",
+                                "tooltip": "Creature Bonus: Nix",
+                                "description": "Increases the Speed of any Nix or Nix Warriors by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+                        }
+                }
+        },
+        "valgard": {
+                "class": "chieftain",
+                "female": false,
+                "special": true,
+                "army": [
+                        {
+                                "creature": "kobold",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "mountainRam",
+                                "min": 6,
+                                "max": 8
+                        },
+                        {
+                                "creature": "snowElf",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "armorer",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "tactics",
+                                "level": "basic"
+                        }
+                ],
+                "images": {
+                        "large": "heroes/covefactbul/valgard_large.png",
+                        "small": "heroes/covefactbul/valgard_small.png",
+                        "specialtyLarge": "heroes/covefactbul/valgard_spec_large.png",
+                        "specialtySmall": "heroes/covefactbul/valgard_spec_small.png"
+                },
+                "specialty": {
+                        "creature": "jotunn"
+                },
+                "texts": {
+                        "name": "Valgard",
+                        "biography": "A seasoned veteran of the northern peaks, Valgard earned the respect of the solitary Jotunns through sheer resilience and tactical brilliance. These towering frost giants now march willingly in his vanguard, acting as unbreakable pillars in his defensive formations.",
+                        "specialty": {
+                                "name": "Jotunns",
+                                "tooltip": "Creature Bonus: Jotunns",
+                                "description": "Increases the Speed of any Jotunns or Jotunn Warlords by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "mosadino": {
+                "class": "mercenary",
+                "female": false,
+                "special": true,
+                "skills": [
+                        {
+                                "skill": "logistics",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "eagleEye",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "halfling",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "hotaMechanic",
+                                "min": 7,
+                                "max": 9
+                        },
+                        {
+                                "creature": "armadillo",
+                                "min": 4,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/covefactbul/mosadino_large.png",
+                        "small": "heroes/covefactbul/mosadino_small.png",
+                        "specialtyLarge": "heroes/covefactbul/mosadino_spec_large.png",
+                        "specialtySmall": "heroes/covefactbul/mosadino_spec_small.png"
+                },
+                "specialty": {
+                        "creature": "hotaCouatl"
+                },
+                "texts": {
+                        "name": "Mosadino",
+                        "biography": "An old-fashioned veteran, Mosadino prefers silent meditation over the Factory's noisy machinery. It is said he is his own employee, answering to no one. This deep spiritual focus perfectly aligns with the mystical Couatls, enhancing their natural resilience.",
+                        "specialty": {
+                                "name": "Couatls",
+                                "tooltip": "Creature Bonus: Couatls",
+                                "description": "Increases the Speed of any Couatls or Crimson Couatls by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        }
+}

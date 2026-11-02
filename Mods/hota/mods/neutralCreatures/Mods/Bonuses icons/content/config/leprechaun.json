@@ -1,0 +1,13 @@
+{
+	"grandalliance.hota.neutralcreatures:leprechaun" : {
+		"abilities" : {
+			"castsFortune" : {
+				"icon" : "bonuses/fortune2.png"
+			},
+			"unbelievableLuck" : {
+				"description" : "Doubles the Luck of allied units in battle.",
+				"icon" : "bonuses/doubleluck.png"
+			}
+		}
+	}
+}

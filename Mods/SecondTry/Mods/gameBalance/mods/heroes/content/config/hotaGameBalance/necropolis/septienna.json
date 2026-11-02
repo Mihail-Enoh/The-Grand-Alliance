@@ -1,0 +1,16 @@
+{
+	"core:septienna" : {
+		"specialty" : {
+			"bonuses" : {
+				"deathRipple" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Death Ripple with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

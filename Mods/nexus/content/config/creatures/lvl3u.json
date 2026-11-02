@@ -1,0 +1,85 @@
+{
+        "lvl3u": {
+                "name": {
+                        "singular": "Veilwing",
+                        "plural": "Veilwings"
+                },
+                "faction": "nexus",
+                "level": 3,
+                "upgrades": [
+                        "lvl3upg"
+                ],
+                "cost": {
+                        "gold": 200
+                },
+                "speed": 8,
+                "hitPoints": 230,
+                "attack": 28,
+                "defense": 27,
+                "damage": {
+                        "min": 40,
+                        "max": 50
+                },
+                "fightValue": 5254,
+                "aiValue": 7200,
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "growth": 1,
+                "abilities": {
+                        "armyLuck": {
+                                "type": "LUCK",
+                                "val": 2,
+                                "propagator": "ARMY",
+                                "stacking": "Templars",
+                                "description": "{Increases alies luck}\nPaladins increase allies Luck by two.",
+                                "icon": "icons/e_luck.png"
+                        },
+                        "casts": {
+                                "type": "CASTS",
+                                "val": 1
+                        },
+                        "mindImmune": {
+                                "type": "MIND_IMMUNITY"
+                        },
+                        "noCastByDefault": {
+                                "type": "NO_SPELLCAST_BY_DEFAULT"
+                        },
+                        "castsDestroyUndead": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.destroyUndead",
+                                "val": 1,
+                                "icon": "icons/destroyundead3.png"
+                        },
+                        "destroyPower": {
+                                "type": "SPECIFIC_SPELL_POWER",
+                                "subtype": "spell.destroyUndead",
+                                "val": 50
+                        },
+                        "KING_2": {
+                                "type": "KING",
+                                "val": 2
+                        }
+                },
+                "graphics": {
+                        "iconLarge": "creatures/castle/iconsBig/paladinBig.png",
+                        "iconSmall": "creatures/castle/iconsSmall/paladinSmall.png",
+                        "map": "creatures/castle/map/CPldnmap.def",
+                        "animation": "creatures/castle/battle/Cpaladin.def",
+                        "animationTime": {
+                                "attack": 1,
+                                "idle": 10,
+                                "walk": 0.8
+                        },
+                        "timeBetweenFidgets": 1
+                },
+                "sound": {
+                        "attack": "creatures/castle/templar/TempATTK.wav",
+                        "defend": "creatures/castle/templar/TempDFND.wav",
+                        "killed": "creatures/castle/templar/TempDEAD.wav",
+                        "move": "creatures/castle/templar/TempMOVE.wav",
+                        "wince": "creatures/castle/templar/TempWNCE.wav"
+                }
+        }
+}

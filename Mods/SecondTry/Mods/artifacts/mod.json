@@ -1,0 +1,11 @@
+{
+	"name" : "Artifacts",
+	"description" : "New artifacts.",
+	"modType" : "Mechanics",
+	"version" : "1.0",
+	"author" : "MDT",
+	"artifacts" : [
+		"config/artifacts/binoculars/binoculars",
+		"config/artifacts/thirdEye/thirdEye"
+	]
+}

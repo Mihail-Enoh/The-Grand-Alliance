@@ -1,0 +1,73 @@
+{
+	"mdtAbyssalTriton": {
+		"name": {
+			"singular": "Abyssal Triton",
+			"plural": "Abyssal Tritons"
+		},
+		"faction": "conflux",
+		"level": 7,
+		"cost": {
+			"gold": 3500,
+			"mercury": 1
+		},
+		"speed": 9,
+		"hitPoints": 200,
+		"attack": 26,
+		"defense": 22,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"aiValue": 6674,
+		"fightValue": 5198,
+		"advMapAmount": {
+			"min": 3,
+			"max": 8
+		},
+		"growth": 1,
+		"abilities": {
+			"KING_1": {
+				"type": "KING",
+				"val": 0
+			},
+			"castsBloodlust": {
+				"type": "SPELLCASTER",
+				"subtype": "mdtTrawl",
+				"val": 3,
+				"icon": "icons/trawl.png"
+			},
+			"castsCount": {
+				"type": "CASTS",
+				"val": 2
+			},
+			"castLength": {
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 4
+			},
+			"immuneToWater": {
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"subtype": "water",
+				"val": 100
+			}
+		},
+		"graphics": {
+			"iconSmall": "creatures/conflux/iconssmall/abyssalTritonSmall.png",
+			"iconLarge": "creatures/conflux/iconsbig/abyssalTritonBig.png",
+			"map": "creatures/conflux/map/mapAbyssalTriton.def",
+			"animation": "creatures/conflux/battle/abyssalTriton.def",
+			"timeBetweenFidgets": 1,
+			"animationTime": {
+				"walk": 0.9,
+				"attack": 1,
+				"idle": 10
+			}
+		},
+		"sound": {
+			"attack": "creatures/conflux/triton/TRITATTACK.wav",
+			"defend": "creatures/conflux/triton/TRITDFND.wav",
+			"killed": "creatures/conflux/triton/TRITDEAD.wav",
+			"move": "creatures/conflux/triton/TRITMOVE.wav",
+			"wince": "creatures/conflux/triton/TRITHIT.wav"
+		}
+	}
+}

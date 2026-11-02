@@ -1,0 +1,30 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"mdtZiggurat" : {
+				"name" : "Teocalli",
+				"creatures" : [
+					[
+						"mdtCouatl"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"dwellings/stronghold/CouaLOOP"
+					]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "dwellings/stronghold/mapZiggurat.def",
+						"mask" : [
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "icons/flagports/straltdw.def"
+			}
+		}
+	}
+}

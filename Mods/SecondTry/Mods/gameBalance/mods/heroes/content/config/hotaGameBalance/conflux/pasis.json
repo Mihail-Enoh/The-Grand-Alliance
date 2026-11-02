@@ -1,0 +1,15 @@
+{
+	"core:pasis" : {
+		"specialty" : {
+			"base" : {
+				"val" : 5
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"name" : "Psychic Elem.",
+				"description" : "Psychic Elementals and Magic Elementals receive +5 Attack and +5 Defense."
+			}
+		}
+	}
+}

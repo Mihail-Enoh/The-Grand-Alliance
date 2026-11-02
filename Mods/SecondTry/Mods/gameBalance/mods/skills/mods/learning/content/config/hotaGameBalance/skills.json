@@ -1,0 +1,28 @@
+{
+	"core:learning" : {
+		"basic" : {
+			"description" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 25%.",
+			"effects" : {
+				"main" : {
+					"val" : 25
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 50%.",
+			"effects" : {
+				"main" : {
+					"val" : 50
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 75%.",
+			"effects" : {
+				"main" : {
+					"val" : 75
+				}
+			}
+		}
+	}
+}

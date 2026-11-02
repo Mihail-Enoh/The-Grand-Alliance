@@ -1,0 +1,308 @@
+{
+	"core:fortress": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/fortress/icons/towerSmall",
+				"towerIconLarge": "town-screen/fortress/icons/towerLarge"
+			},
+			"buildingsIcons": "town-screen/fortress/HALLFORTALT.DEF",
+			"hallBackground": "town-screen/fortress/fortressHallBg.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special2",
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"gnoll",
+					"gnollMarauder"
+				],
+				[
+					"lizardman",
+					"lizardWarrior"
+				],
+				[
+					"serpentFly",
+					"fireDragonFly"
+				],
+				[
+					"basilisk",
+					"greaterBasilisk"
+				],
+				[
+					"gorgon",
+					"mightyGorgon"
+				],
+				[
+					"mdtTrollHag",
+					"mdtTrollWitch"
+				],
+				[
+					"wyvern",
+					"wyvernMonarch"
+				],
+				[
+					"hydra",
+					"chaosHydra"
+				]
+			],
+			"structures": {
+				"dwellingLvl6": {
+					"border": "town-screen/fortress/buildings-border/TOTTIT1_6alt.bmp",
+					"area": "town-screen/fortress/buildings-area/TZTTIT1_6alt.bmp",
+					"animation": "town-screen/fortress/TBTWDW_6alt.def",
+					"x": 540,
+					"y": 165,
+					"z": 2
+				},
+				"dwellingUpLvl6": {
+					"border": "town-screen/fortress/buildings-border/TOTTIT2_6alt.bmp",
+					"area": "town-screen/fortress/buildings-area/TZTTIT2_6alt.bmp",
+					"animation": "town-screen/fortress/TBTWUP_6alt.def",
+					"x": 540,
+					"y": 165,
+					"z": 2
+				},
+				"dwellingLvl7": {
+					"border": "town-screen/fortress/buildings-border/TOFWYV1.bmp",
+					"area": "town-screen/fortress/buildings-area/TZFWYV1.bmp",
+					"animation": "town-screen/fortress/TBFrdw_5.def",
+					"x": 0,
+					"y": 4
+				},
+				"dwellingUpLvl7": {
+					"border": "town-screen/fortress/buildings-border/TOFWYV2.bmp",
+					"area": "town-screen/fortress/buildings-area/TZFWYV2.bmp",
+					"animation": "town-screen/fortress/TBFrup_5.def",
+					"x": 0,
+					"y": 4
+				},
+				"dwellingLvl8": {
+					"border": "town-screen/fortress/buildings-border/TOFHYD1A.bmp",
+					"area": "town-screen/fortress/buildings-area/TZFHYD1A.bmp",
+					"animation": "town-screen/fortress/TBFRDW_6.def",
+					"x": 612,
+					"y": 291,
+					"z": 5
+				},
+				"dwellingUpLvl8": {
+					"border": "town-screen/fortress/buildings-border/TOFHYD2A.bmp",
+					"area": "town-screen/fortress/buildings-area/TZFHYD2A.bmp",
+					"animation": "town-screen/fortress/TBFRUP_6.def",
+					"x": 587,
+					"y": 263,
+					"z": 5
+				}
+			},
+			"buildings": {
+				"dwellingUpLvl1": {
+					"name": "Upg. Gnoll Hut",
+					"description": "The Upg. Gnoll Hut allows you to recruit Gnoll Marauders."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Lizard Den",
+					"description": "The Upg. Lizard Den allows you to recruit Lizard Warriors."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Serpent Fly Hive",
+					"description": "The Upg. Serpent Fly Hive allows you to recruit Dragon Flies."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Basilisk Pit",
+					"description": "The Upg. Basilisk Pit allows you to recruit Greater Basilisks."
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Gorgon Lair",
+					"description": "The Upg. Gorgon Lair allows you to recruit Mighty Gorgons."
+				},
+				"dwellingLvl6": {
+					"name": "Swamp Hut",
+					"description": "The Swamp Hut allows you to recruit Troll Hags.",
+					"cost": {
+						"gold": 3000,
+						"wood": 10,
+						"sulfur": 1,
+						"ore": 5,
+						"mercury": 1,
+						"crystal": 1,
+						"gems": 1
+					},
+					"requires": [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Swamp Hut",
+					"description": "The Upg. Swamp Hut allows you to recruit Troll Witches.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"sulfur": 2,
+						"ore": 5,
+						"mercury": 2,
+						"crystal": 2,
+						"gems": 2
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Wyvern Nest",
+					"description": "The Wyvern Nest allows you to recruit Wyverns.",
+					"cost": {
+						"gold": 15000,
+						"wood": 15,
+						"sulfur": 10,
+						"ore": 0,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Wyvern Nest",
+					"description": "The Upg. Wyvern Nest allows you to recruit Wyvern Monarchs.",
+					"cost": {
+						"gold": 15000,
+						"wood": 10,
+						"sulfur": 5,
+						"ore": 0,
+						"mercury": 5,
+						"crystal": 5,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl7"
+						]
+					],
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingLvl8": {
+					"name": "Hydra Pond",
+					"description": "The Hydra Pond allows you to recruit Hydras.",
+					"cost": {
+						"gold": 10000,
+						"wood": 10,
+						"ore": 10,
+						"sulfur": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					]
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Hydra Pond",
+					"description": "The Upg. Hydra Pond allows you to recruit Chaos Hydras.",
+					"cost": {
+						"gold": 15000,
+						"wood": 10,
+						"ore": 10,
+						"sulfur": 20
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl8"
+						]
+					],
+					"upgrades": "dwellingLvl8"
+				}
+			}
+		}
+	}
+}

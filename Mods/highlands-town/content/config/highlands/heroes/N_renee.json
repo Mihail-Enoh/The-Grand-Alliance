@@ -1,0 +1,60 @@
+{
+	"n_renee" : {
+		"class" : "bpyromancer",
+		"female" : true,
+
+		"texts" : {
+			"name" : "Renee",
+			"biography" : "Renee doesn't like the lifestyle of dwarves, but she has to choose Vori as her refuge. Someone indicated she is a betrayed necromancer. Almost everyone know the truth of her even though she never admits her history. ",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Mysticism skill percentage.",
+				"tooltip" : "Skill bonus: Mysticism",
+				"name" : "Mysticism"
+			}
+		},
+
+		"images" : {
+			"specialtySmall" : "highlands/heroes/renee/skill32-14",
+			"specialtyLarge" : "highlands/heroes/renee/skill14",
+			"large" : "highlands/heroes/renee/HPL005PY",
+			"small" : "highlands/heroes/renee/HPS005PY"
+		},
+
+		"spellbook" : [
+			"visions"
+		],
+
+		"army" : [
+			{
+				"creature" : "bdefender",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "bjaveliner",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "bbrute",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "mysticism"
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"14flamius" : {
+		"army" : [
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "pyro",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"class" : "technic",
+		"images" : {
+			"large" : "forge/heroes/flamius/portraitlarge.png",
+			"small" : "forge/heroes/flamius/portraitsmall.png",
+			"specialtyLarge" : "forge/heroes/flamius/speclarge.png",
+			"specialtySmall" : "forge/heroes/flamius/specsmall.png"
+		},
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+		"specialty" : {
+			"creature" : "pyro"
+		},
+		"spellbook" : [
+			"armageddon"
+		],
+		"texts" : {
+			"biography" : "When King Kastore made a pact with Eeofol, Flamius was one of the first to replicate the ancient artifacts. His amazing skills in wielding fire were incredibly useful to the newly forming army.",
+			"name" : "Flamius",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Arsonists",
+				"name" : "Arsonists",
+				"description" : "Increases the speed of Arsonists and Pyromaniacs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		}
+	}
+}

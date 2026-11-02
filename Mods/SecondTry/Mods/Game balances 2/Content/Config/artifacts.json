@@ -1,0 +1,18 @@
+{
+        "core:angelicAlliance": {
+                "text": {
+                        "description": "{Angelic Alliance}\r\n\r\nIncreases all four primary skills by +21. Allows the hero to mix creatures from {good} and {neutral} factions without a morale penalty. Casts Expert Prayer at the start of combat that last 10 combat rounds."
+                }
+        },
+        "core:titansThunder": {
+                "text": {
+                        "description": "{Titan's Thunder}\r\n\r\nIncreases attack and defense skills by +9, and power and knowledge skills by +8. Hero gains the ability to cast {Titan's Lightning Bolt} for 600 points of damage, does not cost any spell points, adds a spell book into their inventory (permanently)."
+                }
+        },
+        "core:powerOfTheDragonFather": {
+                "text": {
+                        "description": "{Power of the Dragon Father}\r\n\r\nIncreases all primary skills by +16, grants +1 to morale and luck. All troops are {immune} to 1-4th level spells."
+                },
+                "value": 80000
+        }
+}

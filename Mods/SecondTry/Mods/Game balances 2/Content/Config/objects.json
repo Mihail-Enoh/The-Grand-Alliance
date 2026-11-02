@@ -1,0 +1,38 @@
+{
+        "core:warMachineFactory": {
+                "types": {
+                        "cannonYard": {
+                                "name": "Cannon Yard",
+                                "creatures": [
+                                        [
+                                                "cannon"
+                                        ],
+                                        [
+                                                "dwarftank"
+                                        ]
+                                ],
+                                "templates": {
+                                        "base": {
+                                                "animation": "hota/map/avcnbksm",
+                                                "visitableFrom": [
+                                                        "---",
+                                                        "--+",
+                                                        "+++"
+                                                ],
+                                                "mask": [
+                                                        "VVVV",
+                                                        "VVVV",
+                                                        "VVBV",
+                                                        "VVBA"
+                                                ]
+                                        }
+                                },
+                                "rmg": {
+                                        "zoneLimit": 1,
+                                        "value": 3000,
+                                        "rarity": 20
+                                }
+                        }
+                }
+        }
+}

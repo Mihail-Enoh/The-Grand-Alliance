@@ -1,0 +1,144 @@
+{
+	"mdtCouatl" : {
+		"name" : {
+			"singular" : "Brass Couatl",
+			"plural" : "Brass Couatls"
+		},
+		"faction" : "stronghold",
+		"level" : 7,
+		"upgrades" : [
+			"mdtQuetzalcouatl"
+		],
+		"doubleWide" : true,
+		"cost" : {
+			"gold" : 1900
+		},
+		"speed" : 10,
+		"hitPoints" : 160,
+		"abilities" : {
+			"dragonSkeleton": {
+				"type": "SKELETON_TRANSFORMER_TARGET",
+				"subtype": "boneDragon"
+			},
+			"canFly": {
+				"type": "FLYING",
+				"icon": "icons/sucfly.png"
+			},
+			"stoneGazeImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "stoneGaze",
+				"addInfo" : 0,
+				"description" : "{Unbounded}\nImmune to Freeze, Blind, Acid Breath, Poison, Disease, Death Cloud, Age, Death Stare, Paralyze, Stone Gaze, Dispel Helpful or Bind"
+			},
+			"freezingShotImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "freezingShot",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"poisonImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "poison",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"bindImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "bind",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"diseaseImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "disease",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"paralyzeImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "paralyze",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"ageImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "age",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"deathCloudImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathCloud",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"thunderboltImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "blind",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"dispelHelpfulImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "dispelHelpful",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"deathStareImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "deathStare",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"acidBreathImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "acidBreath",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"acidBreathDamageImm" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "acidBreathDamage",
+				"addInfo" : 0,
+				"hidden" : true
+			},
+			"KING_1" : // Will be affected by Slayer with no expertise
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"attack" : 15,
+		"defense" : 21,
+		"damage" : {
+			"max" : 45,
+			"min" : 35
+		},
+		"fightValue" : 2780,
+		"aiValue" : 3343,
+		"advMapAmount": {
+			"min": 4,
+			"max": 10
+		},
+		"growth" : 1,
+		"graphics" : {
+			"iconLarge" : "creatures/stronghold/iconsbig/couatl_big.png",
+			"iconSmall" : "creatures/stronghold/iconssmall/couatl_small.png",
+			"map" : "creatures/stronghold/map/mapCouatl.def",
+			"animation" : "creatures/stronghold/battle/CCouatl.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.0
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/stronghold/couatl/COATATTK.wav",
+			"defend" : "creatures/stronghold/couatl/COATDFND.wav",
+			"killed" : "creatures/stronghold/couatl/COATDEAD.wav",
+			"move" : "creatures/stronghold/couatl/COATMOVE.wav",
+			"wince" : "creatures/stronghold/couatl/COATWNCE.wav"
+		}
+	}
+}

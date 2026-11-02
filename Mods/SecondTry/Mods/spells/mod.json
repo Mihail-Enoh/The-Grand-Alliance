@@ -1,0 +1,12 @@
+{
+	"name" : "Spells",
+	"description" : "Added new spells.",
+	"modType" : "Mechanics",
+	"version" : "1.0",
+	"author" : "MDT",
+	"spells" : [
+		"config/spells/bind/bind",
+		"config/spells/divineArrows/divineArrows",
+		"config/spells/vitality/vitality"
+	]
+}

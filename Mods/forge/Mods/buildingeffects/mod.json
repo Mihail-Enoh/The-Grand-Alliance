@@ -1,0 +1,22 @@
+{
+	"name" : "Building Effect Enhancer",
+	"description" : "Adds new gameplay effects to buildings that previously had none.",
+	"modType" : "Mechanics",
+	"author" : "Dark Imagine, submod by Olegmods.INC",
+	"contact" : "https://forum.vcmi.eu/",
+	"version" : "1.1",
+	"factions" : [
+		"config/forge/forgeBuildings"
+	],
+	"czech" : {
+		"name" : "Nové efekty budov",
+		"description" : "Přidává nové herní efekty budovám, které je původně neměly.",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Ulepszenie specjalnych budynków",
+		"description" : "Nadaje nowe efekty budynkom, które wcześniej nie oferowały żadnych korzyści w rozgrywce."
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"mdtShroo" : {
+		"class" : "witch",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "heroes/fortress/shroo_spec-small.bmp",
+			"specialtyLarge" : "heroes/fortress/shroo_spec-large.bmp",
+			"large" : "heroes/fortress/shroo_portrait-large.bmp",
+			"small" : "heroes/fortress/shroo_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "hexes",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "mdtTrollHag"
+		},
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
+			"name" : "Shroo",
+			"biography" : "No one really knows how long Trolls live. Rumor has it that Shroo remember the days of the Revolt of the Beastmasters. No one though has been brave enough to ask her about it.",
+			"specialty" : {
+				"name" : "Troll Hags",
+				"description" : "Increases the Speed of any  Troll Hags or Troll Witches by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Troll Hags"
+			}
+		}
+	}
+}

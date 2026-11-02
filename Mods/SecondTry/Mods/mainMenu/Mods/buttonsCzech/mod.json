@@ -1,0 +1,43 @@
+{
+	"name" : "Czech buttons",
+	"description" : "Czech buttons",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"depends" : [
+		"czech-translation"
+	],
+	"softDepends" : [
+		"hota.mainMenu",
+		"hota.mainMenu.mainMenuLegacy"
+	],
+	"chinese" : {
+		"name" : "捷克语按钮",
+		"description" : "捷克语按钮"
+	},
+	"german" : {
+		"name" : "Tschechische Schaltflächen",
+		"description" : "Tschechische Schaltflächen"
+	},
+	"hungarian" : {
+		"name" : "Cseh gombok",
+		"description" : "Cseh gombok"
+	},
+	"polish" : {
+		"name" : "Czeskie przyciski",
+		"description" : "Czeskie przyciski"
+	},
+	"swedish" : {
+		"name" : "Tjeckiska knappar",
+		"description" : "Tjeckiska knappar"
+	},
+	"ukrainian" : {
+		"name" : "Чеські кнопки",
+		"description" : "Чеські кнопки"
+	},
+	"vietnamese" : {
+		"name" : "Nút tiếng Séc",
+		"description" : "Nút tiếng Séc"
+	}
+}

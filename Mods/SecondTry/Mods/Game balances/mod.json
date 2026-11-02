@@ -1,0 +1,22 @@
+{
+    "name": "Game Balances Core Game",
+    "description": "Modifications for vanilla creature stats.",
+    "version": "1.0",
+    "author": "Mihail-Enoh Bodnarciuc",
+    "modType": "Mechanics",
+    "depends": [
+        "grandalliance.hota.factory"
+    ],
+    "creatures": [
+        "Config/creatures.json"
+    ],
+    "spells": [
+        "Config/spells.json"
+    ],
+    "factions": [
+        "Config/towns.json"
+    ],
+    "objects" : [
+		"Config/banks.json"
+	]
+}

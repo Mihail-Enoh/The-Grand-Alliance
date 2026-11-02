@@ -1,0 +1,13 @@
+{
+	"basepath" : "town-screen/stronghold/frames/",
+	"images" : [
+		{
+			"frame" : 50,
+			"file" : "TbStDA_5.png"
+		},
+		{
+			"frame" : 57,
+			"file" : "TbStUA_5.png"
+		}
+	]
+}

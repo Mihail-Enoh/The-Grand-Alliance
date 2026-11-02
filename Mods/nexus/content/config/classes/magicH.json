@@ -1,0 +1,90 @@
+{
+        "astromancer": {
+                "affinity": "magic",
+                "animation": {
+                        // "battle": {
+                        //         "female": "nexus/heroes/battleFemaleAstromancer",
+                        //         "male": "nexus/heroes/battleMaleAstromancer"
+                        // }
+                        "battle": {
+                                "female": "forge/heroes/battleFemaleCyborg",
+                                "male": "forge/heroes/battleMaleCyborg"
+                        }
+                },
+                "commander": "bionicTrooper",
+                "defaultTavern": 5,
+                "faction": "nexus",
+                "highLevelChance": {
+                        "attack": 20,
+                        "defence": 20,
+                        "knowledge": 30,
+                        "spellpower": 30
+                },
+                "lowLevelChance": {
+                        "attack": 15,
+                        "defence": 15,
+                        "knowledge": 40,
+                        "spellpower": 30
+                },
+                "mapObject": {
+                        "templates": {
+                                "default": {
+                                        //"animation": "nexus/heroes/mapAstromancer"
+                                        "animation": "forge/heroes/mapmight"
+                                }
+                        }
+                },
+                "name": "Astromancer",
+                "primarySkills": {
+                        "attack": 0,
+                        "defence": 0,
+                        "knowledge": 2,
+                        "spellpower": 4
+                },
+                "secondarySkills": {
+                        "airMagic": 6,
+                        "archery": 2,
+                        "armorer": 3,
+                        "artillery": 3,
+                        "ballistics": 5,
+                        "diplomacy": 3,
+                        "eagleEye": 5,
+                        "earthMagic": 6,
+                        "estates": 2,
+                        "fireMagic": 5,
+                        "firstAid": 4,
+                        "hexes": 4,
+                        "intelligence": 7,
+                        "intimidation": 3,
+                        "leadership": 3,
+                        "learning": 4,
+                        "logistics": 4,
+                        "luck": 2,
+                        "mysticism": 6,
+                        "navigation": 3,
+                        "necromancy": 0,
+                        "offence": 2,
+                        "pathfinding": 3,
+                        "resistance": 4,
+                        "scholar": 6,
+                        "scouting": 3,
+                        "sorcery": 8,
+                        "tactics": 3,
+                        "waterMagic": 5,
+                        "wisdom": 8,
+                        "interference": 1
+                },
+                "tavern": {
+                        "castle": 4,
+                        "conflux": 5,
+                        "dungeon": 4,
+                        "fortress": 4,
+                        "inferno": 4,
+                        "necropolis": 4,
+                        "nexus": 6,
+                        "rampart": 4,
+                        "stronghold": 4,
+                        "tower": 5
+                }
+        }
+}

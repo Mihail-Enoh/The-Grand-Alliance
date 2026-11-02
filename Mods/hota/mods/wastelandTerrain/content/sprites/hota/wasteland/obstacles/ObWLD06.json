@@ -1,0 +1,10 @@
+{
+	"basepath" : "hota/wasteland/obstacles/ObWLD06/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "ObWLD06.png"
+		}
+	]
+}

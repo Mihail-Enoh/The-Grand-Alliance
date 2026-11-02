@@ -1,0 +1,15 @@
+{
+	"grandalliance.hota.neutralcreatures:fangarm" : {
+		"abilities" : {
+			"hypnotize" : {
+				"icon" : "bonuses/hipnotizeattack.png"
+			},
+			"canFly" : {
+				"icon" : "hota/bonuses/e_fly2.png"
+			},
+			"unlimitedRetaliation" : {
+				"icon" : "bonuses/e_retail2_fangarm.png"
+			}
+		}
+	}
+}

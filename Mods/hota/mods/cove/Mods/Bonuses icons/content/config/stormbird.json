@@ -1,0 +1,9 @@
+{
+	"grandalliance.hota.cove:stormbird" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "hota/bonuses/e_fly2.png"
+			}
+		}
+	}
+}

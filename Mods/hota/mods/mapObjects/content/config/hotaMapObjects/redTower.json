@@ -1,0 +1,195 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"redTower" : {
+				"name" : "Red Tower",
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/avredtwr.def",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VVVVV",
+							"VVBVV",
+							"VVAVV"
+						]
+					}
+				},
+				"sounds" : {
+					"ambient" : [
+						"hota/REDTWRLO.wav"
+					],
+					"visit" : [
+						"hota/REDTWRVS.wav"
+					]
+				},
+				"rmg" : {
+					"value" : 4000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : "The captured Firebirds will serve you gladly. Would you like to fight the guards?",
+				"onVisitedMessage" : "Firebirds were once kept captive here, however now the place is abandoned.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankWide",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"mapDice" : 0,
+						"guards" : [
+							{
+								"amount" : 7,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 7,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 7,
+								"type" : "fireElemental",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 7,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 7,
+								"type" : "fireElemental"
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 1,
+								"type" : "firebird"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"mapDice" : 1,
+						"guards" : [
+							{
+								"amount" : 14,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 14,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 14,
+								"type" : "fireElemental",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 14,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 14,
+								"type" : "fireElemental"
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "firebird"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 30,
+							"max" : 90
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 21,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 21,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 21,
+								"type" : "fireElemental",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 21,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 21,
+								"type" : "fireElemental"
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 3,
+								"type" : "firebird"
+							}
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"guards" : [
+							{
+								"amount" : 28,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 28,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 28,
+								"type" : "fireElemental",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 28,
+								"type" : "fireElemental"
+							},
+							{
+								"amount" : 28,
+								"type" : "fireElemental"
+							}
+						],
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "firebird"
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

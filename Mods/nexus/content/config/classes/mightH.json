@@ -1,0 +1,90 @@
+{
+        "riftwarden": {
+                "affinity": "might",
+                "animation": {
+                        // "battle": {
+                        //         "female": "nexus/heroes/battleFemaleRiftwarden",
+                        //         "male": "nexus/heroes/battleMaleRiftwarden"
+                        // }
+                        "battle": {
+                                "female": "forge/heroes/battleFemaleTechnic",
+                                "male": "forge/heroes/battleMaleTechnic"
+                        }
+                },
+                "commander": "bionicTrooper",
+                "defaultTavern": 4,
+                "faction": "nexus",
+                "highLevelChance": {
+                        "attack": 30,
+                        "defence": 30,
+                        "knowledge": 20,
+                        "spellpower": 20
+                },
+                "lowLevelChance": {
+                        "attack": 25,
+                        "defence": 25,
+                        "knowledge": 30,
+                        "spellpower": 20
+                },
+                "mapObject": {
+                        "templates": {
+                                "default": {
+                                        "animation": "forge/heroes/mapmight"
+                                        //"animation": "nexus/heroes/mapRiftwarden"
+                                }
+                        }
+                },
+                "name": "Riftwarden",
+                "primarySkills": {
+                        "attack": 1,
+                        "defence": 1,
+                        "knowledge": 1,
+                        "spellpower": 3
+                },
+                "secondarySkills": {
+                        "airMagic": 4,
+                        "archery": 5,
+                        "armorer": 8,
+                        "artillery": 4,
+                        "ballistics": 4,
+                        "diplomacy": 3,
+                        "eagleEye": 3,
+                        "earthMagic": 4,
+                        "estates": 3,
+                        "fireMagic": 4,
+                        "firstAid": 3,
+                        "hexes": 4,
+                        "intelligence": 4,
+                        "intimidation": 5,
+                        "leadership": 5,
+                        "learning": 3,
+                        "logistics": 7,
+                        "luck": 4,
+                        "mysticism": 6,
+                        "navigation": 3,
+                        "necromancy": 0,
+                        "offence": 8,
+                        "pathfinding": 5,
+                        "resistance": 7,
+                        "scholar": 2,
+                        "scouting": 5,
+                        "sorcery": 3,
+                        "tactics": 7,
+                        "waterMagic": 4,
+                        "wisdom": 6,
+                        "interference": 5
+                },
+                "tavern": {
+                        "castle": 4,
+                        "conflux": 5,
+                        "dungeon": 4,
+                        "fortress": 4,
+                        "inferno": 4,
+                        "necropolis": 4,
+                        "nexus": 6,
+                        "rampart": 4,
+                        "stronghold": 4,
+                        "tower": 5
+                }
+        }
+}

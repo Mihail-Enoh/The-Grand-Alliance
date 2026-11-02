@@ -1,0 +1,55 @@
+{
+        "r_brynhildr": {
+                "class": "bpyromancer",
+                "female": true,
+                "special": true,
+                "texts": {
+                        "name": "Brynhildr",
+                        "biography": "A fierce warrior-maiden who embraced the path of magic, Brynhildr commands both respect and fear among the Amazons. She leads the Valkyries into battle not just with her spear, but with a deep understanding of runic and elemental magic.",
+                        "specialty": {
+                                "description": "Increases the Speed of any Amazons or Valkyries by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature bonus: Amazons",
+                                "name": "Amazons"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "highlands/heroes/brynhildr/skill32brynhildr",
+                        "specialtyLarge": "highlands/heroes/brynhildr/skillbrynhildr",
+                        "large": "highlands/heroes/brynhildr/brynhildrl",
+                        "small": "highlands/heroes/brynhildr/brynhildrs"
+                },
+                "spellbook": [
+                        "mdtDivineArrows"
+                ],
+                "army": [
+                        {
+                                "creature": "bdefender",
+                                "max": 20,
+                                "min": 15
+                        },
+                        {
+                                "creature": "bjaveliner",
+                                "max": 8,
+                                "min": 5
+                        },
+                        {
+                                "creature": "bbrute",
+                                "max": 3,
+                                "min": 2
+                        }
+                ],
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "leadership"
+                        }
+                ],
+                "specialty": {
+                        "creature": "amazonHigh"
+                }
+        }
+}

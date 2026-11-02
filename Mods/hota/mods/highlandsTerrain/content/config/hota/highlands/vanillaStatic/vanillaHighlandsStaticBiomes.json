@@ -1,0 +1,106 @@
+{
+	"highlandsStone" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "rock"
+		},
+		"templates" : [
+			"avlrhl00",
+			"avlrhl01",
+			"avlrhl02",
+			"avlrhl03",
+			"avlrhl04",
+			"avlrhl05",
+			"avlrhl06",
+			"avlrhl07",
+			"avlrhl08"
+		]
+	},
+
+	"highlandsShrub" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AVlshl00",
+			"AVlshl01",
+			"avgflh18"
+		]
+	},
+	"highlandsMountain" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"AVLMHS00",
+			"AVLMHS01",
+			"AVLMHS02",
+			"AVLMHS03",
+			"AVLMHS04",
+			"AVLMHS05"
+		]
+	},
+	"highlandsLake" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "lake"
+		},
+		"templates" : [
+			"avlhll00",
+			"avlhll01",
+			"avlhll02",
+			"avlhll03"
+		]
+	},
+	"highlandsFlower" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"avgflh00",
+			"avgflh01",
+			"avgflh02",
+			"avgflh03",
+			"avgflh04",
+			"avgflh05",
+			"avgflh06",
+			"avgflh07",
+			"avgflh08",
+			"avlf07g0Highlands",
+			"avgflh09",
+			"avgflh10",
+			"avgflh11",
+			"avgflh12",
+			"avgflh13",
+			"avgflh14",
+			"avgflh15",
+			"avgflh16",
+			"avgflh17",
+			"avgflh19",
+			"avgflh20"
+		]
+	},
+	"crater" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "crater"
+		},
+		"templates" : [
+			"AVLcthl0"
+		]
+	},
+	"highlandsOutcroppings" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AVLHiTr0",
+			"AVLHiTr1",
+			"AVLHiTr2"
+		]
+	}
+}

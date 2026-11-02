@@ -1,0 +1,330 @@
+{
+	"core:necropolis": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/necropolis/icons/towerSmall",
+				"towerIconLarge": "town-screen/necropolis/icons/towerLarge"
+			},
+			"buildingsIcons": "town-screen/necropolis/ALTHALLNECR.DEF",
+			"hallBackground": "town-screen/necropolis/necropolisHallBg.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"skeleton",
+					"skeletonWarrior"
+				],
+				[
+					"walkingDead",
+					"zombieLord"
+				],
+				[
+					"wight",
+					"wraith"
+				],
+				[
+					"vampire",
+					"vampireLord"
+				],
+				[
+					"lich",
+					"powerLich"
+				],
+				[
+					"mdtWerewolf",
+					"mdtDireWerewolf"
+				],
+				[
+					"blackKnight",
+					"dreadKnight"
+				],
+				[
+					"boneDragon",
+					"ghostDragon"
+				]
+			],
+			"structures": {
+				"dwellingLvl6": {
+					"border": "town-screen/necropolis/buildings-border/TONalt1.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNalt1.bmp",
+					"animation": "town-screen/necropolis/wolfcave.def",
+					"x": 360,
+					"y": 166,
+					"z": -1
+				},
+				"dwellingUpLvl6": {
+					"border": "town-screen/necropolis/buildings-border/TONaup1.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNaup1.bmp",
+					"animation": "town-screen/necropolis/wolfcavup.def",
+					"x": 360,
+					"y": 155,
+					"z": -1
+				},
+				"dwellingLvl7": {
+					"border": "town-screen/necropolis/buildings-border/TONBkn1.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNBKN1.bmp",
+					"animation": "town-screen/necropolis/TBNCDW_5.def",
+					"x": 0,
+					"y": 31,
+					"z": -2
+				},
+				"dwellingUpLvl7": {
+					"border": "town-screen/necropolis/buildings-border/TOnbkn2.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNBKN2.bmp",
+					"animation": "town-screen/necropolis/TBNCUP_5.def",
+					"x": 0,
+					"y": 30,
+					"z": -2
+				},
+				"dwellingLvl8": {
+					"border": "town-screen/necropolis/buildings-border/TONBon1.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNBON1.bmp",
+					"animation": "town-screen/necropolis/TBNCDW_6.def",
+					"x": 663,
+					"y": 25,
+					"z": 0
+				},
+				"dwellingUpLvl8": {
+					"border": "town-screen/necropolis/buildings-border/TONBon2.bmp",
+					"area": "town-screen/necropolis/buildings-area/TZNBON2.bmp",
+					"animation": "town-screen/necropolis/TBNCUP_6.def",
+					"x": 662,
+					"y": 23,
+					"z": 0
+				}
+			},
+			"buildings": {
+				"dwellingUpLvl1": {
+					"name": "Upg. Cursed Temple",
+					"description": "The Upg. Cursed Temple allows you to recruit Skeleton Warriors."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Graveyard",
+					"description": "The Upg. Graveyard allows you to recruit Zombies."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Tomb of Souls",
+					"description": "The Upg. Tomb of Souls allows you to recruit Wraiths."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Estate",
+					"description": "The Upg. Estate allows you to recruit Vampire Lords."
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Mausoleum",
+					"description": "The Upg. Mausoleum allows you to recruit Power Liches."
+				},
+				"dwellingLvl5": {
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingLvl6": {
+					"name": "Wolf Cave",
+					"description": "The Wolf Cave allows you to recruit Werewolves.",
+					"cost": {
+						"gold": 6000,
+						"wood": 10,
+						"ore": 10
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Wolf Cave",
+					"description": "The Upg. Wolf Cave allows you to recruit Dire Werewolves.",
+					"cost": {
+						"gold": 3000,
+						"wood": 0,
+						"ore": 5,
+						"mercury": 2,
+						"sulfur": 2,
+						"crystal": 2,
+						"gems": 2
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					],
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Hall of Darkness",
+					"description": "The Hall of Darkness allows you to recruit Black Knights.",
+					"cost": {
+						"gold": 10000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 3,
+						"sulfur": 3,
+						"crystal": 3,
+						"gems": 3
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Hall of Darkness",
+					"description": "The Upg. Hall of Darkness allows you to recruit Dread Knights.",
+					"cost": {
+						"gold": 15000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 5,
+						"sulfur": 5,
+						"crystal": 5,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl7"
+						]
+					],
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingLvl8": {
+					"name": "Dragon Vault",
+					"description": "The Dragon Vault allows you to recruit Bone Dragons.",
+					"cost": {
+						"gold": 10000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 5,
+						"sulfur": 5,
+						"crystal": 5,
+						"gems": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Dragon Vault",
+					"description": "The Upg. Dragon Vault allows you to recruit Ghost Dragons.",
+					"cost": {
+						"gold": 15000,
+						"mercury": 20,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl8"
+						]
+					],
+					"upgrades": "dwellingLvl8"
+				}
+			}
+		}
+	}
+}

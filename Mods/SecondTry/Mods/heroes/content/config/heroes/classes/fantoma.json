@@ -1,0 +1,69 @@
+{
+        "fantoma": {
+                "name": "Exilat",
+                "faction": "neutral",
+                "affinity": "might",
+                "commander": "pikeman",
+                "animation": {
+                        "battle": {
+                                "female": "CH00.def",
+                                "male": "CH00.def"
+                        }
+                },
+                "mapObject": {
+                        "filters": {
+                                "male": {
+                                        "male": true
+                                },
+                                "female": {
+                                        "female": true
+                                }
+                        },
+                        "templates": {
+                                "female": {
+                                        "animation": "AH00_.def"
+                                },
+                                "male": {
+                                        "animation": "AH00_.def"
+                                }
+                        }
+                },
+                "primarySkills": {
+                        "attack": 1,
+                        "defence": 1,
+                        "spellpower": 1,
+                        "knowledge": 1
+                },
+                "secondarySkills": {
+                        "archery": 8,
+                        "armorer": 8,
+                        "artillery": 5,
+                        "ballistics": 4,
+                        "diplomacy": 4,
+                        "eagleEye": 1,
+                        "earthMagic": 3,
+                        "estates": 1,
+                        "fireMagic": 1,
+                        "firstAid": 4,
+                        "intelligence": 1,
+                        "leadership": 6,
+                        "learning": 4,
+                        "logistics": 8,
+                        "luck": 5,
+                        "mysticism": 2,
+                        "navigation": 7
+                },
+                "lowLevelChance": {
+                        "attack": 25,
+                        "defence": 25,
+                        "spellpower": 25,
+                        "knowledge": 25
+                },
+                "highLevelChance": {
+                        "attack": 25,
+                        "defence": 25,
+                        "spellpower": 25,
+                        "knowledge": 25
+                }
+        }
+}

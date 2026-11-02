@@ -1,0 +1,12 @@
+{
+	"grandalliance.hota.factory:sandwormLarva" : {
+		"abilities" : {
+			"ephemeral" : {
+				"icon" : "bonuses/ephemeral.png"
+			},
+			"castsymMeditation" : {
+				"icon" : "bonuses/sandvigour.png"
+			}
+		}
+	}
+}

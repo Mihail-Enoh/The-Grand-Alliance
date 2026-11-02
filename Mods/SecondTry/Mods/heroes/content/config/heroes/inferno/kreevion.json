@@ -1,0 +1,55 @@
+{
+	"kreevionHeretic": {
+		"class": "heretic",
+		"female": false,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/inferno/kreevion_spec-small.bmp",
+			"specialtyLarge": "heroes/inferno/kreevion_spec-large.bmp",
+			"large": "heroes/inferno/kreevion_portrait-large.bmp",
+			"small": "heroes/inferno/kreevion_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "gog",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intimidation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "devil"
+		},
+		"spellbook": [
+			"frenzy"
+		],
+		"texts": {
+			"name": "Kreevion",
+			"biography": "Rumor has it that Kreevion was born from the pure, concentrated wrath of the demonic lords mourning the death of Lucifer. While some dismiss this as mere legend, the terrifying truth is evident on the battlefield: the highest echelons of Eeofol, the mighty Devils and Arch Devils, bow exclusively to his chaotic will, sensing the lingering essence of their fallen king within him.",
+			"specialty": {
+				"name": "Devils",
+				"description": "Increases the Speed of any Devils or Arch Devils by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip": "Creature Bonus: Devils"
+			}
+		}
+	}
+}

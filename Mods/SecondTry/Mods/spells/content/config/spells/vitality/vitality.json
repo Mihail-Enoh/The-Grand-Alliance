@@ -1,0 +1,111 @@
+{
+	"vitalitySurge" : {
+		"type" : "combat",
+		"name" : "Vitality",
+		"targetType" : "CREATURE",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 10,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 16,
+			"tower" : 10,
+			"inferno" : 2,
+			"necropolis" : 0,
+			"dungeon" : 6,
+			"stronghold" : 0,
+			"fortress" : 0,
+			"conflux" : 14
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {
+				"bonus.NON_LIVING": "absolute",
+				"bonus.UNDEAD": "absolute",
+				"bonus.MECHANICAL": "absolute"
+			}
+		},
+		"flags" : {
+			"positive" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/vitality/book",
+			"iconScroll" : "spells/vitality/scroll",
+			"iconScenarioBonus" : "spells/vitality/scenario",
+			"iconEffect" : "spells/vitality/effect"
+		},
+		"animation" : {
+			"affect" : [
+				"spells/vitality/spell.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "spells/vitality/sfx.wav"
+		},
+		"levels" : {
+			"base" : {
+				"range" : "X",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"hpBoost" : {
+						"type" : "STACK_HEALTH",
+						"val" : 30,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Vitality}\n\nIncreases the maximum Health of all friendly units by 30%, 40% (at advanced level), or 50% (at expert level).",
+				"power" : 30,
+				"cost" : 30
+			},
+			"basic" : {
+				"description" : "{Basic Vitality}\n\nIncreases the maximum Health of all friendly units by 30%.",
+				"power" : 30,
+				"cost" : 25
+			},
+			"advanced" : {
+				"description" : "{Advanced Vitality}\n\nIncreases the maximum Health of all friendly units by 40%.",
+				"power" : 40,
+				"cost" : 25,
+				"effects" : {
+					"hpBoost" : {
+						"type" : "STACK_HEALTH",
+						"val" : 40,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Vitality}\n\nIncreases the maximum Health of all friendly units by 50%.",
+				"power" : 50,
+				"cost" : 25,
+				"effects" : {
+					"hpBoost" : {
+						"type" : "STACK_HEALTH",
+						"val" : 50,
+						"valueType" : "PERCENT_TO_BASE",
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			}
+		}
+	}
+}

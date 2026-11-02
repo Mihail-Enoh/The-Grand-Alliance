@@ -1,0 +1,20 @@
+{
+	"core:fiur" : {
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 3
+				},
+				"defence" : {
+					"val" : 4
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"name" : "Fire Elem.",
+				"description" : "Fire Elementals and Energy Elementals receive +3 Attack, +4 Defense, and +2 Damage."
+			}
+		}
+	}
+}

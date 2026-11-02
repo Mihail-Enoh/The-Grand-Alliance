@@ -1,0 +1,26 @@
+{
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
+					"AVXamH1" : {
+						"animation" : "hota/highlands/vanillaInteractive/mines/AVXamH1",
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"mdtDrakeGolem" : {
+		"name" : {
+			"singular" : "Drake Golem",
+			"plural" : "Drake Golems"
+		},
+		"faction" : "tower",
+		"level" : 7,
+		"upgrades" : [
+			"mdtDragonGolem"
+		],
+		"doubleWide" : true,
+		"cost" : {
+			"gold" : 2200,
+			"gems" : 1
+		},
+		"speed" : 9,
+		"hitPoints" : 200,
+		"attack" : 16,
+		"defense" : 19,
+		"damage" : {
+			"max" : 45,
+			"min" : 30
+		},
+		"fightValue" : 3250,
+		"aiValue" : 4200,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"growth" : 1,
+		"abilities" : {
+			"2moreretaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				//"icon": "sprites/icons/dkgolem.png"
+				"icon": "icons/dkgolem.png"
+			},
+			"nonliving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"magicResistance" : {
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			},
+			"dragon": {
+				"type": "DRAGON_NATURE"
+			},
+			"dragonSkeleton": {
+				"type": "SKELETON_TRANSFORMER_TARGET",
+				"subtype": "boneDragon"
+			},
+			"KING_0" : // Will be affected by Advanced Slayer or better
+			{
+				"type" : "KING",
+				"val" : 0
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/tower/iconsBig/drakeGolemBig.png",
+			"iconSmall" : "creatures/tower/iconsSmall/drakeGolemSmall.png",
+			"map" : "creatures/tower/map/mapDrakeGolem.def",
+			"animation" : "creatures/tower/battle/CLizGolem.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.0
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/tower/drakeGolem/DrGoATTK.wav",
+			"defend" : "creatures/tower/drakeGolem/DrGoDFND.wav",
+			"killed" : "creatures/tower/drakeGolem/DrGoDEAD.wav",
+			"move" : "creatures/tower/drakeGolem/DrGoMOVE.wav",
+			"wince" : "creatures/tower/drakeGolem/DrGoWNCE.wav"
+		}
+	}
+}

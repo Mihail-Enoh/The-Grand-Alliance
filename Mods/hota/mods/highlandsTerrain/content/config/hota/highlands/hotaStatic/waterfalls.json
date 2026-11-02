@@ -1,0 +1,43 @@
+{
+	"highlandsWaterfalls" : {
+		"name" : "Waterfall",
+		"handler" : "static",
+		"types" : {
+			"waterfalls" : {
+				"sounds" : {
+					"ambient" : [
+						"hota/highlands/LOOPWATR.wav"
+					]
+				},
+				"base" : {
+					"mask" : [
+						"VVVVV",
+						"VBBBV",
+						"VBBBV",
+						"VVVVV"
+					],
+					"allowedTerrains" : [
+						"highlands"
+					]
+				},
+				"templates" : {
+					"hotaAVLwtf00" : {
+						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf00",
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VBBBV",
+							"VVVVV"
+						]
+					},
+					"hotaAVLwtf01" : {
+						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf01"
+					},
+					"hotaAVLwtf02" : {
+						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf02"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"mdtAlhoon" : {
+		"name" : {
+			"singular" : "Alhoon",
+			"plural" : "Alhoons"
+		},
+		"faction" : "dungeon",
+		"level" : 5,
+		"cost" : {
+			"gold" : 600
+		},
+		"speed" : 6,
+		"hitPoints" : 50,
+		"attack" : 15,
+		"defense" : 15,
+		"damage" : {
+			"min" : 12,
+			"max" : 17
+		},
+		"fightValue" : 775,
+		"aiValue" : 818,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"growth" : 3,
+		"abilities" : {
+			"castsHypnotize" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "hypnotize",
+				"val" : 1,
+				"addInfo" : 100,
+				"turns" : 3,
+				"icon" : "icons/hypno3.png"
+			},
+			"castsCount" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 80
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/dungeon/iconsBig/alhoonBig.png",
+			"iconSmall" : "creatures/dungeon/iconsSmall/alhoonSmall.png",
+			"map" : "creatures/dungeon/map/mapAlhoon.def",
+			"animation" : "creatures/dungeon/battle/CAlhoon.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/dungeon/illithid/ILLIATTACK.wav",
+			"defend" : "creatures/dungeon/illithid/ILLIDFND.wav",
+			"killed" : "creatures/dungeon/illithid/ILLIDEAD.wav",
+			"move" : "creatures/dungeon/illithid/ILLIMOVE.wav",
+			"wince" : "creatures/dungeon/illithid/ILLIHIT.wav"
+		}
+	}
+}

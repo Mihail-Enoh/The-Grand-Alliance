@@ -1,0 +1,55 @@
+{
+	"zamNecromancer": {
+		"class": "necromancer",
+		"female": false,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/necropolis/zam_spec-small.bmp",
+			"specialtyLarge": "heroes/necropolis/zam_spec-large.bmp",
+			"large": "heroes/necropolis/zam_portrait-large.bmp",
+			"small": "heroes/necropolis/zam_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "skeleton",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "walkingDead",
+				"min": 4,
+				"max": 6
+			},
+			{
+				"creature": "wight",
+				"min": 4,
+				"max": 6
+			}
+		],
+		"skills": [
+			{
+				"skill": "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill": "hexes",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "boneDragon"
+		},
+		"spellbook": [
+			"deathRipple"
+		],
+		"texts": {
+			"name": "Zam",
+			"biography": "After Archibald Ironfist lost the Succession Wars, Zam decided to leave Enroth and settle down for good in Erathia. Hiding for years in his laboratory, by coincidence he heard the news about dethroning the old ruler of Deyja. Disappointed by unconventional methods of the new King, Zam has quickly withdrawn allegiance to him, turning his focus entirely toward the reanimation and mastery of the dreaded Bone Dragons.",
+			"specialty": {
+				"name": "Bone Dragons",
+				"tooltip": "Creature Bonus: Bone Dragons",
+				"description": "Increases the Speed of any Bone Dragons or Ghost Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		}
+	}
+}

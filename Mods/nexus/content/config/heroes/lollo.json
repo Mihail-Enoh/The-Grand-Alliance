@@ -1,0 +1,47 @@
+{
+	"lollo" : {
+		"class" : "riftwarden",
+		"female" : true,
+		"texts" : {
+			"name" : "Lollo",
+			"specialty" : {
+				"name" : "Specialty Placeholder",
+				"tooltip" : "{Specialty Placeholder}",
+				"description" : "{Specialty Placeholder}"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "nexus/heroes/specialties/placeholderS",
+			"specialtyLarge" : "nexus/heroes/specialties/placeholderL",
+			"large" : "nexus/heroes/portraits/lolloL",
+			"small" : "nexus/heroes/portraits/lolloS"
+		},
+		"army" : [
+			{
+				"creature" : "lvl1u",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "lvl2u",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "lvl3u",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			},
+			{
+				"level" : "basic",
+				"skill" : "eagleEye"
+			}
+		]
+	}
+}

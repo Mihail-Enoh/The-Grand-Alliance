@@ -1,0 +1,14 @@
+{
+	"core:mutareDrake" : {
+		"specialty" : {
+			"base" : {
+				"val" : 10
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases all Dragons’ Attack and Defense by 10."
+			}
+		}
+	}
+}

@@ -1,0 +1,537 @@
+{
+        "helios": {
+                "class": "elementalist",
+                "female": true,
+                "special": true,
+                "spellbook": [
+                        "armageddon"
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "fireMagic",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/helios_large.bmp",
+                        "small": "heroes/conflux/helios_small.bmp",
+                        "specialtyLarge": "heroes/conflux/helios_spec_large.bmp",
+                        "specialtySmall": "heroes/conflux/helios_spec_small.bmp"
+                },
+                "specialty": {
+                        "creature": "firebird"
+                },
+                "texts": {
+                        "name": "Helios",
+                        "biography": "Emerging from the searing cosmic flames of the Pyre, Helios is a being of pure elemental magic. When the Conflux called for champions to defend the world's balance, she rose from the ashes to answer. Guiding the legendary Firebirds into battle, she commands the raw, untamed wrath of the sun.",
+                        "specialty": {
+                                "name": "Firebirds",
+                                "tooltip": "Creature Bonus: Firebirds",
+                                "description": "Increases the Speed of any Firebirds or Phoenixes by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "zephyr": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "tactics",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "armorer",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/zephyr_large.bmp",
+                        "small": "heroes/conflux/zephyr_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_air_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_air_small.bmp"
+                },
+                "specialty": {
+                        "creature": "airElemental"
+                },
+                "texts": {
+                        "name": "Zephyr",
+                        "biography": "Zephyr is swift and unpredictable, often acting before his superiors can even issue commands. Though his impulsive nature can be a liability, his unparalleled speed makes him a terrifying force in the Conflux vanguard.",
+                        "specialty": {
+                                "name": "Air Elem.",
+                                "tooltip": "Creature Bonus: Air Elementals",
+                                "description": "Increases the Speed of any Air or Storm Elementals by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+                        }
+                }
+        },
+        "vortis": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "armorer",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "learning",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/vortis_large.bmp",
+                        "small": "heroes/conflux/vortis_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_air_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_air_small.bmp"
+                },
+                "specialty": {
+                        "creature": "airElemental"
+                },
+                "texts": {
+                        "name": "Vortis",
+                        "biography": "Vortis embodies the brooding, destructive force of a gathering tempest. Silent and relentless, his overwhelming presence on the battlefield crushes enemy morale long before his elemental storms actually strike.",
+                        "specialty": {
+                                "name": "Air Elem.",
+                                "tooltip": "Creature Bonus: Air Elementals",
+                                "description": "Increases the Speed of any Air or Storm Elementals by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+                        }
+                }
+        },
+        "pasis_nou": {
+                "class": "planeswalker",
+                "female": true,
+                "skills": [
+                        {
+                                "skill": "artillery",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 2,
+                                "max": 3
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/pasis_large.bmp",
+                        "small": "heroes/conflux/pasis_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_psychic_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_psychic_small.bmp"
+                },
+                "specialty": {
+                        "creature": "psychicElemental"
+                },
+                "texts": {
+                        "name": "Pasis",
+                        "biography": "Pasis has always been extremely fascinated by those of Corporeal form. Extensive research and interaction with these creatures made her an ideal candidate for the Conflux.",
+                        "specialty": {
+                                "name": "Psychic Elem.",
+                                "tooltip": "Creature Bonus: Psychic Elementals",
+                                "description": "Increases the Speed of any Psychic or Magic Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+                        }
+                }
+        },
+        "thunar_nou": {
+                "class": "planeswalker",
+                "female": true,
+                "skills": [
+                        {
+                                "skill": "estates",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "armorer",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/thunar_large.bmp",
+                        "small": "heroes/conflux/thunar_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_earth_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_earth_small.bmp"
+                },
+                "specialty": {
+                        "creature": "earthElemental"
+                },
+                "texts": {
+                        "name": "Thunar",
+                        "biography": "Living around the Erathian Capitol for many years Thunar learned extensive Battle Tactics and Estates. Her curiosity and respect of mortals gained her a place in the Conflux.",
+                        "specialty": {
+                                "name": "Earth Elem.",
+                                "tooltip": "Creature Bonus: Earth Elementals",
+                                "description": "Increases the Speed of any Earth or Magma Elementals by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+                        }
+                }
+        },
+        "ignissa_nou": {
+                "class": "planeswalker",
+                "female": true,
+                "skills": [
+                        {
+                                "skill": "artillery",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/ignissa_large.bmp",
+                        "small": "heroes/conflux/ignissa_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_fire_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_fire_small.bmp"
+                },
+                "specialty": {
+                        "creature": "fireElemental"
+                },
+                "texts": {
+                        "name": "Ignissa",
+                        "biography": "Four years ago a powerful Wizard summoned Ignissa to this plane. Unable to return she wandered Antagarich until she felt called to the Conflux.",
+                        "specialty": {
+                                "name": "Fire Elem.",
+                                "tooltip": "Creature Bonus: Fire Elementals",
+                                "description": "Increases the Speed of any Fire or Energy Elementals by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+                        }
+                }
+        },
+        "lacus_nou": {
+                "class": "planeswalker",
+                "female": true,
+                "skills": [
+                        {
+                                "skill": "tactics",
+                                "level": "advanced"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 2,
+                                "max": 3
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/lacus_large.bmp",
+                        "small": "heroes/conflux/lacus_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_water_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_water_small.bmp"
+                },
+                "specialty": {
+                        "creature": "waterElemental"
+                },
+                "texts": {
+                        "name": "Lacus",
+                        "biography": "Fierce competition of all Water Elementals took place to determine who would have the honor to serve the Conflux. Lacus earned her position through her advanced knowledge of Tactics.",
+                        "specialty": {
+                                "name": "Water Elem.",
+                                "tooltip": "Creature Bonus: Water Elementals",
+                                "description": "Increases the Speed of any Water or Ice Elementals by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+                        }
+                }
+        },
+        "monere_nou": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "logistics",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 2,
+                                "max": 3
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/monere_large.bmp",
+                        "small": "heroes/conflux/monere_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_psychic_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_psychic_small.bmp"
+                },
+                "specialty": {
+                        "creature": "psychicElemental"
+                },
+                "texts": {
+                        "name": "Monere",
+                        "biography": "As a being of pure energy, Monere enjoyed the freedoms of his natural state. However, his curiosity for beings of corporeal form drove him to the Conflux.",
+                        "specialty": {
+                                "name": "Psychic Elem.",
+                                "tooltip": "Creature Bonus: Psychic Elementals",
+                                "description": "Increases the Speed of any Psychic or Magic Elementals by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+                        }
+                }
+        },
+        "erdamon_nou": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "estates",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "tactics",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/erdamon_large.bmp",
+                        "small": "heroes/conflux/erdamon_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_earth_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_earth_small.bmp"
+                },
+                "specialty": {
+                        "creature": "earthElemental"
+                },
+                "texts": {
+                        "name": "Erdamon",
+                        "biography": "An ancient lord of magma, Erdamon has slept for centuries within the mountains bordering Eeofol. Pulled from his slumber to aid the Conflux, Erdamon welcomes the battle to rid the world of the Kreegans.",
+                        "specialty": {
+                                "name": "Earth Elem.",
+                                "tooltip": "Creature Bonus: Earth Elementals",
+                                "description": "Increases the Speed of any Earth or Magma Elementals by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+                        }
+                }
+        },
+        "fiur_nou": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "offence",
+                                "level": "advanced"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/fiur_large.bmp",
+                        "small": "heroes/conflux/fiur_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_fire_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_fire_small.bmp"
+                },
+                "specialty": {
+                        "creature": "fireElemental"
+                },
+                "texts": {
+                        "name": "Fiur",
+                        "biography": "Fiur is young, and his battle prowess untried, but he has a ferociousness like no other. It is believed he will become one of the most powerful heroes of the Conflux.",
+                        "specialty": {
+                                "name": "Fire Elem.",
+                                "tooltip": "Creature Bonus: Fire Elementals",
+                                "description": "Increases the Speed of any Fire or Energy Elementals by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+                        }
+                }
+        },
+        "kalt_nou": {
+                "class": "planeswalker",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "tactics",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "learning",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 15,
+                                "max": 25
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 2,
+                                "max": 3
+                        }
+                ],
+                "images": {
+                        "large": "heroes/conflux/kalt_large.bmp",
+                        "small": "heroes/conflux/kalt_small.bmp",
+                        "specialtyLarge": "heroes/conflux/spec_water_large.bmp",
+                        "specialtySmall": "heroes/conflux/spec_water_small.bmp"
+                },
+                "specialty": {
+                        "creature": "waterElemental"
+                },
+                "texts": {
+                        "name": "Kalt",
+                        "biography": "Always the quick study, Kalt felt called to the Conflux where he could feed his voracious appetite for learning new and different things.",
+                        "specialty": {
+                                "name": "Water Elem.",
+                                "tooltip": "Creature Bonus: Water Elementals",
+                                "description": "Increases the Speed of any Water or Ice Elementals by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+                        }
+                }
+        }
+}

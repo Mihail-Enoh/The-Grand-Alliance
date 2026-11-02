@@ -1,0 +1,43 @@
+{
+	"name" : "Ukrainian buttons",
+	"description" : "Ukrainian buttons",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"depends" : [
+		"vcmi-mod-ce-ukr"
+	],
+	"softDepends" : [
+		"hota.mainMenu",
+		"hota.mainMenu.mainMenuLegacy"
+	],
+	"chinese" : {
+		"name" : "乌克兰语按钮",
+		"description" : "乌克兰语按钮"
+	},
+	"german" : {
+		"name" : "Ukrainische Schaltflächen",
+		"description" : "Ukrainische Schaltflächen"
+	},
+	"hungarian" : {
+		"name" : "Ukrán gombok",
+		"description" : "Ukrán gombok"
+	},
+	"polish" : {
+		"name" : "Ukraińskie przyciski",
+		"description" : "Ukraińskie przyciski"
+	},
+	"swedish" : {
+		"name" : "Ukrainska knappar",
+		"description" : "Ukrainska knappar"
+	},
+	"ukrainian" : {
+		"name" : "Українські кнопки",
+		"description" : "Українські кнопки"
+	},
+	"vietnamese" : {
+		"name" : "Nút tiếng Ukraina",
+		"description" : "Nút tiếng Ukraina"
+	}
+}

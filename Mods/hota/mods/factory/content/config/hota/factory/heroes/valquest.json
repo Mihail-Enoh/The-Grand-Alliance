@@ -1,0 +1,56 @@
+{
+	"valquest" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
+			"name" : "Valquest",
+			"biography" : "Valquest, who traverses the desert, possesses exceptional medical skills. He has joined Kastore's ranks and is teaching his skills to others. Although he appears cruel, he has a compassionate heart for small animals.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "Secondary Skill Bonus: First Aid",
+				"name" : "First Aid"
+			}
+		},
+
+		"images" : {
+			"large" : "hota/factory/heroes/valquest/icons/portraitLarge.png",
+			"small" : "hota/factory/heroes/valquest/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.png"
+		},
+
+		"army" : [
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+
+		"specialty" : {
+			"secondary" : "firstAid"
+		}
+	}
+}

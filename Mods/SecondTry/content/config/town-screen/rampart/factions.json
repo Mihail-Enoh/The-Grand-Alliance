@@ -1,0 +1,469 @@
+{
+	"core:rampart": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/rampart/icons/towerSmall",
+				"towerIconLarge": "town-screen/rampart/icons/towerLarge"
+			},
+			"buildingsIcons": "town-screen/rampart/ALTHALLRMT.DEF",
+			"hallBackground": "town-screen/rampart/rampartHallBg.BMP",
+			"horde": [
+				1,
+				5
+			],
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special1",
+						"special2"
+					]
+				],
+				[
+					[
+						"special3"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"centaur",
+					"centaurCaptain"
+				],
+				[
+					"dwarf",
+					"battleDwarf"
+				],
+				[
+					"woodElf",
+					"grandElf"
+				],
+				[
+					"mdtDryad",
+					"mdtOakDryad"
+				],
+				[
+					"pegasus",
+					"silverPegasus"
+				],
+				[
+					"dendroidGuard",
+					"dendroidSoldier"
+				],
+				[
+					"unicorn",
+					"warUnicorn"
+				],
+				[
+					"greenDragon",
+					"goldDragon"
+				]
+			],
+			"structures": {
+				"dwellingLvl4": {
+					"border": "town-screen/rampart/buildings-border/TONalt1.bmp",
+					"area": "town-screen/rampart/buildings-area/TZNalt1.bmp",
+					"animation": "town-screen/rampart/DWRMT4ALT.def",
+					"x": 322,
+					"y": 60,
+					"z": 0
+				},
+				"dwellingUpLvl4": {
+					"border": "town-screen/rampart/buildings-border/TONaup1.bmp",
+					"area": "town-screen/rampart/buildings-area/TZNaup1.bmp",
+					"animation": "town-screen/rampart/DWRMT4UPALT.def",
+					"x": 322,
+					"y": 60,
+					"z": 0
+				},
+				"dwellingLvl5": {
+					"animation": "town-screen/rampart/TBRMDW_3.def",
+					"border": "town-screen/rampart/buildings-border/TORPEG1A.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRPEG1A.PCX",
+					"x": 255,
+					"y": 68,
+					"z": -1
+				},
+				"dwellingUpLvl5": {
+					"animation": "town-screen/rampart/TBRMUP_3.def",
+					"border": "town-screen/rampart/buildings-border/TORPEG2A.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRPEG2A.PCX",
+					"x": 255,
+					"y": 23,
+					"z": -1
+				},
+				"dwellingLvl6": {
+					"animation": "town-screen/rampart/TBRMDW_4.def",
+					"border": "town-screen/rampart/buildings-border/TORTRE1.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRTRE1.PCX",
+					"x": 68,
+					"y": 146,
+					"z": -1
+				},
+				"dwellingUpLvl6": {
+					"animation": "town-screen/rampart/TBRMUP_4.def",
+					"border": "town-screen/rampart/buildings-border/TORTRE2.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRTRE2.PCX",
+					"x": 63,
+					"y": 146,
+					"z": -1
+				},
+				"dwellingLvl7": {
+					"animation": "town-screen/rampart/TBRMDW_5.def",
+					"border": "town-screen/rampart/buildings-border/TORUNI1.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRUNI1.PCX",
+					"x": 394,
+					"y": 90,
+					"z": -2
+				},
+				"dwellingUpLvl7": {
+					"animation": "town-screen/rampart/TBRMUP_5.def",
+					"border": "town-screen/rampart/buildings-border/TORUNI2.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRUNI2.PCX",
+					"x": 394,
+					"y": 90,
+					"z": -2
+				},
+				"dwellingLvl8": {
+					"animation": "town-screen/rampart/TBRMDW_6.def",
+					"border": "town-screen/rampart/buildings-border/TORDR1AA.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRDR1AA.PCX",
+					"x": 502,
+					"y": 27,
+					"z": -5
+				},
+				"dwellingUpLvl8": {
+					"animation": "town-screen/rampart/TBRMUP_6.def",
+					"border": "town-screen/rampart/buildings-border/TORDR2AA.PCX",
+					"area": "town-screen/rampart/buildings-area/TZRDR2AA.PCX",
+					"x": 502,
+					"y": 5,
+					"z": -5
+				},
+				"horde2": {
+					"x": 47,
+					"y": 142,
+					"z": -1,
+					"hidden": true
+				},
+				"horde2Upgr": {
+					"x": 47,
+					"y": 142,
+					"z": -1,
+					"hidden": true,
+					"builds": "horde2"
+				},
+				"mageGuild1": {
+					"x": 460,
+					"y": 200,
+					"z": -1
+				},
+				"mageGuild2": {
+					"x": 444,
+					"y": 178,
+					"z": -1
+				},
+				"mageGuild3": {
+					"x": 424,
+					"y": 153,
+					"z": -1
+				},
+				"mageGuild4": {
+					"x": 412,
+					"y": 129,
+					"z": -1
+				},
+				"mageGuild5": {
+					"x": 390,
+					"y": 104,
+					"z": -1
+				}
+			},
+			"buildings": {
+				"dwellingLvl4": {
+					"name": "Treehouse",
+					"description": "The Treehouse allows you to recruit Dryads.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 1,
+						"crystal": 1,
+						"gems": 1,
+						"sulfur": 1
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingUpLvl1": {
+					"name": "Upg. Centaur Stables",
+					"description": "The Upg. Centaur Stables allows you to recruit Centaur Captains."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Dwarf Cottage",
+					"description": "The Upg. Dwarf Cottage allows you to recruit Battle Dwarves."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Homestead",
+					"description": "The Upg. Homestead allows you to recruit Grand Elves."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Treehouse",
+					"description": "The Upg. Treehouse allows you to recruit Oak Dryads.",
+					"cost": {
+						"gold": 1000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 1,
+						"crystal": 1,
+						"gems": 1,
+						"sulfur": 1
+					},
+					"upgrades": "dwellingLvl4"
+				},
+				"dwellingLvl5": {
+					"name": "Enchanted Spring",
+					"description": "The Enchanted Spring allows you to recruit Pegasi.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"blacksmith"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Enchanted Spring",
+					"description": "The Upg. Enchanted Spring allows you to recruit Silver Pegasi.",
+					"cost": {
+						"gold": 2000,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Dendroid Arches",
+					"description": "The Dendroid Arches allow you to recruit Dendroid Guards.",
+					"cost": {
+						"gold": 4000,
+						"wood": 15,
+						"ore": 0,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Dendroid Arches",
+					"description": "The Upg. Dendroid Arches allow you to recruit Dendroid Soldiers.",
+					"cost": {
+						"gold": 3000,
+						"wood": 10,
+						"ore": 0,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Unicorn Glade",
+					"description": "The Unicorn Glade allows you to recruit Unicorns.",
+					"cost": {
+						"gold": 10000,
+						"wood": 10,
+						"ore": 0,
+						"mercury": 0,
+						"crystal": 10,
+						"gems": 10,
+						"sulfur": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Unicorn Glade",
+					"description": "The Upg. Unicorn Glade allows you to recruit War Unicorns.",
+					"cost": {
+						"gold": 15000,
+						"wood": 10,
+						"ore": 0,
+						"mercury": 0,
+						"crystal": 15,
+						"gems": 5,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingLvl8": {
+					"name": "Dragon Cliffs",
+					"description": "The Dragon Cliffs allow you to recruit Green Dragons.",
+					"cost": {
+						"gold": 10000,
+						"ore": 30,
+						"crystal": 20
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						],
+						[
+							"mageGuild2"
+						]
+					]
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Dragon Cliffs",
+					"description": "The Upg. Dragon Cliffs allow you to recruit Gold Dragons.",
+					"cost": {
+						"gold": 20000,
+						"ore": 30,
+						"crystal": 20
+					},
+					"upgrades": "dwellingLvl8"
+				},
+				"horde2": {
+					"name": "Dendroid Saplings",
+					"description": "Increases the growth of Dendroids by 1 per week.",
+					"cost": {
+						"gold": 3000,
+						"wood": 5
+					},
+					"upgrades" : "dwellingLvl6",
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					]
+				},
+				"horde2Upgr": {
+					"upgrades" : "dwellingUpLvl6",
+					"requires": [
+						"horde2"
+					]
+				},
+				"grail": {
+					"bonuses": [
+						{
+							"type": "LUCK",
+							"val": 2,
+							"propagator": "PLAYER",
+							"sourceType": "TOWN_BUILDING",
+							"sourceID": "grail"
+						}
+					]
+				}
+			}
+		}
+	}
+}

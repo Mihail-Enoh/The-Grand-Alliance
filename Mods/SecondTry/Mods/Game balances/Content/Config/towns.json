@@ -1,0 +1,406 @@
+{
+    "core:castle": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "grandalliance.hota.factory:factory": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "grandalliance.hota.bulwark:bulwark": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                },
+                "dwellingLvl7": {
+                    "cost": {
+                        "gold": 15000,
+                        "wood": 20,
+                        "ore": 20,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "crystal": 5,
+                        "gems": 15
+                    }
+                },
+                "dwellingUpLvl7": {
+                    "cost": {
+                        "gold": 20000,
+                        "wood": 15,
+                        "ore": 15,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "crystal": 5,
+                        "gems": 20
+                    }
+                }
+            }
+        }
+    },
+    "grandalliance.hota.cove:cove": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                },
+                "dwellingLvl7": {
+                    "cost": {
+                        "gold": 20000,
+                        "wood": 0,
+                        "ore": 0,
+                        "mercury": 10,
+                        "sulfur": 15,
+                        "crystal": 10,
+                        "gems": 10
+                    }
+                },
+                "dwellingUpLvl7": {
+                    "cost": {
+                        "gold": 20000,
+                        "wood": 0,
+                        "ore": 0,
+                        "mercury": 10,
+                        "sulfur": 20,
+                        "crystal": 10,
+                        "gems": 10
+                    }
+                }
+            }
+        }
+    },
+    "core:tower": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:inferno": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:rampart": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:dungeon": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:necropolis": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:stronghold": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:fortress": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    },
+    "core:conflux": {
+        "town": {
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost":{
+                        "gold":3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost":{
+                        "gold":6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                }
+            }
+        }
+    }
+}

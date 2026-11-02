@@ -1,0 +1,71 @@
+{
+        "hated": {
+                "type": "combat",
+                "name": "Spiteful Wounds",
+                "school": {
+                        "air": false,
+                        "earth": false,
+                        "fire": false,
+                        "water": false
+                },
+                "targetType": "CREATURE",
+                "level": 0,
+                "power": 10,
+                "defaultGainChance": 0,
+                "gainChance": {},
+                "animation": {},
+                "flags": {
+                        "negative": true,
+                        "special": true,
+                        "nonMagical": true
+                },
+                "targetCondition": {},
+                "sounds": {},
+                "graphics": {
+                        "iconBook": "spells/hateSpike/null",
+                        "iconScroll": "spells/hateSpike/null",
+                        "iconScenarioBonus": "spells/hateSpike/null",
+                        "iconEffect": "spells/hateSpike/hate.png"
+                },
+                "levels": {
+                        "base": {
+                                "range": "0",
+                                "power": 10,
+                                "cost": 0,
+                                "targetModifier": {
+                                        "smart": true
+                                },
+                                "battleEffects": {
+                                        "hatedDebuff": {
+                                                "type": "core:timed",
+                                                "turns": 2,
+                                                "cumulative": false,
+                                                "bonus": {
+                                                        "reduceAttack": {
+                                                                "type": "PRIMARY_SKILL",
+                                                                "subtype": "attack",
+                                                                "val": -1,
+                                                                "valueType": "ADDITIVE_VALUE",
+                                                                "duration": "N_TURNS",
+                                                                "turns": 2
+                                                        },
+                                                        "reduceDefense": {
+                                                                "type": "PRIMARY_SKILL",
+                                                                "subtype": "defence",
+                                                                "val": -1,
+                                                                "valueType": "ADDITIVE_VALUE",
+                                                                "duration": "N_TURNS",
+                                                                "turns": 2
+                                                        }
+                                                }
+                                        }
+                                },
+                                "description": "{Spiteful Wounds}\r\nThese vicious thorns of pure evil reduce the Attack and Defense by 1 for 2 rounds."
+                        },
+                        "none": {},
+                        "basic": {},
+                        "advanced": {},
+                        "expert": {}
+                }
+        }
+}

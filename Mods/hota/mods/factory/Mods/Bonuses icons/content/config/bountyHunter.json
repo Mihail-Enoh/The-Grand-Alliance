@@ -1,0 +1,12 @@
+{
+	"grandalliance.hota.factory:bountyHunter" : {
+		"abilities" : {
+			"unlimitedRetaliation" : {
+				"icon" : "bonuses/e_retail2_bountyhunter.png"
+			},
+			"firstStrike" : {
+				"icon" : "bonuses/firststrike_ranged.png"
+			}
+		}
+	}
+}

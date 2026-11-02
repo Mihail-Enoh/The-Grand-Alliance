@@ -1,0 +1,99 @@
+{
+	"grandalliance.highlands-town:a_daive" : {
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Defenders or Mountain Guards by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:b_richmond" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases Speed of any Snow Falcons or Blizzard Falcons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:c_harrigan" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Javeliners or Harpooners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:f_gestalt" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Brutes or Berserks by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:h_craighill" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Gladiators or Flame Gladiators by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:d_austin" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Armored Cannon's Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		}
+	},
+	"grandalliance.highlands-town:k_cynthia" : {
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	},
+	"grandalliance.highlands-town:l_astride" : {
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Fireball with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	},
+	"grandalliance.highlands-town:o_melisa" : {
+		"specialty" : {
+			"bonuses" : {
+				"fireShield" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts FireShield with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	},
+	"grandalliance.highlands-town:11bulwarkSylphine" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of any Snow Witches or Ice Sorceresses by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+			}
+		}
+	}
+}

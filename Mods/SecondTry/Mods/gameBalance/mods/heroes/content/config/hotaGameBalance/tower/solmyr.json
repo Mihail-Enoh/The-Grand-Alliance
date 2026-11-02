@@ -1,0 +1,17 @@
+{
+	"core:solmyr" : {
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"name" : "Chain Lightning",
+				"description" : "Casts Chain Lightning with Damage increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"mdtCharles" : {
+		"class" : "knight",
+		"female" : false,
+		"special": true,
+		"images" : {
+			"specialtySmall" : "heroes/castle/charles_spec-small.bmp",
+			"specialtyLarge" : "heroes/castle/charles_spec-big.bmp",
+			"large" : "heroes/castle/charles_portrait-big.bmp",
+			"small" : "heroes/castle/charles_portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "tactics",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "mdtTemplar"
+		},
+		"texts" : {
+			"name" : "Charles",
+			"biography" : "For many years, Sir Charles had trained Paladins in Steadwick, but gave up being a tutor and started his career as a Dragon Hunter in Jadame. However, when the war had come, he came back to Erathia and began fighting for Morgan Kendal as a commander.",
+			"specialty" : {
+				"name" : "Templars",
+				"description" : "Increases the speed of any Templars or Paladins by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Templars"
+			}
+		}
+	}
+}

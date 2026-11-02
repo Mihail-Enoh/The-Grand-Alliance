@@ -1,0 +1,52 @@
+{
+	"eyzeaDemoniac": {
+		"class": "demoniac",
+		"female": true,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/inferno/eyzea_spec-small.bmp",
+			"specialtyLarge": "heroes/inferno/eyzea_spec-large.bmp",
+			"large": "heroes/inferno/eyzea_portrait-large.bmp",
+			"small": "heroes/inferno/eyzea_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "gog",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "hexes",
+				"level": "basic"
+			},
+			{
+				"skill": "intimidation",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "mdtSukkub"
+		},
+		"texts": {
+			"name": "Eyzea",
+			"biography": "Eyzea presents herself as the real mother of Xeron, commander of the Sons of Erebus. When Eeofol lost the War of Armageddon's Blade, she had to hide underground, fearing for her life. Now she awaits the moment to return to the surface and lead the Kreegan army to their final victory.",
+			"specialty": {
+				"name": "Succubi",
+				"description": "Increases the Speed of any Succubi and Abyssal Succubi by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip": "Creature Bonus: Succubi"
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"mdtTemplar": {
+		"name": {
+			"singular": "Templar",
+			"plural": "Templars"
+		},
+		"faction": "castle",
+		"level": 7,
+		"upgrades": [
+			"mdtPaladin"
+		],
+		"cost": {
+			"gold": 2200
+		},
+		"speed": 7,
+		"hitPoints": 150,
+		"attack": 18,
+		"defense": 17,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"fightValue": 3046,
+		"aiValue": 4000,
+		"advMapAmount": {
+			"min": 4,
+			"max": 10
+		},
+		"growth": 1,
+		"abilities": {
+			"armyLuck": {
+				"type": "LUCK",
+				"val": 1,
+				"propagator": "ARMY",
+				"stacking": "Templars",
+				"description": "{Increases alies luck}\nTemplars increase allies Luck by one.",
+				"icon": "icons/e_luck.png"
+			},
+			"casts": {
+				"type": "CASTS",
+				"val": 1
+			},
+			"noCastByDefault": {
+				"type": "NO_SPELLCAST_BY_DEFAULT"
+			},
+			"castsDestroyUndead": {
+				"type": "SPELLCASTER",
+				"subtype": "spell.destroyUndead",
+				"val": 1,
+				"icon": "icons/destroyundead3.png"
+			},
+			"destroyPower": {
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype": "spell.destroyUndead",
+				"val": 50
+			},
+			"KING_2": {
+				"type": "KING",
+				"val": 2
+			}
+		},
+		"graphics": {
+			"iconLarge": "creatures/castle/iconsBig/templarBig.bmp",
+			"iconSmall": "creatures/castle/iconsSmall/templarSmall.bmp",
+			"map": "creatures/castle/map/CTmplrmap.def",
+			"animation": "creatures/castle/battle/CTemplar.def",
+			"animationTime": {
+				"attack": 1,
+				"idle": 10,
+				"walk": 0.8
+			},
+			"timeBetweenFidgets": 1
+		},
+		"sound": {
+			"attack": "creatures/castle/templar/TempATTK.wav",
+			"defend": "creatures/castle/templar/TempDFND.wav",
+			"killed": "creatures/castle/templar/TempDEAD.wav",
+			"move": "creatures/castle/templar/TempMOVE.wav",
+			"wince": "creatures/castle/templar/TempWNCE.wav"
+		}
+	}
+}

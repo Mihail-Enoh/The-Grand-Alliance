@@ -1,0 +1,54 @@
+{
+	"m_mildura": {
+		"class": "bpyromancer",
+		"female": true,
+		"texts": {
+			"name": "Mildura",
+			"biography": "Spending her early years in an Erathian monastery as an assistant to Sanya the cleric, Mildura returned home to find her peaceful demeanor at odds with her fiercely martial dwarven kin. Refusing to abandon the truths she had learned, she focused her teachings on the noble Thanes. By combining Erathian discipline with dwarven resilience, she tempered their raw fury, turning them into honorable and unwavering protectors of the Highlands.",
+			"specialty": {
+				"description": "Increases the Speed of any Thanes or Patriarches by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"tooltip": "Creature bonus: Thanes",
+				"name": "Thanes"
+			}
+		},
+		"images": {
+			"specialtySmall": "highlands/heroes/mildura/skill32-13",
+			"specialtyLarge": "highlands/heroes/mildura/skill13",
+			"large": "highlands/heroes/mildura/HPL004PY",
+			"small": "highlands/heroes/mildura/HPS004PY"
+		},
+		"spellbook": [
+			"cure"
+		],
+		"army": [
+			{
+				"creature": "bdefender",
+				"max": 20,
+				"min": 15
+			},
+			{
+				"creature": "bjaveliner",
+				"max": 8,
+				"min": 5
+			},
+			{
+				"creature": "bbrute",
+				"max": 4,
+				"min": 2
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "eagleEye"
+			}
+		],
+		"specialty": {
+			"creature": "bmammoth"
+		}
+	}
+}

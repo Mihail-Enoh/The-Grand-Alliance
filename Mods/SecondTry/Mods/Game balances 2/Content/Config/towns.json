@@ -1,0 +1,510 @@
+{
+    "grandalliance.hota.bulwark:bulwark": {
+        "town": {
+            "hallBackground": "TPTHBWFG.png",
+            "buildingsIcons": "townhallBulwark/bulwarktown.def",
+            "hallSlots": [
+                [
+                    [
+                        "villageHall",
+                        "townHall",
+                        "cityHall",
+                        "capitol"
+                    ],
+                    [
+                        "fort",
+                        "citadel",
+                        "castle"
+                    ],
+                    [
+                        "tavern"
+                    ],
+                    [
+                        "blacksmith"
+                    ]
+                ],
+                [
+                    [
+                        "marketplace",
+                        "resourceSilo"
+                    ],
+                    [
+                        "mageGuild1",
+                        "mageGuild2",
+                        "mageGuild3",
+                        "mageGuild4"
+                    ],
+                    [
+                        "special4"
+                    ],
+                    [
+                        "shipyard"
+                    ]
+                ],
+                [
+                    [
+                        "special1"
+                    ],
+                    [
+                        "special2",
+                        "special3"
+                    ],
+                    [
+                        "horde1",
+                        "horde1Upgr"
+                    ]
+                ],
+                [
+                    [
+                        "dwellingLvl1",
+                        "dwellingUpLvl1"
+                    ],
+                    [
+                        "dwellingLvl2",
+                        "dwellingUpLvl2"
+                    ],
+                    [
+                        "dwellingLvl3",
+                        "dwellingUpLvl3"
+                    ],
+                    [
+                        "dwellingLvl4",
+                        "dwellingUpLvl4"
+                    ]
+                ],
+                [
+                    [
+                        "dwellingLvl5",
+                        "dwellingUpLvl5"
+                    ],
+                    [
+                        "dwellingLvl6",
+                        "dwellingUpLvl6"
+                    ],
+                    [
+                        "dwellingLvl7",
+                        "dwellingUpLvl7"
+                    ],
+                    [
+                        "dwellingLvl8",
+                        "dwellingUpLvl8"
+                    ]
+                ]
+            ],
+            "creatures": [
+                [
+                    "kobold",
+                    "koboldForeman"
+                ],
+                [
+                    "mountainRam",
+                    "argali"
+                ],
+                [
+                    "snowElf",
+                    "steelElf"
+                ],
+                [
+                    "yeti",
+                    "yetiRunemaster"
+                ],
+                [
+                    "shaman",
+                    "greatShaman"
+                ],
+                [
+                    "mammoth",
+                    "warMammoth"
+                ],
+                [
+                    "bulwarkEXT1",
+                    "bulwarkEXT2"
+                ],
+                [
+                    "jotunn",
+                    "jotunnWarlord"
+                ]
+            ],
+            "buildings": {
+                "townHall": {
+                    "produce": {
+                        "gold": 1500
+                    },
+                    "cost": {
+                        "gold": 3000
+                    },
+                    "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day."
+                },
+                "cityHall": {
+                    "produce": {
+                        "gold": 3000
+                    },
+                    "cost": {
+                        "gold": 6000
+                    },
+                    "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day."
+                },
+                "capitol": {
+                    "produce": {
+                        "gold": 5000
+                    },
+                    "description": "The Capitol earns your kingdom 5000 gold per day."
+                },
+                "dwellingLvl6": {
+                    "requires": [
+                        "allOf",
+                        [
+                            "dwellingLvl4"
+                        ]
+                    ]
+                },
+                "dwellingLvl8": {
+                    "name": "Frosthome",
+                    "description": "The Frosthome allows you to recruit Jotunns.",
+                    "cost": {
+                        "gold": 10000,
+                        "wood": 10,
+                        "ore": 10,
+                        "mercury": 0,
+                        "sulfur": 0,
+                        "crystal": 0,
+                        "gems": 10
+                    },
+                    "requires": [
+                        "allOf",
+                        [
+                            "dwellingLvl6"
+                        ]
+                    ]
+                },
+                "dwellingUpLvl8": {
+                    "name": "Upg. Frosthome",
+                    "description": "The Upg. Frosthome allows you to recruit Jotunn Warlords.",
+                    "cost": {
+                        "gold": 15000,
+                        "wood": 15,
+                        "ore": 15,
+                        "mercury": 0,
+                        "sulfur": 0,
+                        "crystal": 0,
+                        "gems": 15
+                    },
+                    "requires": [
+                        "allOf",
+                        [
+                            "dwellingLvl6"
+                        ]
+                    ],
+                    "upgrades": "dwellingLvl8"
+                },
+                "dwellingLvl7": {
+                    "name": "Astral Spire",
+                    "description": "The Astral Spire allows you to recruit Snow Witches.",
+                    "cost": {
+                        "gold": 10000,
+                        "crystal": 5,
+                        "gems": 5,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "wood": 10,
+                        "ore": 10
+                    },
+                    "requires": [
+                        "allOf",
+                        [
+                            "dwellingLvl5"
+                        ],
+                        [
+                            "special4"
+                        ]
+                    ]
+                },
+                "dwellingUpLvl7": {
+                    "name": "Upg. Astral Spire",
+                    "description": "The Upg. Astral Spire allows you to recruit Ice Sorceresses.",
+                    "cost": {
+                        "gold": 15000,
+                        "crystal": 5,
+                        "gems": 5,
+                        "mercury": 5,
+                        "sulfur": 5,
+                        "wood": 5,
+                        "ore": 5
+                    },
+                    "upgrades": "dwellingLvl7"
+                },
+                "special2": {
+                    "name": "Sieidi of Runes",
+                    "description": "The Sieidi of the Runes allows local heroes to learn Runes secondary skill.",
+                    "cost": {
+                        "gold": 1000,
+                        "ore": 5,
+                        "crystal": 2,
+                        "gems": 2
+                    },
+                    "manualHeroVisit": true,
+                    "configuration": {
+                        "visitMode": "limiter",
+                        "visitLimiter": {
+                            "secondary": {
+                                "runes": 1
+                            }
+                        },
+                        "onVisitedMessage": "Your hero has already mastered the lore of the Runes.",
+                        "selectMode": "selectFirst",
+                        "canRefuse": true,
+                        "rewards": [
+                            {
+                                "limiter": {
+                                    "anyOf": [
+                                        {
+                                            "heroClasses": [
+                                                "elder",
+                                                "chieftain",
+                                                "bpyromancer",
+                                                "bwarlord"
+                                            ],
+                                            "canLearnSkills": true
+                                        },
+                                        {
+                                            "secondary": {
+                                                "scholar": 1
+                                            },
+                                            "canLearnSkills": true
+                                        }
+                                    ]
+                                },
+                                "message": "Do you want your hero to master the lore of the Runes?",
+                                "secondary": [
+                                    {
+                                        "type": "runes",
+                                        "amount": 1
+                                    }
+                                ]
+                            }
+                        ],
+                        "onEmpty": [
+                            {
+                                "limiter": {
+                                    "anyOf": [
+                                        {
+                                            "heroClasses": [
+                                                "elder",
+                                                "chieftain",
+                                                "bpyromancer",
+                                                "bwarlord"
+                                            ]
+                                        },
+                                        {
+                                            "secondary": {
+                                                "scholar": 1
+                                            }
+                                        }
+                                    ]
+                                },
+                                "message": "Your hero attempts to master the lore of the Runes in vain. Already possessing many skills, your hero is unable to learn anything new."
+                            },
+                            {
+                                "message": "Your hero attempts to master the lore of the Runes before realizing they are unable to read them. It appears as though this art is only accessible to locals and competent scholars."
+                            }
+                        ]
+                    }
+                },
+                "special4": {
+                    "description": "Runestone Shop sells eight categories of Runestones, but you can only buy once per day.",
+                    "name": "Runestone Shop",
+                    "manualHeroVisit": true,
+                    "configuration": {
+                        "rewards": [
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact01"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact02"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact03"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3,
+                                        "ore": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3,
+                                    "ore": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact04"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3,
+                                        "ore": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3,
+                                    "ore": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact05"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "wood": 3,
+                                        "ore": 3
+                                    }
+                                },
+                                "resources": {
+                                    "wood": -3,
+                                    "ore": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact06"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "crystal": 3,
+                                        "gems": 3
+                                    }
+                                },
+                                "resources": {
+                                    "crystal": -3,
+                                    "gems": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact07"
+                                ]
+                            },
+                            {
+                                "limiter": {
+                                    "resources": {
+                                        "crystal": 3,
+                                        "gems": 3
+                                    }
+                                },
+                                "resources": {
+                                    "crystal": -3,
+                                    "gems": -3
+                                },
+                                "artifacts": [
+                                    "runeArtifact08"
+                                ]
+                            }
+                        ],
+                        "onSelectMessage": "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}: Price is 3 wood and 3 ores\n{Expert Runes}: Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
+                        "onVisitedMessage": "{Runestone Shop}\r\n\r\n{Basic Runes}: Price is 3 wood\n{Advanced Runes}: Price is 3 wood and 3 ores\n{Expert Runes}: Price is 3 crystal and 3 gems\nOnly one can be made per day. Do you need to buy one?",
+                        "onEmptyMessage": "{Runestone Shop}\r\n\r\nYour visit pleased the runemasters, but they refused to make runestones for you when they heard that you hadn't brought enough resources.",
+                        "visitMode": "once",
+                        "resetParameters": {
+                            "period": 1,
+                            "visitors": true,
+                            "rewards": true
+                        },
+                        "canRefuse": true,
+                        "selectMode": "selectPlayer"
+                    },
+                    "cost": {
+                        "crystal": 5,
+                        "gold": 1000
+                    },
+                    "requires": [
+                        "allOf",
+                        [
+                            "special2"
+                        ]
+                    ]
+                },
+                "horde1": {
+                    "cost": {
+                        "gold": 3000,
+                        "ore": 5
+                    }
+                }
+            },
+            "structures": {
+                "special4": {
+                    "animation": "highlands/town-screen/buildings/TBBuSpc4",
+                    "area": "highlands/town-screen/buildings-area/TZBuSpc4",
+                    "border": "highlands/town-screen/buildings-border/TOBuSpc4",
+                    "x": 0,
+                    "y": 0,
+                    "z": -3
+                },
+                "dwellingLvl7": {
+                    "animation": "highlands/town-screen/buildings/Star_Tower",
+                    "area": "highlands/town-screen/buildings-area/Star_Tower_Area",
+                    "border": "highlands/town-screen/buildings-border/Star_Tower_Border",
+                    "x": 500,
+                    "y": 0,
+                    "z": -5
+                },
+                "dwellingUpLvl7": {
+                    "animation": "highlands/town-screen/buildings/Upg_Star_Tower",
+                    "area": "highlands/town-screen/buildings-area/Upg_Star_Tower_Area",
+                    "border": "highlands/town-screen/buildings-border/Upg_Star_Tower_Border",
+                    "x": 490,
+                    "y": 0,
+                    "z": -5
+                },
+                "dwellingLvl8": {
+                    "animation": "hota/bulwark/town/buildings/TBBuDw_6",
+                    "area": "hota/bulwark/town/area/dwellingLvl7",
+                    "border": "hota/bulwark/town/border/dwellingLvl7",
+                    "campaignBonus": "hota/bulwark/town/icons/campaignBonuses/dwellingLvl7",
+                    "x": 380,
+                    "y": 35,
+                    "z": 1
+                },
+                "dwellingUpLvl8": {
+                    "animation": "hota/bulwark/town/buildings/TBBuUp_6",
+                    "area": "hota/bulwark/town/area/dwellingUpLvl7",
+                    "border": "hota/bulwark/town/border/dwellingUpLvl7",
+                    "campaignBonus": "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl7",
+                    "x": 380,
+                    "y": 13,
+                    "z": 1
+                }
+            }
+        }
+    }
+}

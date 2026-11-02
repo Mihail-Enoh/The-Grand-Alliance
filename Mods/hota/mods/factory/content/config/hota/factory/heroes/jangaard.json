@@ -1,0 +1,52 @@
+{
+	"jangaard" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
+			"name" : "Jangaard",
+			"biography" : "Jangaard, inherently cruel, was once feared throughout Raven Shore's pirate crew. He now appears to have joined Kastore's guard, serving his ruthless master. On the battlefield, Jangaard always delivers a surprise attack.",
+			"specialty" : {
+				"description" : "Increases the Speed of any Gunslingers or Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Gunslingers",
+				"name" : "Gunslingers"
+			}
+		},
+
+		"images" : {
+			"large" : "hota/factory/heroes/jangaard/icons/portraitLarge.png",
+			"small" : "hota/factory/heroes/jangaard/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/factory/heroes/tancred/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/tancred/icons/specialtySmall.png"
+		},
+
+		"army" : [
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 9,
+				"min" : 7
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			}
+		],
+
+		"specialty" : {
+			"creature" : "grandalliance.hota.factory:gunslinger"
+		}
+	}
+}

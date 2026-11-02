@@ -1,0 +1,1220 @@
+{
+        "core:giant": {
+                "abilities": {
+                        "KING_3": {
+                                "type": "KING",
+                                "val": 2
+                        }
+                },
+                "attack": 18,
+                "defense": 16,
+                "cost": {
+                        "gold": 2200
+                },
+                "hitPoints": 170
+        },
+        "core:titan": {
+                "cost": {
+                        "gold": 4500,
+                        "gems": 2
+                },
+                "attack": 25,
+                "defense": 25
+        },
+        "core:champion": {
+                "cost": {
+                        "gold": 1200
+                },
+                "speed": 10
+        },
+        "core:cavalier": {
+                "speed": 8
+        },
+        "core:zealot": {
+                "damage": {
+                        "min": 11,
+                        "max": 13
+                },
+                "cost": {
+                        "gold": 500
+                }
+        },
+        "core:grandElf": {
+                "damage": {
+                        "min": 4,
+                        "max": 6
+                },
+                "cost": {
+                        "gold": 275
+                }
+        },
+        "core:warUnicorn": {
+                "level": 7,
+                "cost": {
+                        "gold": 3800,
+                        "crystal": 1
+                },
+                "attack": 25,
+                "defense": 24,
+                "speed": 10,
+                "hitPoints": 210,
+                "growth": 1,
+                "damage": {
+                        "min": 35,
+                        "max": 45
+                },
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "abilities": {
+                        "blinds": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.blind",
+                                "val": 40,
+                                "addInfo": [
+                                        3,
+                                        0
+                                ]
+                        },
+                        "spellResistAura": {
+                                "type": "SPELL_RESISTANCE_AURA",
+                                "val": 40
+                        },
+                        "spellImmunity": {
+                                "type": "LEVEL_SPELL_IMMUNITY",
+                                "val": 2
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        }
+                },
+                "aiValue": 6997,
+                "fightValue": 5615
+        },
+        "core:unicorn": {
+                "level": 7,
+                "cost": {
+                        "gold": 2000
+                },
+                "attack": 17,
+                "defense": 16,
+                "speed": 8,
+                "hitPoints": 150,
+                "growth": 1,
+                "abilities": {
+                        "blinds": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.blind",
+                                "val": 30,
+                                "addInfo": [
+                                        3,
+                                        0
+                                ]
+                        },
+                        "spellResistAura": {
+                                "type": "SPELL_RESISTANCE_AURA",
+                                "val": 30
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        },
+                        "spellImmunity": {
+                                "type": "LEVEL_SPELL_IMMUNITY",
+                                "val": 2
+                        }
+                },
+                "damage": {
+                        "min": 35,
+                        "max": 45
+                },
+                "advMapAmount": {
+                        "min": 4,
+                        "max": 10
+                },
+                "aiValue": 4181,
+                "fightValue": 2475
+        },
+        "core:dendroidGuard": {
+                "level": 6,
+                "cost": {
+                        "gold": 900
+                },
+                "attack": 14,
+                "defense": 16,
+                "speed": 5,
+                "hitPoints": 90,
+                "horde": 1,
+                "growth": 2,
+                "damage": {
+                        "min": 16,
+                        "max": 20
+                },
+                "advMapAmount": {
+                        "min": 5,
+                        "max": 12
+                },
+                "aiValue": 1494,
+                "fightValue": 1381
+        },
+        "core:dendroidSoldier": {
+                "level": 6,
+                "cost": {
+                        "gold": 1000
+                },
+                "attack": 14,
+                "defense": 18,
+                "speed": 6,
+                "hitPoints": 100,
+                "horde": 1,
+                "growth": 2,
+                "damage": {
+                        "min": 16,
+                        "max": 22
+                },
+                "advMapAmount": {
+                        "min": 5,
+                        "max": 10
+                },
+                "aiValue": 1655,
+                "fightValue": 1527
+        },
+        "core:silverPegasus": {
+                "level": 5,
+                "cost": {
+                        "gold": 550
+                },
+                "attack": 14,
+                "defense": 14,
+                "speed": 13,
+                "hitPoints": 40,
+                "growth": 3,
+                "damage": {
+                        "min": 11,
+                        "max": 13
+                },
+                "advMapAmount": {
+                        "min": 8,
+                        "max": 12
+                },
+                "aiValue": 964,
+                "fightValue": 801
+        },
+        "core:pegasus": {
+                "level": 5,
+                "cost": {
+                        "gold": 450
+                },
+                "attack": 14,
+                "defense": 12,
+                "speed": 9,
+                "hitPoints": 40,
+                "growth": 3,
+                "damage": {
+                        "min": 9,
+                        "max": 11
+                },
+                "advMapAmount": {
+                        "min": 8,
+                        "max": 16
+                },
+                "aiValue": 793,
+                "fightValue": 648
+        },
+        "core:minotaur": {
+                "level": 6,
+                "cost": {
+                        "gold": 1000
+                },
+                "attack": 15,
+                "defense": 15,
+                "speed": 7,
+                "hitPoints": 110,
+                "growth": 2,
+                "damage": {
+                        "min": 20,
+                        "max": 22
+                },
+                "abilities": {
+                        "raisesMorale": {
+                                "type": "MORALE",
+                                "val": 1,
+                                "stacking": "Minotaurs",
+                                "description": "{Warrior's Pride}\nMinotaurs always have their morale increased by one."
+                        }
+                },
+                "aiValue": 1694,
+                "fightValue": 1468,
+                "advMapAmount": {
+                        "min": 5,
+                        "max": 12
+                }
+        },
+        "core:minotaurKing": {
+                "level": 6,
+                "cost": {
+                        "gold": 1300
+                },
+                "attack": 17,
+                "defense": 15,
+                "speed": 9,
+                "hitPoints": 110,
+                "growth": 2,
+                "damage": {
+                        "min": 22,
+                        "max": 24
+                },
+                "abilities": {
+                        "raisesMorale": {
+                                "type": "MORALE",
+                                "val": 2,
+                                "stacking": "Minotaur Kings",
+                                "description": "{King's Pride}\nMinotaur Kings always have their morale increased by two."
+                        }
+                },
+                "advMapAmount": {
+                        "min": 5,
+                        "max": 10
+                },
+                "aiValue": 1903,
+                "fightValue": 1760
+        },
+        "core:manticore": {
+                "level": 7,
+                "cost": {
+                        "gold": 2000
+                },
+                "attack": 18,
+                "defense": 16,
+                "speed": 9,
+                "hitPoints": 160,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 40
+                },
+                "abilities": {
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "paralize": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.paralyze",
+                                "val": 30
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        }
+                },
+                "advMapAmount": {
+                        "min": 4,
+                        "max": 10
+                },
+                "aiValue": 4341,
+                "fightValue": 3195
+        },
+        "core:scorpicore": {
+                "cost": {
+                        "gold": 3700,
+                        "sulfur": 1
+                },
+                "attack": 25,
+                "defense": 23,
+                "speed": 12,
+                "hitPoints": 220,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 40
+                },
+                "abilities": {
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "paralize": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.paralyze",
+                                "val": 40
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        }
+                },
+                "level": 7,
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "aiValue": 7004,
+                "fightValue": 5662
+        },
+        "core:redDragon": {
+                "cost": {
+                        "gold": 2500,
+                        "sulfur": 1
+                },
+                "attack": 19,
+                "defense": 19,
+                "speed": 11,
+                "hitPoints": 170,
+                "growth": 1,
+                "damage": {
+                        "min": 40,
+                        "max": 50
+                }
+        },
+        "core:goldDragon": {
+                "cost": {
+                        "gold": 4400,
+                        "crystal": 2
+                },
+                "hitPoints": 250
+        },
+        "core:blackDragon": {
+                "cost": {
+                        "gold": 4400,
+                        "sulfur": 2
+                },
+                "attack": 25,
+                "defense": 25,
+                "speed": 15,
+                "hitPoints": 300,
+                "growth": 1,
+                "damage": {
+                        "min": 40,
+                        "max": 50
+                }
+        },
+        "core:behemoth": {
+                "cost": {
+                        "gold": 1900
+                },
+                "hitPoints": 170
+        },
+        "core:pitLord": {
+                "cost": {
+                        "gold": 600
+                }
+        },
+        "core:ancientBehemoth": {
+                "cost": {
+                        "gold": 3600,
+                        "crystal": 1
+                },
+                "hitPoints": 300
+        },
+        "core:magog": {
+                "abilities": {
+                        "shooter": {
+                                "type": "SHOOTER"
+                        },
+                        "fireball": {
+                                "type": "SPELL_LIKE_ATTACK",
+                                "subtype": "spell.fireballAbility",
+                                "description": "{Spell-Like Attack}\nThis unit attacks using a fireball, dealing damage to the target and all adjacent hexes."
+                        }
+                }
+        },
+        "core:boneDragon": {
+                "cost": {
+                        "gold": 1800,
+                        "mercury": 1
+                },
+                "abilities": {
+                        "undead": {
+                                "type": "UNDEAD"
+                        },
+                        "dragon": {
+                                "type": "DRAGON_NATURE"
+                        },
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "age": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.age",
+                                "val": 30,
+                                "icon": "spells/age.png"
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        }
+                },
+                "aiValue": 3496
+        },
+        "core:ghostDragon": {
+                "cost": {
+                        "gold": 3600,
+                        "mercury": 2
+                },
+                "abilities": {
+                        "undead": {
+                                "type": "UNDEAD"
+                        },
+                        "dragon": {
+                                "type": "DRAGON_NATURE"
+                        },
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "age": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.age",
+                                "val": 60
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        }
+                },
+                "attack": 23,
+                "defense": 21,
+                "aiValue": 5170
+        },
+        "core:blackKnight": {
+                "level": 7,
+                "advMapAmount": {
+                        "min": 4,
+                        "max": 10
+                },
+                "cost": {
+                        "gold": 1900
+                },
+                "attack": 16,
+                "defense": 17,
+                "speed": 9,
+                "hitPoints": 160,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 40
+                },
+                "abilities": {
+                        "KING_2": {
+                                "type": "KING",
+                                "val": 2
+                        },
+                        "undead": {
+                                "type": "UNDEAD"
+                        },
+                        "curses": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.curse",
+                                "val": 20
+                        },
+                        "deathStrike": {
+                                "type": "DOUBLE_DAMAGE_CHANCE",
+                                "val": 20
+                        }
+                },
+                "aiValue": 4207,
+                "fightValue": 3019
+        },
+        "core:dreadKnight": {
+                "level": 7,
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "cost": {
+                        "gold": 3700,
+                        "mercury": 1
+                },
+                "attack": 24,
+                "defense": 25,
+                "speed": 10,
+                "hitPoints": 230,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 40
+                },
+                "abilities": {
+                        "KING_2": {
+                                "type": "KING",
+                                "val": 2
+                        },
+                        "undead": {
+                                "type": "UNDEAD"
+                        },
+                        "curses": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.curse",
+                                "val": 40
+                        },
+                        "deathStrike": {
+                                "type": "DOUBLE_DAMAGE_CHANCE",
+                                "val": 40
+                        }
+                },
+                "aiValue": 6583,
+                "fightValue": 5171
+        },
+        "core:wight": {
+                "abilities": {
+                        "regenerate": {
+                                "type": "HP_REGENERATION",
+                                "val": 40
+                        }
+                }
+        },
+        "core:wraith": {
+                "abilities": {
+                        "regenerate": {
+                                "type": "HP_REGENERATION",
+                                "val": 40
+                        }
+                }
+        },
+        "core:firebird": {
+                "cost": {
+                        "gold": 1800
+                },
+                "horde": 1,
+                "growth": 1,
+                "aiValue": 4336,
+                "fightValue": 3097
+        },
+        "core:phoenix": {
+                "cost": {
+                        "gold": 3000,
+                        "mercury": 1
+                },
+                "attack": 21,
+                "defense": 18,
+                "abilities": {
+                        "rebirth": {
+                                "type": "REBIRTH",
+                                "val": 30
+                        }
+                },
+                "horde": 1,
+                "growth": 1,
+                "aiValue": 6281,
+                "fightValue": 4300
+        },
+        "core:hydra": {
+                "aiValue": 4521,
+                "cost": {
+                        "gold": 2300,
+                        "sulfur": 1
+                },
+                "damage": {
+                        "min": 30,
+                        "max": 45
+                },
+                "hitPoints": 180
+        },
+        "core:chaosHydra": {
+                "aiValue": 6937,
+                "fightValue": 5956,
+                "cost": {
+                        "gold": 3900,
+                        "sulfur": 2
+                },
+                "attack": 22,
+                "defense": 24,
+                "damage": {
+                        "min": 30,
+                        "max": 45
+                },
+                "hitPoints": 270
+        },
+        "core:wyvern": {
+                "level": 7,
+                "cost": {
+                        "gold": 2300,
+                        "sulfur": 1
+                },
+                "attack": 17,
+                "defense": 19,
+                "speed": 10,
+                "hitPoints": 150,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 50
+                },
+                "advMapAmount": {
+                        "min": 4,
+                        "max": 10
+                },
+                "abilities": {
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        },
+                        "poison": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.poison",
+                                "val": 30
+                        }
+                },
+                "aiValue": 4410,
+                "fightValue": 3856
+        },
+        "core:wyvernMonarch": {
+                "cost": {
+                        "gold": 3800,
+                        "sulfur": 2
+                },
+                "attack": 23,
+                "defense": 25,
+                "speed": 13,
+                "hitPoints": 200,
+                "growth": 1,
+                "damage": {
+                        "min": 30,
+                        "max": 50
+                },
+                "level": 7,
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "abilities": {
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        },
+                        "poison": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "spell.poison",
+                                "val": 30
+                        },
+                        "doubleAttack": {
+                                "type": "FEROCITY",
+                                "val": 1
+                        }
+                },
+                "aiValue": 6891,
+                "fightValue": 5889
+        },
+        "core:archangel": {
+                "abilities": {
+                        "KING_2": {
+                                "type": "KING",
+                                "val": 3
+                        }
+                }
+        },
+        "core:devil": {
+                "abilities": {
+                        "hateArchAngels": {
+                                "type": "HATE",
+                                "subtype": "creature.archangel",
+                                "val": 50,
+                                "description": "{Hates Archangels}\nDeals 50% extra damage to Archangels."
+                        }
+                }
+        },
+        "core:airElemental": {
+                "attack": 6,
+                "defense": 6,
+                "damage": {
+                        "min": 2,
+                        "max": 5
+                },
+                "hitPoints": 25,
+                "speed": 7,
+                "aiValue": 230,
+                "fightValue": 230,
+                "growth": 9,
+                "cost": {
+                        "gold": 150
+                },
+                "abilities": {
+                        "meteorShowerImmunity": null,
+                        "lightingVulnerablity": null,
+                        "chainLightingVulnerablity": null,
+                        "armageddonVulnerablity": null,
+                        "nonLiving": {
+                                "type": "NON_LIVING"
+                        },
+                        "immuneToMind": {
+                                "type": "MIND_IMMUNITY"
+                        },
+                        "meteorShowerVulnerability": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.meteorShower",
+                                "val": 100
+                        },
+                        "lightingImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.lightningBolt"
+                        },
+                        "chainLightingImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.chainLightning"
+                        },
+                        "implosionVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.implosion",
+                                "val": 100
+                        },
+                        "oppositeEarth": {
+                                "type": "HATE",
+                                "subtype": "creature.earthElemental",
+                                "val": 100
+                        },
+                        "oppositeMagma": {
+                                "type": "HATE",
+                                "subtype": "creature.magmaElemental",
+                                "val": 100
+                        },
+                        "noMeleePenalty": {
+                                "type": "NO_MELEE_PENALTY"
+                        }
+                }
+        },
+        "core:stormElemental": {
+                "attack": 7,
+                "defense": 7,
+                "damage": {
+                        "min": 2,
+                        "max": 6
+                },
+                "hitPoints": 25,
+                "speed": 8,
+                "aiValue": 340,
+                "fightValue": 280,
+                "growth": 9,
+                "cost": {
+                        "gold": 200
+                },
+                "abilities": {
+                        "meteorShowerImmunity": null,
+                        "lightingVulnerablity": null,
+                        "chainLightingVulnerablity": null,
+                        "armageddonVulnerablity": null,
+                        "nonLiving": {
+                                "type": "NON_LIVING"
+                        },
+                        "immuneToMind": {
+                                "type": "MIND_IMMUNITY"
+                        },
+                        "meteorShowerVulnerability": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.meteorShower",
+                                "val": 100
+                        },
+                        "lightingImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.lightningBolt"
+                        },
+                        "chainLightingImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.chainLightning"
+                        },
+                        "implosionVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.implosion",
+                                "val": 100
+                        },
+                        "oppositeEarth": {
+                                "type": "HATE",
+                                "subtype": "creature.earthElemental",
+                                "val": 100
+                        },
+                        "oppositeMagma": {
+                                "type": "HATE",
+                                "subtype": "creature.magmaElemental",
+                                "val": 100
+                        },
+                        "noMeleePenalty": {
+                                "type": "NO_MELEE_PENALTY"
+                        }
+                }
+        },
+        "core:waterElemental": {
+                "attack": 7,
+                "defense": 8,
+                "damage": {
+                        "min": 3,
+                        "max": 6
+                },
+                "hitPoints": 30,
+                "speed": 5,
+                "aiValue": 290,
+                "fightValue": 290,
+                "growth": 7,
+                "cost": {
+                        "gold": 225
+                }
+        },
+        "core:iceElemental": {
+                "attack": 8,
+                "defense": 9,
+                "damage": {
+                        "min": 4,
+                        "max": 8
+                },
+                "hitPoints": 30,
+                "speed": 6,
+                "aiValue": 380,
+                "fightValue": 335,
+                "growth": 7,
+                "cost": {
+                        "gold": 275
+                },
+                "abilities": {
+                        "noMeleePenalty": {
+                                "type": "NO_MELEE_PENALTY"
+                        }
+                }
+        },
+        "core:fireElemental": {
+                "attack": 10,
+                "defense": 9,
+                "damage": {
+                        "min": 5,
+                        "max": 10
+                },
+                "hitPoints": 35,
+                "speed": 6,
+                "aiValue": 450,
+                "fightValue": 440,
+                "growth": 4,
+                "cost": {
+                        "gold": 350
+                }
+        },
+        "core:energyElemental": {
+                "attack": 11,
+                "defense": 10,
+                "damage": {
+                        "min": 8,
+                        "max": 13
+                },
+                "hitPoints": 35,
+                "speed": 8,
+                "aiValue": 550,
+                "fightValue": 530,
+                "growth": 4,
+                "cost": {
+                        "gold": 425
+                }
+        },
+        "core:earthElemental": {
+                "attack": 11,
+                "defense": 11,
+                "damage": {
+                        "min": 10,
+                        "max": 15
+                },
+                "hitPoints": 50,
+                "speed": 4,
+                "aiValue": 700,
+                "fightValue": 680,
+                "growth": 3,
+                "cost": {
+                        "gold": 500
+                },
+                "abilities": {
+                        "lightingImmunity": null,
+                        "chainLightingImmunity": null,
+                        "armageddonImmunity": null,
+                        "meteorShowerVulnerability": null,
+                        "nonLiving": {
+                                "type": "NON_LIVING"
+                        },
+                        "immuneToMind": {
+                                "type": "MIND_IMMUNITY"
+                        },
+                        "implosionImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.implosion"
+                        },
+                        "meteorShowerImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.meteorShower"
+                        },
+                        "lightingVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.lightningBolt",
+                                "val": 100
+                        },
+                        "chainLightingVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.chainLightning",
+                                "val": 100
+                        },
+                        "oppositeAir": {
+                                "type": "HATE",
+                                "subtype": "creature.airElemental",
+                                "val": 100
+                        },
+                        "oppositeStorm": {
+                                "type": "HATE",
+                                "subtype": "creature.stormElemental",
+                                "val": 100
+                        }
+                }
+        },
+        "core:magmaElemental": {
+                "attack": 12,
+                "defense": 12,
+                "damage": {
+                        "min": 10,
+                        "max": 15
+                },
+                "hitPoints": 70,
+                "speed": 5,
+                "aiValue": 780,
+                "fightValue": 750,
+                "growth": 3,
+                "cost": {
+                        "gold": 575
+                },
+                "abilities": {
+                        "lightingImmunity": null,
+                        "chainLightingImmunity": null,
+                        "armageddonImmunity": null,
+                        "meteorShowerVulnerability": null,
+                        "nonLiving": {
+                                "type": "NON_LIVING"
+                        },
+                        "immuneToMind": {
+                                "type": "MIND_IMMUNITY"
+                        },
+                        "implosionImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.implosion"
+                        },
+                        "meteorShowerImmunity": {
+                                "type": "SPELL_IMMUNITY",
+                                "subtype": "spell.meteorShower"
+                        },
+                        "lightingVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.lightningBolt",
+                                "val": 100
+                        },
+                        "chainLightingVulnerablity": {
+                                "type": "MORE_DAMAGE_FROM_SPELL",
+                                "subtype": "spell.chainLightning",
+                                "val": 100
+                        },
+                        "oppositeAir": {
+                                "type": "HATE",
+                                "subtype": "creature.airElemental",
+                                "val": 100
+                        },
+                        "oppositeStorm": {
+                                "type": "HATE",
+                                "subtype": "creature.stormElemental",
+                                "val": 100
+                        }
+                }
+        },
+        "grandalliance.hota.factory:automaton": {
+                "damage": {
+                        "min": 9,
+                        "max": 9
+                }
+        },
+        "grandalliance.hota.factory:sentinelAutomaton": {
+                "damage": {
+                        "min": 11,
+                        "max": 11
+                }
+        },
+        "grandalliance.hota.factory:armadillo": {
+                "damage": {
+                        "min": 5,
+                        "max": 9
+                },
+                "cost": {
+                        "gold": 230
+                },
+                "aiValue": 350,
+                "fightValue": 328
+        },
+        "grandalliance.hota.factory:bellwetherArmadillo": {
+                "damage": {
+                        "min": 7,
+                        "max": 9
+                },
+                "cost": {
+                        "gold": 300
+                },
+                "aiValue": 494,
+                "fightValue": 472
+        },
+        "grandalliance.hota.factory:sandworm": {
+                "attack": 14,
+                "defense": 12,
+                "damage": {
+                        "min": 12,
+                        "max": 16
+                },
+                "hitPoints": 60,
+                "aiValue": 1091,
+                "fightValue": 972,
+                "cost": {
+                        "gold": 575
+                }
+        },
+        "grandalliance.hota.factory:olgoiKhorkhoi": {
+                "attack": 15,
+                "defense": 12,
+                "damage": {
+                        "min": 12,
+                        "max": 20
+                },
+                "hitPoints": 70,
+                "aiValue": 1320,
+                "fightValue": 1083,
+                "cost": {
+                        "gold": 650
+                }
+        },
+        "grandalliance.hota.factory:gunslinger": {
+                "attack": 17,
+                "defense": 13,
+                "damage": {
+                        "min": 18,
+                        "max": 24
+                },
+                "hitPoints": 50,
+                "aiValue": 1432,
+                "fightValue": 1107,
+                "cost": {
+                        "gold": 900
+                }
+        },
+        "grandalliance.hota.factory:bountyHunter": {
+                "attack": 18,
+                "defense": 14,
+                "damage": {
+                        "min": 21,
+                        "max": 24
+                },
+                "hitPoints": 50,
+                "aiValue": 1638,
+                "fightValue": 1251,
+                "cost": {
+                        "gold": 1100
+                }
+        },
+        "grandalliance.hota.factory:crimsonCouatl": {
+                "attack": 22,
+                "cost": {
+                        "gold": 4000,
+                        "crystal": 1
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 30
+                },
+                "defense": 22,
+                "aiValue": 6941,
+                "fightValue": 5364,
+                "hitPoints": 210
+        },
+        "grandalliance.hota.factory:hotaCouatl": {
+                "attack": 17,
+                "damage": {
+                        "max": 50,
+                        "min": 30
+                },
+                "defense": 17,
+                "aiValue": 3901,
+                "fightValue": 3687
+        },
+        "grandalliance.hota.factory:hotaDreadnought": {
+                "cost": {
+                        "gold": 2100
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                }
+        },
+        "grandalliance.hota.factory:hotaJuggernaut": {
+                "aiValue": 7030,
+                "attack": 23,
+                "cost": {
+                        "gold": 4000,
+                        "crystal": 2
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                },
+                "defense": 28,
+                "fightValue": 5471
+        },
+        "grandalliance.hota.cove:seaserpent": {
+                "aiValue": 4003,
+                "attack": 23,
+                "cost": {
+                        "gold": 2200,
+                        "sulfur": 1
+                },
+                "damage": {
+                        "max": 55,
+                        "min": 30
+                },
+                "defense": 16,
+                "growth": 2,
+                "fightValue": 3291
+        },
+        "grandalliance.hota.cove:haspid": {
+                "aiValue": 7320,
+                "attack": 29,
+                "cost": {
+                        "gold": 4300,
+                        "sulfur": 2
+                },
+                "damage": {
+                        "max": 55,
+                        "min": 30
+                },
+                "defense": 20,
+                "growth": 2,
+                "fightValue": 6120
+        },
+        "grandalliance.hota.bulwark:jotunn": {
+                "aiValue": 4180,
+                "attack": 18,
+                "cost": {
+                        "gold": 2100
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                },
+                "defense": 18,
+                "growth": 2,
+                "fightValue": 3427
+        },
+        "grandalliance.hota.bulwark:jotunnWarlord": {
+                "aiValue": 6694,
+                "attack": 24,
+                "cost": {
+                        "gold": 3900,
+                        "gems": 1
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                },
+                "defense": 24,
+                "growth": 2,
+                "fightValue": 5489
+        }
+}

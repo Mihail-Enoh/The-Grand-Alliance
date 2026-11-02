@@ -1,0 +1,8 @@
+{
+	"core:conflux" : {
+		"boat" : "boatConflux"
+	},
+	"core:neutral" : {
+		"boat" : "boatNeutral"
+	}
+}

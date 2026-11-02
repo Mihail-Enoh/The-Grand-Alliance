@@ -1,0 +1,239 @@
+{
+	"runes" : {
+		"name" : "Runes",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"runesCap" : {
+					"type" : "RUNE_LEVEL_COUNTER",
+					"valueType" : "INDEPENDENT_MIN",
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
+				},
+				"runesBase" : {
+					"type" : "RUNE_LEVEL_COUNTER",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
+				},
+
+				"runesBonusAttackTier1" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 2,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 1,
+						"bonusMaxValue" : 3
+					}
+				},
+				"runesBonusAttackTier2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 4,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 4,
+						"bonusMaxValue" : 6
+					}
+				},
+				"runesBonusAttackTier3" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 7,
+						"bonusMaxValue" : 9
+					}
+				},
+
+				"runesBonusDefenseTier1" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 2,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 2,
+						"bonusMaxValue" : 4
+					}
+				},
+				"runesBonusDefenseTier2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 4,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 5,
+						"bonusMaxValue" : 7
+					}
+				},
+				"runesBonusDefenseTier3" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence",
+					"val" : 6,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 8,
+						"bonusMaxValue" : 9
+					}
+				},
+
+				"runesBonusSpeedTier1" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 3,
+						"bonusMaxValue" : 5
+					}
+				},
+				"runesBonusSpeedTier2" : {
+					"type" : "STACKS_SPEED",
+					"val" : 2,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 6,
+						"bonusMaxValue" : 8
+					}
+				},
+				"runesBonusSpeedTier3" : {
+					"type" : "STACKS_SPEED",
+					"val" : 3,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "RUNE_LEVEL_COUNTER",
+						"bonusMinValue" : 9,
+						"bonusMaxValue" : 9
+					}
+				},
+
+				"combatAttackRuneLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventAfterAttack",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RUNE_LEVEL_COUNTER",
+									"val" : 1,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatCastRuneLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventCast",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RUNE_LEVEL_COUNTER",
+									"val" : 1,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatAttackedRuneLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventAfterAttacked",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RUNE_LEVEL_COUNTER",
+									"val" : 2,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
+				"combatDefendRuneLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventDefend",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RUNE_LEVEL_COUNTER",
+									"val" : 3,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Runes}\n\nBasic Runes allow hero's units to accumulate up to 3 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.",
+			"effects" : {
+				"runesCap" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "hota/bulwark/skills/runes/icons/small/basic.png",
+				"medium" : "hota/bulwark/skills/runes/icons/medium/basic.png",
+				"large" : "hota/bulwark/skills/runes/icons/large/basic.png",
+				"scenarioBonus" : "hota/bulwark/skills/runes/icons/large/basic.png"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Runes}\n\nAdvanced Runes allow hero's units to accumulate up to 6 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed;\n{4}: +2 attack, {5}: +2 defence, {6}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.",
+			"effects" : {
+				"runesCap" : {
+					"val" : 6
+				}
+			},
+			"images" : {
+				"small" : "hota/bulwark/skills/runes/icons/small/advanced.png",
+				"medium" : "hota/bulwark/skills/runes/icons/medium/advanced.png",
+				"large" : "hota/bulwark/skills/runes/icons/large/advanced.png",
+				"scenarioBonus" : "hota/bulwark/skills/runes/icons/large/advanced.png"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Runes}\n\nExpert Runes allow hero's units to accumulate up to 9 Rune Levels in combat. Each Rune Level gives bonuses to the creature stats:\n\n{1}: +2 attack, {2}: +2 defence, {3}: +1 speed;\n{4}: +2 attack, {5}: +2 defence, {6}: +1 speed;\n{7}: +2 attack, {8}: +2 defence, {9}: +1 speed.\n\nThe bonuses of all achieved Rune Levels are cumulative. The unit gains +1 Rune Level when it attacks; +2 Rune Levels when it takes damage; +3 Rune Levels when it takes a defensive stance.",
+			"effects" : {
+				"runesCap" : {
+					"val" : 9
+				}
+			},
+			"images" : {
+				"small" : "hota/bulwark/skills/runes/icons/small/expert.png",
+				"medium" : "hota/bulwark/skills/runes/icons/medium/expert.png",
+				"large" : "hota/bulwark/skills/runes/icons/large/expert.png",
+				"scenarioBonus" : "hota/bulwark/skills/runes/icons/large/expert.png"
+			}
+		}
+	}
+}

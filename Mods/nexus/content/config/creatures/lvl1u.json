@@ -1,0 +1,56 @@
+{
+        "lvl1u": {
+                "name": {
+                        "singular": "Shade",
+                        "plural": "Shades"
+                },
+                "faction": "nexus",
+                "level": 1,
+                "doubleWide" : true,
+                "upgrades": [
+                        "lvl1upg"
+                ],
+                "cost": {
+                        "gold": 40
+                },
+                "speed": 7,
+                "hitPoints": 5,
+                "attack": 4,
+                "defense": 3,
+                "damage": {
+                        "min": 1,
+                        "max": 3
+                },
+                "fightValue": 62,
+                "aiValue": 63,
+                "advMapAmount": {
+                        "min": 3,
+                        "max": 8
+                },
+                "growth": 15,
+                "abilities": {
+                        "mindImmune": {
+                                "type": "MIND_IMMUNITY"
+                        }
+                },
+                "graphics": {
+                        "iconLarge": "creatures/castle/iconsBig/paladinBig.png",
+                        "iconSmall": "creatures/castle/iconsSmall/paladinSmall.png",
+                        "map": "creatures/castle/map/CPldnmap.def",
+                        "animation": "nexus/creatures/lvl1u/lvl1u_anim.json",
+                        "animationTime": {
+                                "attack": 1,
+                                "idle": 10,
+                                "walk": 0.8
+                        },
+                        "timeBetweenFidgets": 1
+                },
+                "sound": {
+                        "attack": "creatures/castle/templar/TempATTK.wav",
+                        "defend": "creatures/castle/templar/TempDFND.wav",
+                        "killed": "creatures/castle/templar/TempDEAD.wav",
+                        "move": "creatures/castle/templar/TempMOVE.wav",
+                        "wince": "creatures/castle/templar/TempWNCE.wav"
+                }
+        }
+}

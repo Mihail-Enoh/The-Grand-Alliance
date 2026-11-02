@@ -1,0 +1,258 @@
+{
+	"core:stronghold": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/stronghold/icons/towerSmall",
+				"towerIconLarge": "town-screen/stronghold/icons/towerLarge"
+			},
+			"buildingsIcons": "town-screen/stronghold/HALLSTRNALT.DEF",
+			"hallBackground": "town-screen/stronghold/strongholdHallBg.png",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3"
+					],
+					[
+						"special4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"goblin",
+					"hobgoblin"
+				],
+				[
+					"goblinWolfRider",
+					"hobgoblinWolfRider"
+				],
+				[
+					"orc",
+					"orcChieftain"
+				],
+				[
+					"ogre",
+					"ogreMage"
+				],
+				[
+					"roc",
+					"thunderbird"
+				],
+				[
+					"cyclop",
+					"cyclopKing"
+				],
+				[
+					"mdtCouatl",
+					"mdtQuetzalcouatl"
+				],
+				[
+					"behemoth",
+					"ancientBehemoth"
+				]
+			],
+			"structures": {
+				"dwellingLvl7": {
+					"border": "town-screen/stronghold/buildings-border/TOSSnk1.BMP",
+					"area": "town-screen/stronghold/buildings-area/TZSSNK1.BMP",
+					"animation": "town-screen/stronghold/TbStDA_5",
+					"x": 190,
+					"y": 126,
+					"z": -2
+				},
+				"dwellingUpLvl7": {
+					"animation": "town-screen/stronghold/TbStUA_5",
+					"border": "town-screen/stronghold/buildings-border/TOSSnk2.BMP",
+					"area": "town-screen/stronghold/buildings-area/TZSSNK2.BMP",
+					"x": 190,
+					"y": 93,
+					"z": -2
+				},
+				"dwellingLvl8": {
+					"animation": "TBSTDW_6.def",
+					"x": 604,
+					"y": 0,
+					"campaignBonus": "BoSbeh1.pcx",
+					"border": "TOSBEH1A.bmp",
+					"area": "TZSBEH1A.bmp"
+				},
+				"dwellingUpLvl8": {
+					"animation": "TBSTUP_6.def",
+					"x": 604,
+					"y": 0,
+					"campaignBonus": "BoSbeh2.pcx",
+					"border": "TOSBEH2A.bmp",
+					"area": "TZSBEH2A.bmp"
+				}
+			},
+			"buildings": {
+				"dwellingUpLvl1": {
+					"name": "Upg. Goblin Barracks",
+					"description": "The Upg. Goblin Barracks allows you to recruit Hobgoblins."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Wolf Pen",
+					"description": "The Upg. Wolf Pen allows you to recruit Wolf Raiders."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Orc Tower",
+					"description": "The Upg. Orc Tower allows you to recruit Orc Chieftains."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Ogre Fort",
+					"description": "The Upg. Ogre Fort allows you to recruit Ogre Mages."
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Cliff Nest",
+					"description": "The Upg. Cliff Nest allows you to recruit Thunderbirds."
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Cyclops Cave",
+					"description": "The Upg. Cyclops Cave allows you to recruit Cyclops Kings."
+				},
+				"dwellingLvl7": {
+					"name": "Teocalli",
+					"description": "The Teocalli allows you to recruit Brass Couatls.",
+					"cost": {
+						"gold": 15000,
+						"gems": 5,
+						"wood": 10,
+						"ore": 10,
+						"mercury": 5,
+						"crystal": 5,
+						"sulfur": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Teocalli",
+					"description": "The Upg. Teocalli allows you to recruit Quetzalcouatls.",
+					"cost": {
+						"gold": 10000,
+						"gems": 0,
+						"wood": 10,
+						"ore": 10,
+						"mercury": 0,
+						"crystal": 15,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingLvl8": {
+					"name": "Behemoth Lair",
+					"description": "The Behemoth Lair allows you to recruit Behemoths.",
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					],
+					"cost": {
+						"gold": 10000,
+						"gems": 0,
+						"wood": 10,
+						"ore": 10,
+						"mercury": 0,
+						"crystal": 10,
+						"sulfur": 0
+					}
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Behemoth Lair",
+					"description": "The Upg. Behemoth Lair allows you to recruit Ancient Behemoths.",
+					"upgrades": "dwellingLvl8",
+					"cost": {
+						"gold": 15000,
+						"gems": 0,
+						"wood": 10,
+						"ore": 10,
+						"mercury": 0,
+						"crystal": 20,
+						"sulfur": 0
+					}
+				}
+			}
+		}
+	}
+}

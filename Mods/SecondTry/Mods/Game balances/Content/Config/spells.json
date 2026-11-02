@@ -1,0 +1,143 @@
+{
+	"core:earthElemental": {
+		"levels": {
+			"base":{
+				"power": 1,
+				"range" : "X",
+				"battleEffects":{
+					"summon":{
+						"exclusive":true,
+						"id":"earthElemental",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none": {
+				"power": 1
+			},
+			"basic": {
+				"power": 1
+			},
+			"advanced": {
+				"power": 2
+			},
+			"expert": {
+				"power": 3
+			}
+		}
+	},
+	"core:fireElemental": {
+		"levels": {
+			"base":{
+				"power": 2,
+				"range" : "X",
+				"battleEffects":{
+					"summon":{
+						"exclusive":true,
+						"id":"fireElemental",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none": {
+				"power": 2
+			},
+			"basic": {
+				"power": 2
+			},
+			"advanced": {
+				"power": 3
+			},
+			"expert": {
+				"power": 4
+			}
+		}
+	},
+	"core:waterElemental": {
+		"levels": {
+			"base":{
+				"power": 3,
+				"range" : "X",
+				"battleEffects":{
+					"summon":{
+						"exclusive":true,
+						"id":"waterElemental",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none": {
+				"power": 3
+			},
+			"basic": {
+				"power": 3
+			},
+			"advanced": {
+				"power": 5
+			},
+			"expert": {
+				"power": 7
+			}
+		}
+	},
+	"core:airElemental": {
+		"levels": {
+			"base":{
+				"power": 4,
+				"range" : "X",
+				"battleEffects":{
+					"summon":{
+						"exclusive":true,
+						"id":"airElemental",
+						"permanent":false,
+						"type":"core:summon"
+					}
+				}
+			},
+			"none": {
+				"power": 4
+			},
+			"basic": {
+				"power": 4
+			},
+			"advanced": {
+				"power": 6
+			},
+			"expert": {
+				"power": 8
+			}
+		}
+	},
+	"core:viewEarth": {
+		"graphics": {
+			"iconBook": "spells/spellsA003"
+		}
+	},
+	"core:viewAir": {
+		"graphics": {
+			"iconBook": "spells/spellsA005"
+		}
+	},
+	"core:slayer": {
+		"levels": {
+			"base": {
+				"description": "{Slayer}\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Wyverns, Sea Serpents, Couatls, Unicorns, Manticores, Phoenixes and Tritons."
+			},
+			"none": {
+				"description": "{Slayer}\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Wyverns, Sea Serpents, Couatls, Unicorns, Manticores, Phoenixes and Tritons (Advanced level adds: Angels, Devils, Black Knights, Templars, Witches, Amazons, Succubi, Giants and Mutants. Expert level adds: Archangels, Titans, Jotunns, Juggernauts and Annihilators)."
+			},
+			"basic": {
+				"description": "{Slayer}\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Wyverns, Sea Serpents, Couatls, Unicorns, Manticores, Phoenixes and Tritons."
+			},
+			"advanced": {
+				"description": "{Slayer}\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Wyverns, Sea Serpents, Couatls, Unicorns, Manticores, Phoenixes, Tritons, Angels, Devils, Black Knights, Templars, Witches, Amazons, Succubi, Giants and Mutants."
+			},
+			"expert": {
+				"description": "{Slayer}\nIncreases the amount of damage inflicted by a unit when fighting against Dragons, Behemoths, Hydras, Wyverns, Sea Serpents, Couatls, Unicorns, Manticores, Phoenixes, Tritons, Angels, Devils, Black Knights, Templars, Witches, Amazons, Succubi, Giants, Mutants, Archangels, Titans, Jotunns, Juggernauts and Annihilators."
+			}
+		}
+	}
+}

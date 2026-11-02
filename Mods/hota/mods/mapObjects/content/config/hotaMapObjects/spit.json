@@ -1,0 +1,160 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"spit" : {
+				"name" : "Spit",
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/avbone02.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}
+				},
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPBASI.wav"
+					]
+				},
+				"rmg" : {
+					"value" : 1500,
+					"rarity" : 100
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : "You stand in front of an entrance to a mossy, overgrown residence. You hear creeks and growling from inside. Dare to enter?",
+				"onVisitedMessage" : "Somebody was here before you, and the treasury was pillaged.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankSpit",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"mapDice" : 0,
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							}
+						],
+						"resources" : {
+							"gold" : 3000
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"mapDice" : 1,
+						"guards" : [
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							}
+						],
+						"resources" : {
+							"gold" : 4500
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							}
+						],
+						"resources" : {
+							"gold" : 6000
+						}
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							}
+						],
+						"resources" : {
+							"gold" : 9000
+						}
+					}
+				]
+			}
+		}
+	}
+}

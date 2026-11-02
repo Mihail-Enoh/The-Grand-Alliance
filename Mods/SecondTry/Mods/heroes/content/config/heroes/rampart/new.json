@@ -1,0 +1,153 @@
+{
+        "clancy_nou": {
+                "class": "ranger",
+                "female": false,
+                "special": true,
+                "skills": [
+                        {
+                                "skill": "pathfinding",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "resistance",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "centaur",
+                                "min": 12,
+                                "max": 24
+                        },
+                        {
+                                "creature": "dwarf",
+                                "min": 5,
+                                "max": 7
+                        },
+                        {
+                                "creature": "woodElf",
+                                "min": 2,
+                                "max": 4
+                        }
+                ],
+                "images": {
+                        "large": "heroes/rampart/clancy_large.png",
+                        "small": "heroes/rampart/clancy_small.png",
+                        "specialtyLarge": "heroes/rampart/spec_unicorn_large.png",
+                        "specialtySmall": "heroes/rampart/spec_unicorn_small.png"
+                },
+                "specialty": {
+                        "creature": "unicorn"
+                },
+                "texts": {
+                        "name": "Clancy",
+                        "biography": "It was by pure accident that Clancy discovered he could communicate with Unicorns, but this unique ability has served him well as he worked his way through the ranks of AvLee's Military Elite.",
+                        "specialty": {
+                                "name": "Unicorns",
+                                "tooltip": "Creature Bonus: Unicorns",
+                                "description": "Increases the Speed of any Unicorns or War Unicorns by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "aeris_nou": {
+                "class": "druid",
+                "female": false,
+                "spellbook": [
+                        "protectAir"
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "scouting",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "centaur",
+                                "min": 12,
+                                "max": 24
+                        },
+                        {
+                                "creature": "dwarf",
+                                "min": 5,
+                                "max": 7
+                        },
+                        {
+                                "creature": "woodElf",
+                                "min": 2,
+                                "max": 4
+                        }
+                ],
+                "images": {
+                        "large": "heroes/rampart/aeris_large.png",
+                        "small": "heroes/rampart/aeris_small.png",
+                        "specialtyLarge": "heroes/rampart/spec_pegasus_large.png",
+                        "specialtySmall": "heroes/rampart/spec_pegasus_small.png"
+                },
+                "specialty": {
+                        "creature": "pegasus"
+                },
+                "texts": {
+                        "name": "Aeris",
+                        "biography": "Aeris is one of the best animal handlers in all of AvLee. He can sense ideal pairings between elves and pegasi which have made him one of the most sought out Druids in the land.",
+                        "specialty": {
+                                "name": "Pegasi",
+                                "tooltip": "Creature Bonus: Pegasi",
+                                "description": "Increases the Speed of any Pegasi or Silver Pegasi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+                        }
+                }
+        },
+        "ryland_nou": {
+                "class": "ranger",
+                "female": false,
+                "skills": [
+                        {
+                                "skill": "diplomacy",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "leadership",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "centaur",
+                                "min": 12,
+                                "max": 24
+                        },
+                        {
+                                "creature": "dwarf",
+                                "min": 5,
+                                "max": 7
+                        },
+                        {
+                                "creature": "woodElf",
+                                "min": 2,
+                                "max": 4
+                        }
+                ],
+                "images": {
+                        "large": "heroes/rampart/ryland_large.png",
+                        "small": "heroes/rampart/ryland_small.png",
+                        "specialtyLarge": "heroes/rampart/spec_dendroid_large.png",
+                        "specialtySmall": "heroes/rampart/spec_dendroid_small.png"
+                },
+                "specialty": {
+                        "creature": "dendroidGuard"
+                },
+                "texts": {
+                        "name": "Ryland",
+                        "biography": "Ryland was the first (and to date, the only) human ever fully accepted by the Circle of Elder Dendroids as a Ranger of AvLee. Some joke that he was once an Elf, but that he was killed and accidentally reincarnated into a human's body.",
+                        "specialty": {
+                                "name": "Dendroids",
+                                "tooltip": "Creature Bonus: Dendroids",
+                                "description": "Increases the Speed of any Dendroid Guards or Dendroid Soldiers by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+                        }
+                }
+        }
+}

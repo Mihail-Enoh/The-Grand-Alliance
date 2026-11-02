@@ -1,0 +1,10 @@
+{
+	"grandalliance.hota.factory:sandworm" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "bonuses/burrowing.png",
+				"description" : "{Burrowing}\nThis unit can burrow to any hex and ignore battlefield obstacles."
+			}
+		}
+	}
+}

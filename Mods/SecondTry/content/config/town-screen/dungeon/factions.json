@@ -1,0 +1,367 @@
+{
+	"core:dungeon": {
+		"town": {
+			"siege": {
+				"towerIconSmall": "town-screen/dungeon/icons/towerSmall",
+				"towerIconLarge": "town-screen/dungeon/icons/towerLarge"
+			},
+			"hallBackground": "town-screen/dungeon/dungeonHallBg.BMP",
+			"buildingsIcons": "town-screen/dungeon/AltHallDung.DEF",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special4"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"troglodyte",
+					"infernalTroglodyte"
+				],
+				[
+					"harpy",
+					"harpyHag"
+				],
+				[
+					"beholder",
+					"evilEye"
+				],
+				[
+					"medusa",
+					"medusaQueen"
+				],
+				[
+					"mdtIllithid",
+					"mdtAlhoon"
+				],
+				[
+					"minotaur",
+					"minotaurKing"
+				],
+				[
+					"manticore",
+					"scorpicore"
+				],
+				[
+					"redDragon",
+					"blackDragon"
+				]
+			],
+			"structures": {
+				"dwellingLvl5": {
+					"border": "town-screen/dungeon/buildings-border/TODMEN1",
+					"area": "town-screen/dungeon/buildings-area/TZDMEN1",
+					"animation": "town-screen/dungeon/primevalMaw.def",
+					"x": 680,
+					"y": 170,
+					"z": 2
+				},
+				"dwellingUpLvl5": {
+					"border": "town-screen/dungeon/buildings-border/TODMEN2",
+					"area": "town-screen/dungeon/buildings-area/TZDMEN2",
+					"animation": "town-screen/dungeon/primevalMawUpg.def",
+					"x": 680,
+					"y": 170,
+					"z": 2
+				},
+				"dwellingLvl6": {
+					"border": "town-screen/dungeon/buildings-border/TODMIN1.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDMIN1.bmp",
+					"animation": "town-screen/dungeon/TBDnDw_4.def",
+					"x": 551,
+					"y": 186,
+					"z": 1
+				},
+				"dwellingUpLvl6": {
+					"border": "town-screen/dungeon/buildings-border/TODMIN2.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDMIN2.bmp",
+					"animation": "town-screen/dungeon/TBDnUp_4.def",
+					"x": 519,
+					"y": 172,
+					"z": 1
+				},
+				"dwellingLvl7": {
+					"border": "town-screen/dungeon/buildings-border/TODMAN1.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDMAN1.bmp",
+					"animation": "town-screen/dungeon/TBDnDw_5.def",
+					"x": 270,
+					"y": 253,
+					"z": -1
+				},
+				"dwellingUpLvl7": {
+					"border": "town-screen/dungeon/buildings-border/TODMAN2.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDMAN2.bmp",
+					"animation": "town-screen/dungeon/TBDnUp_5.def",
+					"x": 270,
+					"y": 253,
+					"z": -1
+				},
+				"dwellingLvl8": {
+					"border": "town-screen/dungeon/buildings-border/TODDRA1A.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDDRA1A.bmp",
+					"animation": "town-screen/dungeon/TBDnDw_6.def",
+					"x": 550,
+					"y": 0,
+					"z": -1
+				},
+				"dwellingUpLvl8": {
+					"border": "town-screen/dungeon/buildings-border/TODDRA2A.bmp",
+					"area": "town-screen/dungeon/buildings-area/TZDDRA2A.bmp",
+					"animation": "town-screen/dungeon/TBDnUp_6.def",
+					"x": 550,
+					"y": 0,
+					"z": -1
+				}
+			},
+			"buildings": {
+				"dwellingUpLvl1": {
+					"name": "Upg. Warren",
+					"description": "The Upg. Warren allows you to recruit Infernal Troglodytes."
+				},
+				"dwellingUpLvl2": {
+					"name": "Upg. Harpy Loft",
+					"description": "The Upg. Harpy Loft allows you to recruit Harpy Hags."
+				},
+				"dwellingUpLvl3": {
+					"name": "Upg. Pillar of Eyes",
+					"description": "The Upg. Pillar of Eyes allows you to recruit Evil Eyes."
+				},
+				"dwellingUpLvl4": {
+					"name": "Upg. Stilled Voices",
+					"description": "The Upg. Stilled Voices allows you to recruit Medusa Queens."
+				},
+				"dwellingLvl5": {
+					"name": "Primeval Maw",
+					"description": "The Primeval Maw allows you to recruit Illithids.",
+					"cost": {
+						"gold": 4000,
+						"ore": 10,
+						"crystal": 5,
+						"wood": 0,
+						"mercury": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl3"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Upg. Primeval Maw",
+					"description": "The Upg. Primewal Maw allows you to recruit Alhoons.",
+					"cost": {
+						"gold": 3000,
+						"ore": 5,
+						"crystal": 5,
+						"wood": 0,
+						"mercury": 0,
+						"gems": 0,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Labyrinth",
+					"description": "The Labyrinth allows you to recruit Minotaurs.",
+					"cost": {
+						"gold": 4000,
+						"gems": 10,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 0,
+						"crystal": 0,
+						"sulfur": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Upg. Labyrinth",
+					"description": "The Upg. Labyrinth allows you to recruit Minotaur Kings.",
+					"cost": {
+						"gold": 3000,
+						"gems": 5,
+						"wood": 5,
+						"ore": 5,
+						"mercury": 0,
+						"crystal": 0,
+						"sulfur": 0
+					},
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Manticore Lair",
+					"description": "The Manticore Lair allows you to recruit Manticores.",
+					"cost": {
+						"gold": 15000,
+						"ore": 10,
+						"sulfur": 10,
+						"mercury": 10,
+						"crystal": 5,
+						"gems": 0,
+						"wood": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl6"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Upg. Manticore Lair",
+					"description": "The Upg. Manticore Lair allows you to recruit Scorpicores.",
+					"cost": {
+						"gold": 10000,
+						"ore": 10,
+						"sulfur": 10,
+						"mercury": 10,
+						"crystal": 5,
+						"gems": 0,
+						"wood": 0
+					},
+					"upgrades": "dwellingLvl7"
+				},
+				"dwellingLvl8": {
+					"name": "Dragon Cave",
+					"description": "The Dragon Cave allows you to recruit Red Dragons.",
+					"cost": {
+						"gold": 15000,
+						"ore": 15,
+						"wood": 15,
+						"sulfur": 20,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0
+					},
+					"requires": [
+						"dwellingLvl6"
+					]
+				},
+				"dwellingUpLvl8": {
+					"name": "Upg. Dragon Cave",
+					"description": "The Upg. Dragon Cave allows you to recruit Black Dragons.",
+					"cost": {
+						"gold": 15000,
+						"ore": 15,
+						"wood": 15,
+						"sulfur": 20,
+						"mercury": 0,
+						"crystal": 0,
+						"gems": 0
+					},
+					"requires": [
+						"allOf",
+						[
+							"mageGuild3"
+						]
+					],
+					"upgrades": "dwellingLvl8"
+				},
+				"special3": {
+					"mode": "special",
+					"requires": [
+						"grail"
+					],
+					"cost": {
+						"gold": 9000000,
+						"wood": 9000,
+						"ore": 9000
+					}
+				}
+			}
+		}
+	}
+}

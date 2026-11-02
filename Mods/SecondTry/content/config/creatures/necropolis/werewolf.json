@@ -1,0 +1,68 @@
+{
+	"mdtWerewolf" : {
+		"name" : {
+			"singular" : "Werewolf",
+			"plural" : "Werewolves"
+		},
+		"faction" : "necropolis",
+		"level" : 6,
+		"upgrades" : [
+			"mdtDireWerewolf"
+		],
+		"cost" : {
+			"gold" : 1000
+		},
+		"speed" : 7,
+		"hitPoints" : 90,
+		"attack" : 15,
+		"defense" : 14,
+		"damage" : {
+			"min" : 16,
+			"max" : 22
+		},
+		"fightValue" : 1703,
+		"aiValue" : 1822,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"growth" : 2,
+		"abilities" : {
+			"undead" : {
+				"type" : "UNDEAD"
+			},
+			"plusRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1,
+				"icon" : "icons/reta1.png"
+			},
+			"attackBooster" : {
+				"type" : "ENCHANTED",
+				"subtype" : "mdtRage",
+				"val" : 3,
+				"addInfo" : 100,
+				"icon" : "icons/rage.png"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/necropolis/iconsbig/werewolf_big.png",
+			"iconSmall" : "creatures/necropolis/iconssmall/werewolf_small.png",
+			"map" : "creatures/necropolis/map/mapWerewolf.def",
+			"animation" : "creatures/necropolis/battle/werewolf.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.0
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "creatures/necropolis/werewolf/WEREATTACK.wav",
+			"defend" : "creatures/necropolis/werewolf/WEREDFND.wav",
+			"killed" : "creatures/necropolis/werewolf/WEREDEAD.wav",
+			"move" : "creatures/necropolis/werewolf/WEREMOVE.wav",
+			"wince" : "creatures/necropolis/werewolf/WEREHIT.wav"
+		}
+	}
+}

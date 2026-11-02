@@ -1,0 +1,95 @@
+{
+	"mdtTrollWitch" : {
+		"name" : {
+			"singular" : "Troll Witch",
+			"plural" : "Troll Witches"
+		},
+		"faction" : "fortress",
+		"level" : 6,
+		"cost" : {
+			"gold" : 1200
+		},
+		"speed" : 8,
+		"hitPoints" : 60,
+		"shots" : 8,
+		"attack" : 16,
+		"defense" : 16,
+		"damage" : {
+			"min" : 15,
+			"max" : 20
+		},
+		"fightValue" : 1732,
+		"aiValue" : 1829,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"growth" : 2,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"regeneration" : {
+				"type" : "HP_REGENERATION",
+				"val" : 70
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "slow",
+				"val" : 50,
+				"icon" : "icons/slow.png"
+			},
+			"slowStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "slow",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "creatures/fortress/iconsBig/trollWitchBig.png",
+			"iconSmall" : "creatures/fortress/iconsSmall/trollWitchSmall.png",
+			"map" : "creatures/fortress/map/mapTrollWitch.def",
+			"animation" : "creatures/fortress/battle/trollWitch.def",
+			"animationTime" : {
+				"attack" : 1.0,
+				"idle" : 10,
+				"walk" : 1.5
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "creatures/fortress/battle/projectile/tw_shot.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"lowerX" : 12,
+					"lowerY" : -24,
+					"middleX" : 55,
+					"middleY" : -50,
+					"upperX" : 60,
+					"upperY" : -70
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "creatures/fortress/trollWitch/WTCHATTK.wav",
+			"defend" : "creatures/fortress/trollWitch/WTCHDFND.wav",
+			"killed" : "creatures/fortress/trollWitch/WTCHKILL.wav",
+			"shoot" : "creatures/fortress/trollWitch/WTCHSHOT.wav",
+			"move" : "creatures/fortress/trollWitch/WTCHMOVE.wav",
+			"wince" : "creatures/fortress/trollWitch/WTCHWNCE.wav"
+		}
+	}
+}
