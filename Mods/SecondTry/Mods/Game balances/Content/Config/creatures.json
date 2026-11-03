@@ -590,7 +590,7 @@
                 "abilities": {
                         "rebirth": {
                                 "type": "REBIRTH",
-                                "val": 30
+                                "val": 50
                         }
                 },
                 "horde": 1,
@@ -855,6 +855,13 @@
                 "growth": 7,
                 "cost": {
                         "gold": 225
+                },
+                "abilities": {
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nWater Elementals are immune to Triton's and Abyssal Triton's Ocean Lord ability."
+                        }
                 }
         },
         "core:iceElemental": {
@@ -875,6 +882,11 @@
                 "abilities": {
                         "noMeleePenalty": {
                                 "type": "NO_MELEE_PENALTY"
+                        },
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nIce Elementals are immune to Triton's and Abyssal Triton's Ocean Lord ability."
                         }
                 }
         },
@@ -1175,7 +1187,14 @@
                 },
                 "defense": 16,
                 "growth": 2,
-                "fightValue": 3291
+                "fightValue": 3291,
+                "abilities": {
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nSea Serpents are immune to Triton's and Abyssal Triton's Ocean Lord ability."
+                        }
+                }
         },
         "grandalliance.hota.cove:haspid": {
                 "aiValue": 7320,
@@ -1190,7 +1209,32 @@
                 },
                 "defense": 20,
                 "growth": 2,
-                "fightValue": 6120
+                "fightValue": 6120,
+                "abilities": {
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nHaspids are immune to Triton's and Abyssal Triton's Ocean Lord ability."
+                        }
+                }
+        },
+        "grandalliance.hota.cove:nymph": {
+                "abilities": {
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nNymphs are immune to Triton's and Abyssal Triton's Ocean Lord ability."
+                        }
+                }
+        },
+        "grandalliance.hota.cove:oceanid": {
+                "abilities": {
+                        "dummyImmunetoTriton": {
+                                "type": "NONE",
+                                "icon": "icons/oceanimmune1.png",
+                                "description": "{Friend of the ocean}\nOceanids are immune to Triton's and Abyssal Triton's Ocean Lord ability."
+                        }
+                }
         },
         "grandalliance.hota.bulwark:jotunn": {
                 "aiValue": 4180,

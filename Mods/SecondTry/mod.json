@@ -1,5 +1,5 @@
 {
-	"name": "H3 new T7 units for each faction",
+	"name": "Grand Alliance Core",
 	"modType": "Expansion",
 	"author": "Mihail-Enoh Bodnarciuc",
 	"version": "1.0",
@@ -35,7 +35,8 @@
 		"lotrd-townscreens.tower"
 	],
 	"depends": [
-		"grandalliance.hota.bulwark"
+		"grandalliance.hota.bulwark",
+		"grandalliance.hota.cove"
 	],
 	"factions": [
 		"config/town-screen/castle/factions",

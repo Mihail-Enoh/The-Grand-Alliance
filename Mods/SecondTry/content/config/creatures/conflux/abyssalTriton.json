@@ -7,7 +7,7 @@
 		"faction": "conflux",
 		"level": 7,
 		"cost": {
-			"gold": 3500,
+			"gold": 3800,
 			"mercury": 1
 		},
 		"speed": 9,
@@ -48,6 +48,57 @@
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"subtype": "water",
 				"val": 100
+			},
+			"oceanLord": {
+				"type": "GENERAL_ATTACK_REDUCTION",
+				"val": 25,
+				"stacking": "oceanLord",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater": "BONUS_OWNER_UPDATER",
+				"limiters": [
+					"OPPOSITE_SIDE",
+					{
+						"type": "UNIT_ADJACENT",
+						"creature": "mdtAbyssalTriton"
+					},
+					[
+						"noneOf",
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:waterElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:iceElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:nymph"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:oceanid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:seaserpent"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:haspid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtTriton"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtAbyssalTriton"
+						}
+					]
+				],
+				"icon": "icons/oceanLord2.png",
+				"description": "{Ocean Lord}\nReduces damage dealt by adjacent non water creatures by 25%."
 			}
 		},
 		"graphics": {

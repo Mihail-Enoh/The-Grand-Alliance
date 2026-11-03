@@ -1,46 +1,51 @@
 {
-	"mdtMermaid" : {
-		"name" : {
-			"singular" : "Mermaid",
-			"plural" : "Mermaids"
+	"mdtMermaid": {
+		"name": {
+			"singular": "Mermaid",
+			"plural": "Mermaids"
 		},
-		"faction" : "neutral",
-		"level" : 4,
-		"cost" : {
-			"gold" : 350
+		"faction": "neutral",
+		"level": 4,
+		"cost": {
+			"gold": 350
 		},
-		"speed" : 5,
-		"hitPoints" : 30,
-		"attack" : 8,
-		"defense" : 12,
-		"damage" : {
-			"min" : 6,
-			"max" : 9
+		"speed": 5,
+		"hitPoints": 30,
+		"attack": 8,
+		"defense": 12,
+		"damage": {
+			"min": 6,
+			"max": 9
 		},
-		"fightValue" : 442,
-		"aiValue" : 459,
-		"doubleWide" : true,
-		"advMapAmount" : {
-			"min" : 10,
-			"max" : 16
+		"fightValue": 442,
+		"aiValue": 459,
+		"doubleWide": true,
+		"advMapAmount": {
+			"min": 10,
+			"max": 16
 		},
-		"growth" : 5,
-		"hasDoubleWeek" : true,
-		"abilities" : {
-			"whirlpoolProtection" : {
-				"type" : "WHIRLPOOL_PROTECTION",
-				"propagator" : "HERO",
-				"description" : "{Sea Protector}\nMermaids can help to safe travel through whirlpools",
-				"icon" : "icons/e_whirl.png"
+		"growth": 5,
+		"hasDoubleWeek": true,
+		"abilities": {
+			"whirlpoolProtection": {
+				"type": "WHIRLPOOL_PROTECTION",
+				"propagator": "HERO",
+				"description": "{Sea Protector}\nMermaids can help to safe travel through whirlpools",
+				"icon": "icons/e_whirl.png"
+			},
+			"dummyImmunetoTriton": {
+				"type": "NONE",
+				"icon": "icons/oceanimmune2.png",
+				"description": "{Friend of the ocean}\nMermaids are immune to Triton's and Abyssal Triton's Ocean Lord ability."
 			}
 		},
-		"stackExperience" : [
+		"stackExperience": [
 			{
-				"bonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
+				"bonus": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "attack"
 				},
-				"values" : [
+				"values": [
 					1,
 					2,
 					2,
@@ -54,11 +59,11 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
+				"bonus": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "defence"
 				},
-				"values" : [
+				"values": [
 					1,
 					2,
 					2,
@@ -72,11 +77,11 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
+				"bonus": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax"
 				},
-				"values" : [
+				"values": [
 					0,
 					1,
 					1,
@@ -90,11 +95,11 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+				"bonus": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin"
 				},
-				"values" : [
+				"values": [
 					0,
 					1,
 					1,
@@ -108,11 +113,11 @@
 				]
 			},
 			{
-				"bonus" : {
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+				"bonus": {
+					"valueType": "PERCENT_TO_BASE",
+					"type": "STACK_HEALTH"
 				},
-				"values" : [
+				"values": [
 					5,
 					10,
 					15,
@@ -126,10 +131,10 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "STACKS_SPEED"
+				"bonus": {
+					"type": "STACKS_SPEED"
 				},
-				"values" : [
+				"values": [
 					0,
 					0,
 					0,
@@ -151,11 +156,11 @@
 			//				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			//			},
 			{
-				"bonus" : {
-					"subtype" : "water",
-					"type" : "SPELL_SCHOOL_IMMUNITY"
+				"bonus": {
+					"subtype": "water",
+					"type": "SPELL_SCHOOL_IMMUNITY"
 				},
-				"values" : [
+				"values": [
 					false,
 					false,
 					false,
@@ -169,11 +174,11 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "fortune"
+				"bonus": {
+					"type": "ENCHANTED",
+					"subtype": "fortune"
 				},
-				"values" : [
+				"values": [
 					0,
 					0,
 					0,
@@ -187,15 +192,15 @@
 				]
 			},
 			{
-				"bonus" : {
-					"type" : "SPELL_BEFORE_ATTACK",
-					"subtype" : "iceBolt",
-					"addInfo" : [
+				"bonus": {
+					"type": "SPELL_BEFORE_ATTACK",
+					"subtype": "iceBolt",
+					"addInfo": [
 						3,
 						1
 					]
 				},
-				"values" : [
+				"values": [
 					5,
 					10,
 					15,
@@ -209,24 +214,132 @@
 				]
 			}
 		],
-		"graphics" : {
-			"iconSmall" : "creatures/neutral/iconsSmall/mermaidS.png",
-			"iconLarge" : "creatures/neutral/iconsBig/mermaidB.png",
-			"map" : "creatures/neutral/map/mermaidmap.def",
-			"animation" : "creatures/neutral/battle/mermaid.def",
-			"animationTime" : {
-				"walk" : 0.9,
-				"attack" : 1,
-				"idle" : 10
+		"graphics": {
+			"iconSmall": "creatures/neutral/iconsSmall/mermaidS.png",
+			"iconLarge": "creatures/neutral/iconsBig/mermaidB.png",
+			"map": "creatures/neutral/map/mermaidmap.def",
+			"animation": "creatures/neutral/battle/mermaid.def",
+			"animationTime": {
+				"walk": 0.9,
+				"attack": 1,
+				"idle": 10
 			},
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets": 1
 		},
-		"sound" : {
-			"attack" : "creatures/neutral/mermaid/MERMATTACK.wav",
-			"defend" : "creatures/neutral/mermaid/MERMDFND.wav",
-			"killed" : "creatures/neutral/mermaid/MERMDEAD.wav",
-			"move" : "creatures/neutral/mermaid/MERMMOVE.wav",
-			"wince" : "creatures/neutral/mermaid/MERMHIT.wav"
+		"sound": {
+			"attack": "creatures/neutral/mermaid/MERMATTACK.wav",
+			"defend": "creatures/neutral/mermaid/MERMDFND.wav",
+			"killed": "creatures/neutral/mermaid/MERMDEAD.wav",
+			"move": "creatures/neutral/mermaid/MERMMOVE.wav",
+			"wince": "creatures/neutral/mermaid/MERMHIT.wav"
+		}
+	},
+	"grandalliance.secondtry:mdtAbyssalTriton": {
+		"abilities": {
+			"oceanLord": {
+				"val": 25,
+				"stacking": "oceanLord",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater": "BONUS_OWNER_UPDATER",
+				"limiters": [
+					"OPPOSITE_SIDE",
+					{
+						"type": "UNIT_ADJACENT",
+						"creature": "grandalliance.secondtry:mdtAbyssalTriton"
+					},
+					[
+						"noneOf",
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:waterElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:iceElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:nymph"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:oceanid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:seaserpent"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:haspid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtTriton"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtAbyssalTriton"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry.neutral-creatures:mdtMermaid"
+						}
+					]
+				]
+			}
+		}
+	},
+	"grandalliance.secondtry:mdtTriton": {
+		"abilities": {
+			"oceanLord": {
+				"limiters": [
+					"OPPOSITE_SIDE",
+					{
+						"type": "UNIT_ADJACENT",
+						"creature": "mdtTriton"
+					},
+					[
+						"noneOf",
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:waterElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "core:iceElemental"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:nymph"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:oceanid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:seaserpent"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.hota.cove:haspid"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtTriton"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry:mdtAbyssalTriton"
+						},
+						{
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "grandalliance.secondtry.neutral-creatures:mdtMermaid"
+						}
+					]
+				]
+			}
 		}
 	}
 }
