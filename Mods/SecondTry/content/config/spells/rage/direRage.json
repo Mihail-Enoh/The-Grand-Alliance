@@ -40,7 +40,7 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "{Dire Rage}\r\nIncreases attack and defese by 2 with every turn.",
+				"description" : "{Dire Rage}\r\nIncreases attack and defense by 2 with every turn.",
 				"cost" : 0,
 				"battleEffects" : {
 					"rageEffect" : {

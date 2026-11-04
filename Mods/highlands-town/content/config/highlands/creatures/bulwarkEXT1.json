@@ -10,7 +10,7 @@
 		},
 		"faction" : "bulwark",
 		"aiValue" : 4260,
-		"attack" : 18,
+		"attack" : 19,
 		"cost" : {
 			"gold" : 2000
 		},
@@ -18,7 +18,7 @@
 			"max" : 50,
 			"min" : 45
 		},
-		"defense" : 18,
+		"defense" : 16,
 		"fightValue" : 3504,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CSNWMA.json",
@@ -84,8 +84,8 @@
 			"freezingAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "freezingShot",
-				"val" : 20,
-				"description" : "{Freezing Attack}\n20% to freeze enemies after attack.",
+				"val" : 25,
+				"description" : "{Freezing Attack}\n25% to freeze enemies after attack.",
 				"icon" : "hota/bulwark/bonuses/freezingShot.png"
 			},
 			"castsAmount" : {

@@ -40,7 +40,7 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "{Rage}\r\nIncreases attack and defese by 1 with every turn.",
+				"description" : "{Rage}\r\nIncreases attack and defense by 1 with every turn.",
 				"cost" : 0,
 				"battleEffects" : {
 					"rageEffect" : {

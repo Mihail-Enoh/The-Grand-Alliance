@@ -10,7 +10,7 @@
 		},
 		"faction" : "bulwark",
 		"aiValue" : 6760,
-		"attack" : 25,
+		"attack" : 27,
 		"cost" : {
 			"gold" : 3800,
 			"gems" : 1
@@ -19,7 +19,7 @@
 			"max" : 50,
 			"min" : 45
 		},
-		"defense" : 25,
+		"defense" : 24,
 		"fightValue" : 5504,
 		"graphics" : {
 			"animation" : "highlands/battle/creatures/CICEMA.json",
@@ -82,8 +82,8 @@
 			"freezingAttack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "freezingShot",
-				"val" : 20,
-				"description" : "{Freezing Attack}\n20% to freeze enemies after attack.",
+				"val" : 25,
+				"description" : "{Freezing Attack}\n25% to freeze enemies after attack.",
 				"icon" : "hota/bulwark/bonuses/freezingShot.png"
 			},
 			"castsAmount" : {

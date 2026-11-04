@@ -1236,6 +1236,9 @@
                         }
                 }
         },
+        "grandalliance.hota.bulwark:yeti": {
+                "hitPoints": 45
+        },
         "grandalliance.hota.bulwark:jotunn": {
                 "aiValue": 4180,
                 "attack": 18,
