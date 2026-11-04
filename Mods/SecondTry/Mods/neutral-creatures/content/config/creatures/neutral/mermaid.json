@@ -25,7 +25,6 @@
 			"max": 16
 		},
 		"growth": 5,
-		"hasDoubleWeek": true,
 		"abilities": {
 			"whirlpoolProtection": {
 				"type": "WHIRLPOOL_PROTECTION",

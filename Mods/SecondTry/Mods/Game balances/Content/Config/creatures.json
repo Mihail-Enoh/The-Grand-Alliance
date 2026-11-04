@@ -1185,7 +1185,7 @@
                         "max": 55,
                         "min": 30
                 },
-                "defense": 16,
+                "defense": 15,
                 "growth": 2,
                 "fightValue": 3291,
                 "abilities": {
@@ -1198,7 +1198,7 @@
         },
         "grandalliance.hota.cove:haspid": {
                 "aiValue": 7320,
-                "attack": 29,
+                "attack": 30,
                 "cost": {
                         "gold": 4300,
                         "sulfur": 2
@@ -1207,7 +1207,7 @@
                         "max": 55,
                         "min": 30
                 },
-                "defense": 20,
+                "defense": 15,
                 "growth": 2,
                 "fightValue": 6120,
                 "abilities": {
