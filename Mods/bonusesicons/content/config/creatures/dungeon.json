@@ -1,0 +1,12 @@
+{
+    "core:manticore": {
+        "abilities": {
+            "canFly": {
+                "icon": "zvs/Lib1.res/e_fly2"
+            },
+            "paralize": {
+                "icon": "zvs/Lib1.res/paralysisattack"
+            }
+        }
+    }
+}

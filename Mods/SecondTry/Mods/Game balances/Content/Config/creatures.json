@@ -237,14 +237,6 @@
                         "min": 20,
                         "max": 22
                 },
-                "abilities": {
-                        "raisesMorale": {
-                                "type": "MORALE",
-                                "val": 1,
-                                "stacking": "Minotaurs",
-                                "description": "{Warrior's Pride}\nMinotaurs always have their morale increased by one."
-                        }
-                },
                 "aiValue": 1694,
                 "fightValue": 1468,
                 "advMapAmount": {
@@ -255,7 +247,7 @@
         "core:minotaurKing": {
                 "level": 6,
                 "cost": {
-                        "gold": 1300
+                        "gold": 1150
                 },
                 "attack": 17,
                 "defense": 15,
@@ -265,14 +257,6 @@
                 "damage": {
                         "min": 22,
                         "max": 24
-                },
-                "abilities": {
-                        "raisesMorale": {
-                                "type": "MORALE",
-                                "val": 2,
-                                "stacking": "Minotaur Kings",
-                                "description": "{King's Pride}\nMinotaur Kings always have their morale increased by two."
-                        }
                 },
                 "advMapAmount": {
                         "min": 5,

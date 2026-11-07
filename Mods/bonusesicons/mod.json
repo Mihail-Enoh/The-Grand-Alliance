@@ -1,0 +1,18 @@
+{
+    "name": "Bonus Icons VCMI Extras Compatibility",
+    "description": "Additional ability icons for VCMI Extras creatures.",
+    "author": "Mihail-Enoh Bodnarciuc",
+    "version": "1.0.1",
+    "modType": "Compatibility",
+    "depends": [
+        "vcmi-extras",
+        "vcmi-extras.bonusicons.bonus icons"
+    ],
+    "softDepends": [
+        "vcmi-extras.bonusicons.bonus icons"
+    ],
+    "creatures": [
+        "config/creatures/dungeon.json",
+        "config/creatures/fortress.json"
+    ]
+}
