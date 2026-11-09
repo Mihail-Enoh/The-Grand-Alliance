@@ -12,7 +12,8 @@
 	},
 	"depends": [
 		"grandalliance.hota.interference",
-		"grandalliance.secondtry.skills"
+		"grandalliance.secondtry.skills",
+		"asphalt-terrain"
 	],
 	"creatures": [
 		"config/forge/creatures/lvl1unit",

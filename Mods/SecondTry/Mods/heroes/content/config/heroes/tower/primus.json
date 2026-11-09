@@ -1,13 +1,13 @@
 {
-	"mdtOdetta": {
+	"primus": {
 		"class": "alchemist",
 		"female": false,
 		"special": true,
 		"images": {
-			"specialtySmall": "heroes/tower/odetta_spec-small.bmp",
-			"specialtyLarge": "heroes/tower/odetta_spec-big.bmp",
-			"large": "heroes/tower/odetta_portrait-big.bmp",
-			"small": "heroes/tower/odetta_portrait-small.bmp"
+			"specialtySmall": "heroes/tower/primus_spec-small.bmp",
+			"specialtyLarge": "heroes/tower/primus_spec-big.bmp",
+			"large": "heroes/tower/primus_portrait-big.bmp",
+			"small": "heroes/tower/primus_portrait-small.bmp"
 		},
 		"army": [
 			{

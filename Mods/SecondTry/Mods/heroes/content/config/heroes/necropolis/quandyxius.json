@@ -1,13 +1,13 @@
 {
-	"zamNecromancer": {
+	"quandyxius": {
 		"class": "necromancer",
 		"female": false,
 		"special": true,
 		"images": {
-			"specialtySmall": "heroes/necropolis/zam_spec-small.bmp",
-			"specialtyLarge": "heroes/necropolis/zam_spec-large.bmp",
-			"large": "heroes/necropolis/zam_portrait-large.bmp",
-			"small": "heroes/necropolis/zam_portrait-small.bmp"
+			"specialtySmall": "heroes/necropolis/quandyxius_spec-small.bmp",
+			"specialtyLarge": "heroes/necropolis/quandyxius_spec-large.bmp",
+			"large": "heroes/necropolis/quandyxius_portrait-large.bmp",
+			"small": "heroes/necropolis/quandyxius_portrait-small.bmp"
 		},
 		"army": [
 			{
@@ -43,8 +43,8 @@
 			"deathRipple"
 		],
 		"texts": {
-			"name": "Zam",
-			"biography": "After Archibald Ironfist lost the Succession Wars, Zam decided to leave Enroth and settle down for good in Erathia. Hiding for years in his laboratory, by coincidence he heard the news about dethroning the old ruler of Deyja. Disappointed by unconventional methods of the new King, Zam has quickly withdrawn allegiance to him, turning his focus entirely toward the reanimation and mastery of the dreaded Bone Dragons.",
+			"name": "Quandyxius",
+			"biography": "Having devoted his life to the study of dragonkind, Quandyxius uncovered secrets of their existence that transcended mortality. Even after embracing necromancy, his fascination with dragons never faded. Under his command, Ghost Dragons become more powerful, guided by the knowledge of one who understands both their living and spectral forms.",
 			"specialty": {
 				"name": "Bone Dragons",
 				"tooltip": "Creature Bonus: Bone Dragons",

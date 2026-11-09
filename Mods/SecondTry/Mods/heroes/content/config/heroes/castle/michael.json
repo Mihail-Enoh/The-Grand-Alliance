@@ -1,13 +1,13 @@
 {
-	"mdtGwenneth": {
+	"michael": {
 		"class": "cleric",
 		"female": false,
 		"special": true,
 		"images": {
-			"specialtySmall": "heroes/castle/gwenneth_spec-small.bmp",
-			"specialtyLarge": "heroes/castle/gwenneth_spec-big.bmp",
-			"large": "heroes/castle/gwenneth_portrait-big.bmp",
-			"small": "heroes/castle/gwenneth_portrait-small.bmp"
+			"specialtySmall": "heroes/castle/michael_spec-small.bmp",
+			"specialtyLarge": "heroes/castle/michael_spec-big.bmp",
+			"large": "heroes/castle/michael_portrait-big.bmp",
+			"small": "heroes/castle/michael_portrait-small.bmp"
 		},
 		"army": [
 			{
