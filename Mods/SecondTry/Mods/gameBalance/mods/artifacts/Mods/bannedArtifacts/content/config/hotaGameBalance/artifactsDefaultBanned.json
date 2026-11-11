@@ -14,10 +14,10 @@
 	"core:surcoatOfCounterpoise" : {
 		"class" : "SPECIAL"
 	},
-	"grandalliance.hota.artifacts:sleepkeeper" : {
+	"hota.artifacts:sleepkeeper" : {
 		"class" : "SPECIAL"
 	},
-	"grandalliance.hota.neutralcreatures:hornOfTheAbyss" : {
+	"hota.neutralcreatures:hornOfTheAbyss" : {
 		"class" : "SPECIAL"
 	}
 }

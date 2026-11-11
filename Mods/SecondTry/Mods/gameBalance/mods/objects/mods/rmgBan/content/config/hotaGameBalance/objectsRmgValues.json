@@ -71,7 +71,7 @@
 		}
 	},
 
-	"grandalliance.hota.mapobjects:ancientLamp" : {
+	"hota.mapobjects:ancientLamp" : {
 		"types" : {
 			"ancientLamp" : {
 				"rmg" : null

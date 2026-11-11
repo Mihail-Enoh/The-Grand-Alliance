@@ -1,5 +1,5 @@
 {
-	"grandalliance.hota.bulwark:14akka" : {
+	"hota.bulwark:14akka" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "PRIMARY_SKILL",

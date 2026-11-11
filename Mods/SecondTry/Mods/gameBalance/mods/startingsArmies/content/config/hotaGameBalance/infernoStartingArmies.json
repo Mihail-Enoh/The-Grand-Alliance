@@ -328,7 +328,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:athe" : {
+	"hota.heroes:athe" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -347,7 +347,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:kydoimos" : {
+	"hota.heroes:kydoimos" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -366,7 +366,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:miseria" : {
+	"hota.heroes:miseria" : {
 		"army" : [
 			{
 				"creature" : "imp",

@@ -1,24 +1,24 @@
 {
-	"grandalliance.hota.factory:halflingGrenadier" : {
+	"hota.factory:halflingGrenadier" : {
 		"fightValue" : 76
 	},
-	"grandalliance.hota.factory:hotaMechanic" : {
+	"hota.factory:hotaMechanic" : {
 		"aiValue" : 211,
 		"fightValue" : 201
 	},
-	"grandalliance.hota.factory:hotaEngineer" : {
+	"hota.factory:hotaEngineer" : {
 		"aiValue" : 298,
 		"fightValue" : 248
 	},
-	"grandalliance.hota.factory:automaton" : {
+	"hota.factory:automaton" : {
 		"aiValue" : 669,
 		"fightValue" : 398
 	},
-	"grandalliance.hota.factory:sentinelAutomaton" : {
+	"hota.factory:sentinelAutomaton" : {
 		"aiValue" : 947,
 		"fightValue" : 631
 	},
-	"grandalliance.hota.factory:hotaDreadnought" : {
+	"hota.factory:hotaDreadnought" : {
 		"fightValue" : 4079
 	}
 }

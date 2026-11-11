@@ -1,5 +1,5 @@
 {
-	"grandalliance.hota.cove:19dargem" : {
+	"hota.cove:19dargem" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",

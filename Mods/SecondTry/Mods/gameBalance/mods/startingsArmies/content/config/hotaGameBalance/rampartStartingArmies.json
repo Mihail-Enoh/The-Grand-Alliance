@@ -308,7 +308,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.interference:giselle" : {
+	"hota.interference:giselle" : {
 		"army" : [
 			{
 				"creature" : "centaur",

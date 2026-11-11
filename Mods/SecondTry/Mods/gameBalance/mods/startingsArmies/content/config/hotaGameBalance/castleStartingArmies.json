@@ -343,7 +343,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:beatrice" : {
+	"hota.heroes:beatrice" : {
 		"army" : [
 			{
 				"creature" : "pikeman",

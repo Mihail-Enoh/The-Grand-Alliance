@@ -81,7 +81,7 @@
 	"core:ballista" : {
 		"value" : 1500
 	},
-	"grandalliance.hota.cannon:cannon" : {
+	"hota.cannon:cannon" : {
 		"value" : 3000
 	}
 }

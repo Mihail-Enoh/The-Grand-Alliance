@@ -6,8 +6,8 @@
 	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
 	"version" : "1.0",
 	"softDepends" : [
-		"grandalliance.hota.artifacts",
-		"grandalliance.hota.neutralcreatures"
+		"hota.artifacts",
+		"hota.neutralcreatures"
 	],
 	"artifacts" : [
 		"config/hotaGameBalance/artifactsDefaultBanned.json"

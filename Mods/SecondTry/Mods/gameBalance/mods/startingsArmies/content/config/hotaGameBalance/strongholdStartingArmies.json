@@ -344,7 +344,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:gruezak" : {
+	"hota.heroes:gruezak" : {
 		"army" : [
 			{
 				"creature" : "goblin",
@@ -363,7 +363,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:zog" : {
+	"hota.heroes:zog" : {
 		"army" : [
 			{
 				"creature" : "goblin",

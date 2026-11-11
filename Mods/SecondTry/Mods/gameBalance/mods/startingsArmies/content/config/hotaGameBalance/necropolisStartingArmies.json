@@ -267,7 +267,7 @@
 			}
 		]
 	},
-	"grandalliance.hota.heroes:hotaMaximus" : {
+	"hota.heroes:hotaMaximus" : {
 		"army" : [
 			{
 				"creature" : "skeleton",

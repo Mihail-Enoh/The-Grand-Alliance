@@ -6,8 +6,8 @@
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
 	"softDepends" : [
-		"grandalliance.hota.interference",
-		"grandalliance.hota.heroes"
+		"hota.interference",
+		"hota.heroes"
 	],
 	"heroes" : [
 		"config/hotaGameBalance/rampartStartingArmies.json",
