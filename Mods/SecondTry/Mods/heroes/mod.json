@@ -14,9 +14,9 @@
 	"depends" : [
 		"grandalliance.secondtry.spells",
 		"grandalliance.secondtry.skills",
-		"grandalliance.hota.bulwark",
-		"grandalliance.hota.cove",
-		"grandalliance.hota.factory"
+		"hota.bulwark",
+		"hota.cove",
+		"hota.factory"
 	],
 	"heroClasses": [
 		"config/heroes/classes/fantoma"

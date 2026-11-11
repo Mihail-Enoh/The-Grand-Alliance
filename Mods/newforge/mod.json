@@ -7,7 +7,7 @@
     "depends": [
         "forge",
         "grandalliance",
-        "grandalliance.hota.interference",
+        "hota.interference",
         "grandalliance.secondtry.skills",
         "grandalliance.secondtry.spells",
         "asphalt-terrain"

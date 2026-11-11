@@ -10,11 +10,14 @@
 	"softDepends": [
 		"vcmi-extras"
 	],
+	"depends": [
+		"hota",
+		"forge",
+		"hota.confluxvaultofashes"
+	],
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
 	"conflicts": [
-		"hota",
-		"forge",
 		"highlands-town",
 		"tides-of-war",
 		"forge2k",

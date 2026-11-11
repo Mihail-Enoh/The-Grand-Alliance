@@ -6,10 +6,10 @@
 	"version": "3.04",
 	"modType": "Town",
 	"depends": [
-		"grandalliance.hota.bulwark",
+		"hota.bulwark",
 		"grandalliance.secondtry.spells",
-		"grandalliance.hota.interference",
-		"grandalliance.hota.cannon"
+		"hota.interference",
+		"hota.cannon"
 	],
 	"conflicts": [
 		"bastille"

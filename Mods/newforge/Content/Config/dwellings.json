@@ -1,29 +1,11 @@
 {
         "core:creatureGeneratorCommon": {
                 "types": {
-                        "forge": {
-                                "reanimatorium": {
-                                        "name": "Assembly Line",
-                                        "creatures": [
-                                                "juggernaut2k"
-                                        ],
-                                        "sounds": {
-                                                "ambient": [
-                                                        "forge/ambient/CYBORGLOOP"
-                                                ]
-                                        },
-                                        "templates": {
-                                                "default": {
-                                                        "animation": "forge/map/lvl3b",
-                                                        "mask": [
-                                                                "VV",
-                                                                "VV",
-                                                                "VAB"
-                                                        ]
-                                                }
-                                        },
-                                        "kingdomOverviewImage": "forge/map/flagports/forgedw03.def"
-                                }
+                        "reanimatorium": {
+                                "name": "Assembly Line",
+                                "creatures": [
+                                        "juggernaut2k"
+                                ]
                         }
                 }
         }

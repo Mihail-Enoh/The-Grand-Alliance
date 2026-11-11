@@ -1,5 +1,5 @@
 {
-    "grandalliance.hota.bulwark:bulwark": {
+    "hota.bulwark:bulwark": {
         "town": {
             "hallBackground": "TPTHBWFG.png",
             "buildingsIcons": "townhallBulwark/bulwarktown.def",

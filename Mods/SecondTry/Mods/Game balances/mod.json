@@ -1,11 +1,13 @@
 {
-    "name": "Game Balances Core Game",
-    "description": "Modifications for vanilla creature stats.",
+    "name": "Game Balances Core & HotA",
+    "description": "Modifications for vanilla game and Horn of the Abyss.",
     "version": "1.0",
     "author": "Mihail-Enoh Bodnarciuc",
     "modType": "Mechanics",
     "depends": [
-        "grandalliance.hota.factory"
+        "hota.factory",
+        "hota.bulwark",
+        "hota.cove"
     ],
     "creatures": [
         "Config/creatures.json"
@@ -18,5 +20,8 @@
     ],
     "objects" : [
 		"Config/banks.json"
-	]
+	],
+    "skills": [
+        "Config/skills.json"
+    ]
 }

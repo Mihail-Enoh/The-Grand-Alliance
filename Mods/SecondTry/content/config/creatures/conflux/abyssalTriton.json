@@ -73,19 +73,19 @@
 						},
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "grandalliance.hota.cove:nymph"
+							"creature": "hota.cove:nymph"
 						},
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "grandalliance.hota.cove:oceanid"
+							"creature": "hota.cove:oceanid"
 						},
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "grandalliance.hota.cove:seaserpent"
+							"creature": "hota.cove:seaserpent"
 						},
 						{
 							"type": "CREATURE_TYPE_LIMITER",
-							"creature": "grandalliance.hota.cove:haspid"
+							"creature": "hota.cove:haspid"
 						},
 						{
 							"type": "CREATURE_TYPE_LIMITER",

@@ -6,10 +6,11 @@
 				"range" : "X",
 				"battleEffects":{
 					"summon":{
-						"exclusive":true,
+						"exclusive":false,
 						"id":"earthElemental",
 						"permanent":false,
-						"type":"core:summon"
+						"type":"core:summon",
+						"summonByHealth" : false
 					}
 				}
 			},
@@ -34,10 +35,11 @@
 				"range" : "X",
 				"battleEffects":{
 					"summon":{
-						"exclusive":true,
+						"exclusive":false,
 						"id":"fireElemental",
 						"permanent":false,
-						"type":"core:summon"
+						"type":"core:summon",
+						"summonByHealth" : false
 					}
 				}
 			},
@@ -62,7 +64,7 @@
 				"range" : "X",
 				"battleEffects":{
 					"summon":{
-						"exclusive":true,
+						"exclusive":false,
 						"id":"waterElemental",
 						"permanent":false,
 						"type":"core:summon"
@@ -90,7 +92,7 @@
 				"range" : "X",
 				"battleEffects":{
 					"summon":{
-						"exclusive":true,
+						"exclusive":false,
 						"id":"airElemental",
 						"permanent":false,
 						"type":"core:summon"
@@ -108,6 +110,22 @@
 			},
 			"expert": {
 				"power": 8
+			}
+		}
+	},
+	"core:teleport": {
+		"levels": {
+			"none": {
+				"cost": 16
+			},
+			"basic": {
+				"cost": 13
+			},
+			"advanced": {
+				"cost": 7
+			},
+			"expert": {
+				"cost": 4
 			}
 		}
 	},

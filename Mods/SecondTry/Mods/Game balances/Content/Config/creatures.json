@@ -562,7 +562,14 @@
                 "horde": 1,
                 "growth": 1,
                 "aiValue": 4336,
-                "fightValue": 3097
+                "fightValue": 3097,
+                "abilities": {
+                        "magicResistance": null,
+                        "immuneToFire": {
+                                "type": "SPELL_SCHOOL_IMMUNITY",
+                                "subtype": "spellSchool.fire"
+                        }
+                }
         },
         "core:phoenix": {
                 "cost": {
@@ -1020,19 +1027,97 @@
                         }
                 }
         },
-        "grandalliance.hota.factory:automaton": {
+        "hota.factory:halflingGrenadier": {
+                "cost": {
+                        "gold": 65
+                },
+                "abilities": {
+                        "shooter": {
+                                "type": "SHOOTER"
+                        },
+                        "reduceDefence": {
+                                "type": "ENEMY_DEFENCE_REDUCTION",
+                                "val": 20
+                        },
+                        "throwingGrenade": {
+                                "type": "SPELL_LIKE_ATTACK",
+                                "subtype": "hotaGrenade"
+                        },
+                        "hasluck": {
+                                "type": "LUCK",
+                                "val": 1,
+                                "valueType": "INDEPENDENT_MAX",
+                                "description": "{Positive luck}\nHalfling Grenadier's luck cannot be decreased below +1."
+                        },
+                        "dummyluckyicon": {
+                                "type": "NONE",
+                                "icon": "spells/positiveluck.png",
+                                "description": "{Positive Luck}\nHalfling Grenadier's luck cannot be decreased below +1."
+                        }
+                }
+        },
+        "hota.factory:hotaMechanic": {
+                "damage": {
+                        "max": 5,
+                        "min": 3
+                },
+                "abilities": {
+                        "twoHexAttackBreath": {
+                                "type": "TWO_HEX_ATTACK_BREATH"
+                        },
+                        "repair": {
+                                "type": "ADJACENT_SPELLCASTER",
+                                "subtype": "hotaRepair",
+                                "description": "{Repair}\nRepairs mechanical creatures (20 Health per Mechanic)."
+                        },
+                        "castLength": {
+                                "type": "SPECIFIC_SPELL_POWER",
+                                "subtype": "hotaRepair",
+                                "val": 20
+                        },
+                        "spellpoints": {
+                                "type": "CASTS",
+                                "val": 2
+                        }
+                }
+        },
+        "hota.factory:hotaEngineer": {
+                "cost": {
+                        "gold": 190
+                },
+                "abilities": {
+                        "twoHexAttackBreath": {
+                                "type": "TWO_HEX_ATTACK_BREATH"
+                        },
+                        "repair": {
+                                "type": "ADJACENT_SPELLCASTER",
+                                "subtype": "hotaRepair",
+                                "description": "{Repair}\nRepairs mechanical creatures (30 Health per Engineer)."
+                        },
+                        "castLength": {
+                                "type": "SPECIFIC_SPELL_POWER",
+                                "subtype": "hotaRepair",
+                                "val": 30
+                        },
+                        "spellpoints": {
+                                "type": "CASTS",
+                                "val": 2
+                        }
+                }
+        },
+        "hota.factory:automaton": {
                 "damage": {
                         "min": 9,
                         "max": 9
                 }
         },
-        "grandalliance.hota.factory:sentinelAutomaton": {
+        "hota.factory:sentinelAutomaton": {
                 "damage": {
                         "min": 11,
                         "max": 11
                 }
         },
-        "grandalliance.hota.factory:armadillo": {
+        "hota.factory:armadillo": {
                 "damage": {
                         "min": 5,
                         "max": 9
@@ -1043,7 +1128,7 @@
                 "aiValue": 350,
                 "fightValue": 328
         },
-        "grandalliance.hota.factory:bellwetherArmadillo": {
+        "hota.factory:bellwetherArmadillo": {
                 "damage": {
                         "min": 7,
                         "max": 9
@@ -1054,7 +1139,7 @@
                 "aiValue": 494,
                 "fightValue": 472
         },
-        "grandalliance.hota.factory:sandworm": {
+        "hota.factory:sandworm": {
                 "attack": 14,
                 "defense": 12,
                 "damage": {
@@ -1068,7 +1153,7 @@
                         "gold": 575
                 }
         },
-        "grandalliance.hota.factory:olgoiKhorkhoi": {
+        "hota.factory:olgoiKhorkhoi": {
                 "attack": 15,
                 "defense": 12,
                 "damage": {
@@ -1082,7 +1167,7 @@
                         "gold": 650
                 }
         },
-        "grandalliance.hota.factory:gunslinger": {
+        "hota.factory:gunslinger": {
                 "attack": 17,
                 "defense": 13,
                 "damage": {
@@ -1096,7 +1181,7 @@
                         "gold": 900
                 }
         },
-        "grandalliance.hota.factory:bountyHunter": {
+        "hota.factory:bountyHunter": {
                 "attack": 18,
                 "defense": 14,
                 "damage": {
@@ -1110,7 +1195,7 @@
                         "gold": 1100
                 }
         },
-        "grandalliance.hota.factory:crimsonCouatl": {
+        "hota.factory:crimsonCouatl": {
                 "attack": 22,
                 "cost": {
                         "gold": 4000,
@@ -1123,9 +1208,36 @@
                 "defense": 22,
                 "aiValue": 6941,
                 "fightValue": 5364,
-                "hitPoints": 210
+                "hitPoints": 210,
+                "abilities": {
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "castsymMeditation": {
+                                "type": "SPELLCASTER",
+                                "subtype": "meditation02",
+                                "val": 0,
+                                "description": "{Meditation}\nCan cast Meditation without skipping its turn twice."
+                        },
+                        "spellpower": {
+                                "type": "CREATURE_ENCHANT_POWER",
+                                "val": 1
+                        },
+                        "castsCount": {
+                                "type": "CASTS",
+                                "val": 2
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        }
+                }
         },
-        "grandalliance.hota.factory:hotaCouatl": {
+        "hota.factory:hotaCouatl": {
                 "attack": 17,
                 "damage": {
                         "max": 50,
@@ -1133,9 +1245,36 @@
                 },
                 "defense": 17,
                 "aiValue": 3901,
-                "fightValue": 3687
+                "fightValue": 3687,
+                "abilities": {
+                        "canFly": {
+                                "type": "FLYING"
+                        },
+                        "castsymMeditation": {
+                                "type": "SPELLCASTER",
+                                "subtype": "meditation02",
+                                "val": 0,
+                                "description": "{Meditation}\nCan cast Meditation without skipping its turn."
+                        },
+                        "castsCount": {
+                                "type": "CASTS",
+                                "val": 1
+                        },
+                        "spellpower": {
+                                "type": "CREATURE_ENCHANT_POWER",
+                                "val": 1
+                        },
+                        "KING_1": {
+                                "type": "KING",
+                                "val": 0
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        }
+                }
         },
-        "grandalliance.hota.factory:hotaDreadnought": {
+        "hota.factory:hotaDreadnought": {
                 "cost": {
                         "gold": 2100
                 },
@@ -1144,7 +1283,7 @@
                         "min": 40
                 }
         },
-        "grandalliance.hota.factory:hotaJuggernaut": {
+        "hota.factory:hotaJuggernaut": {
                 "aiValue": 7030,
                 "attack": 23,
                 "cost": {
@@ -1158,7 +1297,7 @@
                 "defense": 28,
                 "fightValue": 5471
         },
-        "grandalliance.hota.cove:seaserpent": {
+        "hota.cove:seaserpent": {
                 "aiValue": 4003,
                 "attack": 23,
                 "cost": {
@@ -1180,7 +1319,7 @@
                         }
                 }
         },
-        "grandalliance.hota.cove:haspid": {
+        "hota.cove:haspid": {
                 "aiValue": 7320,
                 "attack": 30,
                 "cost": {
@@ -1202,7 +1341,7 @@
                         }
                 }
         },
-        "grandalliance.hota.cove:nymph": {
+        "hota.cove:nymph": {
                 "abilities": {
                         "dummyImmunetoTriton": {
                                 "type": "NONE",
@@ -1211,7 +1350,7 @@
                         }
                 }
         },
-        "grandalliance.hota.cove:oceanid": {
+        "hota.cove:oceanid": {
                 "abilities": {
                         "dummyImmunetoTriton": {
                                 "type": "NONE",
@@ -1220,10 +1359,10 @@
                         }
                 }
         },
-        "grandalliance.hota.bulwark:yeti": {
+        "hota.bulwark:yeti": {
                 "hitPoints": 45
         },
-        "grandalliance.hota.bulwark:jotunn": {
+        "hota.bulwark:jotunn": {
                 "aiValue": 4180,
                 "attack": 18,
                 "cost": {
@@ -1237,7 +1376,7 @@
                 "growth": 2,
                 "fightValue": 3427
         },
-        "grandalliance.hota.bulwark:jotunnWarlord": {
+        "hota.bulwark:jotunnWarlord": {
                 "aiValue": 6694,
                 "attack": 24,
                 "cost": {

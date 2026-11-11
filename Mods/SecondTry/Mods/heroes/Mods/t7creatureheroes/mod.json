@@ -11,9 +11,9 @@
                 "grandalliance.secondtry.heroes",
                 "grandalliance.secondtry.spells",
                 "grandalliance.secondtry.skills",
-                "grandalliance.hota.bulwark",
-                "grandalliance.hota.cove",
-                "grandalliance.hota.factory",
+                "hota.bulwark",
+                "hota.cove",
+                "hota.factory",
                 "forge",
                 "grandalliance.highlands-town"
         ],

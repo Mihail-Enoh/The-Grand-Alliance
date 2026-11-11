@@ -21,8 +21,8 @@
 	],
     "depends":
     [
-        "grandalliance.hota.bulwark",
+        "hota.bulwark",
         "grandalliance.highlands-town",
-        "grandalliance.hota.cannon"
+        "hota.cannon"
     ]
 }

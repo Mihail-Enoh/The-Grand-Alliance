@@ -8,7 +8,7 @@
 	},
 	"author" : "MDT",
 	"depends" : [
-		"grandalliance.hota.cove"
+		"hota.cove"
 	],
 	"creatures" : [
 		"config/creatures/neutral/mermaid",

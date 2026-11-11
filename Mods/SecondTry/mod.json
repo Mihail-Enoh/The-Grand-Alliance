@@ -35,8 +35,9 @@
 		"lotrd-townscreens.tower"
 	],
 	"depends": [
-		"grandalliance.hota.bulwark",
-		"grandalliance.hota.cove"
+		"hota.bulwark",
+		"hota.cove",
+		"hota.confluxvaultofashes"
 	],
 	"factions": [
 		"config/town-screen/castle/factions",

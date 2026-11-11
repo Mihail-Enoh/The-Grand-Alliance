@@ -39,7 +39,7 @@
 		"specialty" : {
 			"creature" : "redDragon"
 		},
-		"spellbook" : [],
+		"spellbook" : null,
 		"texts" : {
 			"name" : "Daxaroth",
 			"biography" : "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Red and Black Dragons listen to him as if he is their new King.",
