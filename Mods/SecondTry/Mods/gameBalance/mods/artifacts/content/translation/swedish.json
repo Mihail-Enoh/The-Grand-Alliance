@@ -1,8 +1,0 @@
-{
-	"artifact.core.amuletOfTheUndertaker.description" : "{Dödgrävarens Amulett}\n\nÖkar hjältens nekromantikfärdighet med 5%.",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{Den Odöda Kungens Mantel}\n\nÅteruppväcker 30% av de stupade fiendekrigarna som skelett. Om hjälten har nekromantikfärdigheten adderas procenten till den färdigheten och starkare varelser kan återuppväckas:\n\nBasal Nekromantik återuppväcker Dödgångare.\nAvancerad Nekromantik återuppväcker Gastar.\nMästerlig Nekromantik återuppväcker Dödsmagiker.",
-	"artifact.core.deadMansBoots.description" : "{Död Mans Stövlar}\n\nÖkar hjältens nekromantikfärdighet med 15%.",
-	"artifact.core.vampiresCowl.description" : "{Vampyrens Kåpa}\n\nÖkar hjältens nekromantikfärdighet med 10%.",
-	"artifact.core.equestriansGloves.description" : "{Ryttarens Handskar}\n\nDessa handskar gör så att din hjälte kan färdas längre på land (+200 färdpoäng när artefakten är utrustad på hjältens ringfingerplats).",
-	"artifact.core.bootsOfSpeed.description" : "{Snabbhetens Stövlar}\n\nDessa stövlar gör så att din hjälte kan färdas längre på land (+400 färdpoäng när artefakten är utrustad på hjältens fötter)."
-}

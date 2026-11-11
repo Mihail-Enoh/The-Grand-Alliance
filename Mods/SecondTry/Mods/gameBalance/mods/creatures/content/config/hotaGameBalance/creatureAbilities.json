@@ -1,7 +1,0 @@
-{
-	"core:fireballAbility" : {
-		"school" : {
-			"fire" : true
-		}
-	}
-}
