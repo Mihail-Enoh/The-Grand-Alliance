@@ -1,0 +1,44 @@
+{
+        "forge:mdtSupplyCart": {
+                "special": true
+        },
+        "forge:swordBreaker": {
+                "bonuses": {
+                        "speed": {
+                                "propagator": "BATTLE_WIDE",
+                                "propagationUpdater": "BONUS_OWNER_UPDATER",
+                                "limiters": [
+                                        "OPPOSITE_SIDE"
+                                ],
+                                "type": "STACKS_SPEED",
+                                "val": -10,
+                                "valueType": "PERCENT_TO_BASE"
+                        },
+                        "defence": {
+                                "propagator": "BATTLE_WIDE",
+                                "propagationUpdater": "BONUS_OWNER_UPDATER",
+                                "limiters": [
+                                        "OPPOSITE_SIDE"
+                                ],
+                                "subtype": "defence",
+                                "type": "PRIMARY_SKILL",
+                                "val": -20,
+                                "valueType": "PERCENT_TO_BASE"
+                        },
+                        "attack": {
+                                "propagator": "BATTLE_WIDE",
+                                "propagationUpdater": "BONUS_OWNER_UPDATER",
+                                "limiters": [
+                                        "OPPOSITE_SIDE"
+                                ],
+                                "subtype": "attack",
+                                "type": "PRIMARY_SKILL",
+                                "val": -20,
+                                "valueType": "PERCENT_TO_BASE"
+                        }
+                },
+                "text": {
+                        "description": "{Sword Breaker}\r\n\r\nReduces attack and defence of all enemy units by 20% and their speed by 10%."
+                }
+        }
+}

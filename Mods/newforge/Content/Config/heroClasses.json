@@ -1,0 +1,18 @@
+{
+        "forge:technic": {
+                "secondarySkills": {
+                        "hexes": 2,
+                        "intimidation": 4,
+                        "resistance" : 4,
+                        "interference": 1
+                }
+        },
+        "forge:cyborg": {
+                "secondarySkills": {
+                        "hexes": 3,
+                        "intimidation": 3,
+                        "wisdom" : 1,
+                        "interference": 5
+                }
+        }
+}

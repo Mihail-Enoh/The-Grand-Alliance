@@ -1,0 +1,825 @@
+{
+        "forge:forge": {
+                "town": {
+                        "buildings": {
+                                "villageHall": {
+                                        "name": "Village Hall",
+                                        "description": "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+                                        "mode": "auto"
+                                },
+                                "townHall": {
+                                        "name": "Town Hall",
+                                        "description": "The Town Hall allows you to purchase town structures and earns your kingdom 1500 gold per day.",
+                                        "produce": {
+                                                "gold": 1500
+                                        },
+                                        "cost": {
+                                                "gold": 3000
+                                        },
+                                        "requires": [
+                                                "tavern"
+                                        ],
+                                        "upgrades": "villageHall"
+                                },
+                                "cityHall": {
+                                        "name": "City Hall",
+                                        "description": "The City Hall allows you to purchase town structures and earns your kingdom 3000 gold per day.",
+                                        "produce": {
+                                                "gold": 3000
+                                        },
+                                        "cost": {
+                                                "gold": 6000
+                                        },
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "mageGuild1"
+                                                ],
+                                                [
+                                                        "marketplace"
+                                                ],
+                                                [
+                                                        "blacksmith"
+                                                ]
+                                        ],
+                                        "upgrades": "townHall"
+                                },
+                                "capitol": {
+                                        "name": "Capitol",
+                                        "description": "The Capitol earns your kingdom 5000 gold per day.",
+                                        "produce": {
+                                                "gold": 5000
+                                        },
+                                        "cost": {
+                                                "gold": 10000
+                                        },
+                                        "requires": [
+                                                "castle"
+                                        ],
+                                        "upgrades": "cityHall"
+                                },
+                                "blacksmith": {
+                                        "description": "The Blacksmith provides your armies with Ammo Carts.",
+                                        "warMachine": "ammoCart"
+                                },
+                                "grail": {
+                                        "description": "The presence of the Tesla Coil increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, the hero of the garrison receives the Thunder of the Titan while defending a siege.",
+                                        "bonuses": [
+                                                {
+                                                        "type": "SPELL",
+                                                        "subtype": "titanBolt",
+                                                        "val": 3,
+                                                        "valueType": "BASE_NUMBER",
+                                                        "propagator": "TOWN_AND_VISITOR"
+                                                }
+                                        ],
+                                        "name": "Tesla Coil"
+                                },
+                                "special1": {
+                                        "cost": {
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "gold": 10000,
+                                                "mercury": 0,
+                                                "ore": 0,
+                                                "sulfur": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
+                                        "name": "Artifact Merchants",
+                                        "marketModes": [
+                                                "resource-artifact",
+                                                "artifact-resource"
+                                        ],
+                                        "requires": [
+                                                "blacksmith"
+                                        ]
+                                },
+                                "special3": {
+                                        "cost": {
+                                                "gold": 10000,
+                                                "mercury": 0,
+                                                "wood": 5,
+                                                "ore": 5,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "Allows travel Forge towns containang Hero Teleporter. Destination town must be unoccupied.",
+                                        "name": "Hero Teleporter",
+                                        "type": "castleGate",
+                                        "requires": [
+                                                "citadel"
+                                        ]
+                                },
+                                "special4": {
+                                        "cost": {
+                                                "gold": 7500,
+                                                "ore": 5,
+                                                "wood": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "marketplace"
+                                                ],
+                                                [
+                                                        "resourceSilo"
+                                                ]
+                                        ]
+                                },
+                                "dwellingLvl1": {
+                                        "cost": {
+                                                "gold": 500,
+                                                "ore": 10,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Post allows you to recruit Shield Bearers.",
+                                        "name": "Post",
+                                        "requires": [
+                                                "fort"
+                                        ]
+                                },
+                                "dwellingLvl2": {
+                                        "cost": {
+                                                "gold": 1000,
+                                                "wood": 5,
+                                                "ore": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Proving Grounds allow you to recruit Thugs.",
+                                        "name": "Proving Grounds",
+                                        "requires": [
+                                                "dwellingLvl1"
+                                        ]
+                                },
+                                "dwellingLvl3": {
+                                        "cost": {
+                                                "gold": 1000,
+                                                "ore": 10,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Lava Basin allows you to recruit Arsonists.",
+                                        "name": "Lava Basin",
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl1"
+                                                ],
+                                                [
+                                                        "blacksmith"
+                                                ]
+                                        ]
+                                },
+                                "dwellingLvl8": {
+                                        "description": "The Assembly Line allows you to recruit Annihilators.",
+                                        "name": "Assembly Line",
+                                        "cost": {
+                                                "gold": 10000,
+                                                "ore": 20,
+                                                "sulfur": 5,
+                                                "wood": 20,
+                                                "mercury": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl6"
+                                                ]
+                                        ]
+                                },
+                                "dwellingLvl4": {
+                                        "cost": {
+                                                "gems": 4,
+                                                "gold": 2500,
+                                                "ore": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Suckers Colony allows you to recruit Brain Suckers.",
+                                        "name": "Suckers Colony",
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl2"
+                                                ],
+                                                [
+                                                        "mageGuild1"
+                                                ],
+                                                [
+                                                        "dwellingLvl3"
+                                                ]
+                                        ]
+                                },
+                                "dwellingLvl5": {
+                                        "cost": {
+                                                "gold": 3000,
+                                                "ore": 5,
+                                                "wood": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Cannoneers Shelters allow you to recruit Cannoneers.",
+                                        "name": "Cannoneers Shelters",
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl2"
+                                                ]
+                                        ]
+                                },
+                                "dwellingLvl6": {
+                                        "cost": {
+                                                "mercury": 2,
+                                                "sulfur": 2,
+                                                "crystal": 2,
+                                                "gems": 2,
+                                                "gold": 4000,
+                                                "ore": 5,
+                                                "wood": 5
+                                        },
+                                        "description": "The Borough allows you to recruit Sky Brawlers.",
+                                        "name": "Borough",
+                                        "requires": [
+                                                "dwellingLvl4"
+                                        ]
+                                },
+                                "dwellingLvl7": {
+                                        "cost": {
+                                                "gold": 10000,
+                                                "ore": 10,
+                                                "sulfur": 15,
+                                                "wood": 10,
+                                                "crystal": 0,
+                                                "mercury": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Mutation Vat allows you to recruit Mutants.",
+                                        "name": "Mutation Vat",
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl5"
+                                                ]
+                                        ]
+                                },
+                                "dwellingUpLvl1": {
+                                        "cost": {
+                                                "gold": 1000,
+                                                "ore": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Upg. Post allows you to recruit Pavise Bearers.",
+                                        "name": "Upg. Post",
+                                        "requires": [
+                                                "tavern"
+                                        ],
+                                        "upgrades": "dwellingLvl1"
+                                },
+                                "dwellingUpLvl2": {
+                                        "cost": {
+                                                "gold": 1000,
+                                                "wood": 10,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "ore": 0
+                                        },
+                                        "description": "The Upg. Proving Grounds allow you to recruit Mercenaries.",
+                                        "name": "Upg. Proving Grounds",
+                                        "requires": [
+                                                "blacksmith"
+                                        ],
+                                        "upgrades": "dwellingLvl2"
+                                },
+                                "dwellingUpLvl3": {
+                                        "cost": {
+                                                "gold": 1000,
+                                                "sulfur": 5,
+                                                "mercury": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "ore": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Upg. Lava Basin allows you to recruit Pyromaniacs.",
+                                        "name": "Upg. Lava Basin",
+                                        "upgrades": "dwellingLvl3"
+                                },
+                                "dwellingUpLvl8": {
+                                        "description": "The Upg. Assembly Line allows you to recruit Terminators.",
+                                        "name": "Upg. Assembly Line",
+                                        "cost": {
+                                                "gold": 20000,
+                                                "ore": 10,
+                                                "sulfur": 15,
+                                                "wood": 10,
+                                                "mercury": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "upgrades": "dwellingLvl8"
+                                },
+                                "dwellingUpLvl4": {
+                                        "cost": {
+                                                "crystal": 5,
+                                                "gold": 2000,
+                                                "ore": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "gems": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Upg. Suckers Colony allows you to recruite Soul Suckers.",
+                                        "name": "Upg. Suckers Colony",
+                                        "upgrades": "dwellingLvl4"
+                                },
+                                "dwellingUpLvl5": {
+                                        "cost": {
+                                                "crystal": 5,
+                                                "gold": 2000,
+                                                "ore": 5,
+                                                "wood": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Upg. Cannoneers Shelters allow you to recruit Bombardiers.",
+                                        "name": "Upg. Cannoneers Shelters",
+                                        "requires": [
+                                                "dwellingLvl4"
+                                        ],
+                                        "upgrades": "dwellingLvl5"
+                                },
+                                "dwellingUpLvl6": {
+                                        "cost": {
+                                                "gold": 3000,
+                                                "ore": 5,
+                                                "wood": 5,
+                                                "mercury": 5,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Upg. Borough allows you to recruit Sky Knights.",
+                                        "name": "Upg. Borough",
+                                        "upgrades": "dwellingLvl6"
+                                },
+                                "dwellingUpLvl7": {
+                                        "cost": {
+                                                "gems": 5,
+                                                "mercury": 5,
+                                                "crystal": 5,
+                                                "gold": 20000,
+                                                "ore": 5,
+                                                "sulfur": 5,
+                                                "wood": 5
+                                        },
+                                        "description": "The Upg. Mutation Vat allows you to recruit Cyborgs.",
+                                        "name": "Upg. Mutation Vat",
+                                        "upgrades": "dwellingLvl7"
+                                },
+                                "fort": {
+                                        "cost": {
+                                                "gold": 5000,
+                                                "ore": 20,
+                                                "wood": 20
+                                        },
+                                        "description": "The Fort provides your town with defensive walls.",
+                                        "name": "Fort"
+                                },
+                                "dwellingLvl3B": null,
+                                "dwellingUpLvl3B": null,
+                                "horde1": {
+                                        "cost": {
+                                                "gold": 1000
+                                        },
+                                        "description": "The Turret increases Shield Bearers production by 6 per week.",
+                                        "name": "Turret",
+                                        "upgrades": "dwellingLvl1"
+                                },
+                                "horde1Upgr": {
+                                        "cost": {
+                                                "gold": 1000
+                                        },
+                                        "description": "The Turret increases Pavise Bearers production by 6 per week.",
+                                        "name": "Turret",
+                                        "requires": [
+                                                "horde1"
+                                        ],
+                                        "upgrades": "dwellingUpLvl1"
+                                },
+                                "horde2": {
+                                        "cost": {
+                                                "gold": 3000
+                                        },
+                                        "description": "The Arsenal increases Sky Brawlers production by 1 per week.",
+                                        "name": "Arsenal",
+                                        "upgrades": "dwellingLvl6"
+                                },
+                                "horde2Upgr": {
+                                        "cost": {
+                                                "gold": 3000
+                                        },
+                                        "description": "The Arsenal increases Sky Knights production by 1 per week.",
+                                        "name": "Arsenal",
+                                        "requires": [
+                                                "horde2"
+                                        ],
+                                        "upgrades": "dwellingUpLvl6"
+                                },
+                                "mageGuild1": {
+                                        "cost": {
+                                                "gold": 2000,
+                                                "ore": 5,
+                                                "wood": 5
+                                        },
+                                        "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                                        "name": "Mage Guild Level 1"
+                                },
+                                "mageGuild2": {
+                                        "cost": {
+                                                "crystal": 4,
+                                                "gems": 4,
+                                                "gold": 1000,
+                                                "mercury": 4,
+                                                "ore": 5,
+                                                "sulfur": 4,
+                                                "wood": 5
+                                        },
+                                        "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                                        "name": "Mage Guild Level 2"
+                                },
+                                "mageGuild3": {
+                                        "cost": {
+                                                "crystal": 6,
+                                                "gems": 6,
+                                                "gold": 1000,
+                                                "mercury": 6,
+                                                "ore": 5,
+                                                "sulfur": 6,
+                                                "wood": 5
+                                        },
+                                        "description": "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+                                        "name": "Mage Guild Level 3"
+                                },
+                                "marketplace": {
+                                        "cost": {
+                                                "gold": 500,
+                                                "wood": 5
+                                        },
+                                        "description": "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+                                        "name": "Marketplace"
+                                },
+                                "resourceSilo": {
+                                        "cost": {
+                                                "gold": 5000,
+                                                "ore": 5,
+                                                "mercury": 0,
+                                                "sulfur": 0,
+                                                "crystal": 0,
+                                                "gems": 0,
+                                                "wood": 0
+                                        },
+                                        "description": "The Resource Silo provides you with an additional wood and ore each day.",
+                                        "name": "Resource Silo",
+                                        "produce": {
+                                                "ore": 1,
+                                                "wood": 1
+                                        }
+                                }
+                        },
+                        "buildingsIcons": "townhall.def",
+                        "creatures": [
+                                [
+                                        "recruit",
+                                        "militian"
+                                ],
+                                [
+                                        "thug",
+                                        "mercenary"
+                                ],
+                                [
+                                        "pyro",
+                                        "pyromaniac"
+                                ],
+                                [
+                                        "brainSucker",
+                                        "soulSucker"
+                                ],
+                                [
+                                        "stinger",
+                                        "bruiser"
+                                ],
+                                [
+                                        "jumpSoldier",
+                                        "jumpTrooper"
+                                ],
+                                [
+                                        "juggernaut",
+                                        "dreadnought"
+                                ],
+                                [
+                                        "juggernaut2k",
+                                        "dreadnought2k"
+                                ]
+                        ],
+                        "defaultTavern": 5,
+                        "guildSpells": {
+                                "airShield": 2,
+                                "antiMagic": 10,
+                                "berserk": 5,
+                                "bless": 10,
+                                "bloodlust": 5,
+                                "chainLightning": 10,
+                                "clone": 10,
+                                "counterstrike": 5,
+                                "cure": 5,
+                                "disguise": 2,
+                                "dispel": 10,
+                                "disruptingRay": 6,
+                                "earthquake": 8,
+                                "fireShield": 5,
+                                "fireWall": 4,
+                                "fireball": 2,
+                                "forceField": 4,
+                                "forgetfulness": 8,
+                                "fortune": 4,
+                                "frenzy": 5,
+                                "frostRing": 30,
+                                "haste": 10,
+                                "hypnotize": 4,
+                                "iceBolt": 50,
+                                "inferno": 5,
+                                "landMine": 4,
+                                "lightningBolt": 4,
+                                "magicArrow": 30,
+                                "meteorShower": 10,
+                                "mirth": 8,
+                                "misfortune": 4,
+                                "prayer": 10,
+                                "precision": 4,
+                                "protectAir": 2,
+                                "protectEarth": 4,
+                                "protectFire": 3,
+                                "protectWater": 3,
+                                "quicksand": 4,
+                                "removeObstacle": 4,
+                                "resurrection": 5,
+                                "scuttleBoat": 8,
+                                "shield": 3,
+                                "slayer": 5,
+                                "slow": 5,
+                                "sorrow": 5,
+                                "stoneSkin": 5,
+                                "summonBoat": 5,
+                                "teleport": 10,
+                                "townPortal": 10,
+                                "viewAir": 3,
+                                "viewEarth": 3,
+                                "visions": 2,
+                                "waterWalk": 10,
+                                "weakness": 8,
+                                "mdtDivineArrows": 1
+                        },
+                        "hallBackground": "town/buildmenu",
+                        "hallSlots": [
+                                [
+                                        [
+                                                "villageHall",
+                                                "townHall",
+                                                "cityHall",
+                                                "capitol"
+                                        ],
+                                        [
+                                                "fort",
+                                                "citadel",
+                                                "castle"
+                                        ],
+                                        [
+                                                "tavern"
+                                        ],
+                                        [
+                                                "blacksmith"
+                                        ]
+                                ],
+                                [
+                                        [
+                                                "marketplace",
+                                                "resourceSilo"
+                                        ],
+                                        [
+                                                "mageGuild1",
+                                                "mageGuild2",
+                                                "mageGuild3"
+                                        ],
+                                        [
+                                                "special1"
+                                        ],
+                                        [
+                                                "special3"
+                                        ]
+                                ],
+                                [
+                                        [
+                                                "horde1",
+                                                "horde1Upgr"
+                                        ],
+                                        [
+                                                "special4"
+                                        ],
+                                        [
+                                                "horde2",
+                                                "horde2Upgr"
+                                        ]
+                                ],
+                                [
+                                        [
+                                                "dwellingLvl1",
+                                                "dwellingUpLvl1"
+                                        ],
+                                        [
+                                                "dwellingLvl2",
+                                                "dwellingUpLvl2"
+                                        ],
+                                        [
+                                                "dwellingLvl3",
+                                                "dwellingUpLvl3"
+                                        ],
+                                        [
+                                                "dwellingLvl4",
+                                                "dwellingUpLvl4"
+                                        ]
+                                ],
+                                [
+                                        [
+                                                "dwellingLvl5",
+                                                "dwellingUpLvl5"
+                                        ],
+                                        [
+                                                "dwellingLvl6",
+                                                "dwellingUpLvl6"
+                                        ],
+                                        [
+                                                "dwellingLvl7",
+                                                "dwellingUpLvl7"
+                                        ],
+                                        [
+                                                "dwellingLvl8",
+                                                "dwellingUpLvl8"
+                                        ]
+                                ]
+                        ],
+                        "siege": {
+                                "gate": {
+                                        "arch": {
+                                                "x": 476,
+                                                "y": 192
+                                        },
+                                        "gate": {
+                                                "x": 423,
+                                                "y": 265
+                                        }
+                                },
+                                "moat": {
+                                        "bank": {
+                                                "x": 400,
+                                                "y": 80
+                                        },
+                                        "moat": {
+                                                "x": 406,
+                                                "y": 90
+                                        }
+                                },
+                                "static": {
+                                        "background": {
+                                                "x": 619,
+                                                "y": 56
+                                        },
+                                        "bottom": {
+                                                "x": 506,
+                                                "y": 373
+                                        },
+                                        "top": {
+                                                "x": 498,
+                                                "y": 92
+                                        }
+                                },
+                                "towers": {
+                                        "bottom": {
+                                                "battlement": {
+                                                        "x": 579,
+                                                        "y": 513
+                                                },
+                                                "creature": {
+                                                        "x": 356,
+                                                        "y": 311
+                                                },
+                                                "tower": {
+                                                        "x": 579,
+                                                        "y": 513
+                                                }
+                                        },
+                                        "keep": {
+                                                "battlement": {
+                                                        "x": 717,
+                                                        "y": 196
+                                                },
+                                                "creature": {
+                                                        "x": 519,
+                                                        "y": -5
+                                                },
+                                                "tower": {
+                                                        "x": 717,
+                                                        "y": 196
+                                                }
+                                        },
+                                        "top": {
+                                                "battlement": {
+                                                        "x": 558,
+                                                        "y": 30
+                                                },
+                                                "creature": {
+                                                        "x": 340,
+                                                        "y": -173
+                                                },
+                                                "tower": {
+                                                        "x": 558,
+                                                        "y": 30
+                                                }
+                                        }
+                                },
+                                "walls": {
+                                        "bottom": {
+                                                "x": 506,
+                                                "y": 373
+                                        },
+                                        "bottomMid": {
+                                                "x": 489,
+                                                "y": 322
+                                        },
+                                        "upper": {
+                                                "x": 523,
+                                                "y": 67
+                                        },
+                                        "upperMid": {
+                                                "x": 486,
+                                                "y": 158
+                                        }
+                                }
+                        },
+                        "structures": {
+                                "dwellingLvl8": {
+                                        "animation": "buildings/dwellingLvl3b",
+                                        "area": "town/area/dwellingLvl3b",
+                                        "border": "town/border/dwellingLvl3b",
+                                        "x": 499,
+                                        "y": 151,
+                                        "z": 1
+                                },
+                                "dwellingUpLvl8": {
+                                        "animation": "buildings/dwellingUpLvl3b",
+                                        "area": "town/area/dwellingUpLvl3b",
+                                        "border": "town/border/dwellingUpLvl3b",
+                                        "x": 499,
+                                        "y": 151,
+                                        "z": 1
+                                },
+                                "tavern": {
+                                        "x": 423,
+                                        "y": 225,
+                                        "z": 2
+                                },
+                                "dwellingLvl3B": null,
+                                "dwellingUpLvl3B": null
+                        },
+                        "townBackground": "town/background"
+                }
+        }
+}

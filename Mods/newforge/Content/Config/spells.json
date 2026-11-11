@@ -1,0 +1,23 @@
+{
+        "forge:specialLvl7": {
+                "level": 0,
+                "levels": {
+                        "base": {
+                                "description": "Reduces enemy unit's speed by 50%.",
+                                "battleEffects": {
+                                        "injuryEffect": {
+                                                "bonus": {
+                                                        "stacksSpeed": {
+                                                                "val": -50,
+                                                                "type": "STACKS_SPEED",
+                                                                "valueType": "PERCENT_TO_ALL",
+                                                                "duration": "N_TURNS"
+                                                        },
+                                                        "noRetaliation": null
+                                                }
+                                        }
+                                }
+                        }
+                }
+        }
+}

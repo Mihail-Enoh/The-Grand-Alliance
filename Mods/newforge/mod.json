@@ -1,0 +1,36 @@
+{
+    "name": "Grand Alliance Forge",
+    "description": "Gameplay adaptations and balance changes for Forge Town.",
+    "author": "Mihail-Enoh Bodnarciuc",
+    "version": "1.0",
+    "modType": "Mechanics",
+    "depends": [
+        "forge",
+        "grandalliance",
+        "grandalliance.hota.interference",
+        "grandalliance.secondtry.skills",
+        "grandalliance.secondtry.spells",
+        "asphalt-terrain"
+    ],
+    "creatures": [
+        "config/creatures.json"
+    ],
+    "factions": [
+        "config/factions.json"
+    ],
+    "heroClasses": [
+        "config/heroClasses.json"
+    ],
+    "heroes": [
+        "config/heroes.json"
+    ],
+    "spells": [
+        "config/spells.json"
+    ],
+    "artifacts": [
+        "config/artifacts.json"
+    ],
+    "objects": [
+        "config/dwellings.json"
+    ]
+}
