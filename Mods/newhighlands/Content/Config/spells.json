@@ -1,0 +1,661 @@
+{
+        "highlands-town:runeBas01": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 4 (5) for one turn (one/two/three).",
+                                "cost": 0,
+                                "effects": {
+                                        "stacksSpeed": {
+                                                "type": "STACKS_SPEED",
+                                                "val": 4,
+                                                "valueType": "ADDITIVE_VALUE",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "basic": {
+                                "description": "{Basic Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 5 for one turn.",
+                                "cost": 0,
+                                "effects": {
+                                        "stacksSpeed": {
+                                                "type": "STACKS_SPEED",
+                                                "val": 5,
+                                                "valueType": "ADDITIVE_VALUE",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 5 for two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "stacksSpeed": {
+                                                "type": "STACKS_SPEED",
+                                                "val": 5,
+                                                "valueType": "ADDITIVE_VALUE",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Charge}\r\n\r\nIncreases the speed of any friendly unit by 5 for three turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "stacksSpeed": {
+                                                "type": "STACKS_SPEED",
+                                                "val": 5,
+                                                "valueType": "ADDITIVE_VALUE",
+                                                "duration": "N_TURNS",
+                                                "turns": 3
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas02": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 25% (30%/50%/70%) for two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "duration": "N_TURNS",
+                                                "val": 25,
+                                                "turns": 2
+                                        }
+                                }
+                        },
+                        "basic": {
+                                "description": "{Basic Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 30% for two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "duration": "N_TURNS",
+                                                "val": 30,
+                                                "turns": 2
+                                        }
+                                }
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 50% for two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "duration": "N_TURNS",
+                                                "val": 50,
+                                                "turns": 2
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Resistance}\r\n\r\nReduces magic damage taken by any friendly unit by 70% for two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "duration": "N_TURNS",
+                                                "val": 70,
+                                                "turns": 2
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas03": {
+                "type": "combat",
+                "targetType": "CREATURE",
+                "name": "Rune of Cure",
+                "school": {
+                        "runeHighlands": true
+                },
+                "level": 1,
+                "power": 4,
+                "sounds": {
+                        "cast": "FRENZY"
+                },
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Cure}\r\n\r\nDispels negative effects on selected friendly unit.",
+                                "cost": 0,
+                                "battleEffects": {
+                                        "heal": null,
+                                        "cure": {
+                                                "type": "core:dispel",
+                                                "optional": true,
+                                                "dispelNegative": true,
+                                                "dispelNeutral": false,
+                                                "dispelPositive": false
+                                        }
+                                }
+                        },
+                        "basic": {
+                                "description": "{Basic Rune of Cure}\r\n\r\nCures, heals and dispels negative effects on selected friendly unit. Heals for (Power * 4) + 5 health points.",
+                                "cost": 0,
+                                "power": 5,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "heal",
+                                                "healPower": "permanent",
+                                                "optional": true
+                                        },
+                                        "cure": {
+                                                "type": "core:dispel",
+                                                "optional": true,
+                                                "dispelNegative": true,
+                                                "dispelNeutral": false,
+                                                "dispelPositive": false
+                                        }
+                                }
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Cure}\r\n\r\nCures, heals and dispels negative effects on selected friendly unit. Heals for (Power * 4) + 15 health points.",
+                                "cost": 0,
+                                "power": 15,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "heal",
+                                                "healPower": "permanent",
+                                                "optional": true
+                                        },
+                                        "cure": {
+                                                "type": "core:dispel",
+                                                "optional": true,
+                                                "dispelNegative": true,
+                                                "dispelNeutral": false,
+                                                "dispelPositive": false
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Cure}\r\n\r\nCures, heals and dispels negative effects on all friendly units. Heals for (Power * 4) + 25 health points.",
+                                "cost": 0,
+                                "range": "X",
+                                "power": 25,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "heal",
+                                                "healPower": "permanent",
+                                                "optional": true
+                                        },
+                                        "cure": {
+                                                "type": "core:dispel",
+                                                "optional": true,
+                                                "dispelNegative": true,
+                                                "dispelNeutral": false,
+                                                "dispelPositive": false
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas04": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn (for two turns).\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "basic": {
+                                "description": "{Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn (for two turns).\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit in this turn.",
+                                "cost": 0,
+                                "effects": {
+                                        "extraAttacks": {
+                                                "type": "ADDITIONAL_ATTACK",
+                                                "val": 1,
+                                                "duration": [
+                                                        "N_TURNS"
+                                                ],
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Swift}\r\n\r\nIncreases the number of attacks by one for any friendly unit within two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "extraAttacks": {
+                                                "type": "ADDITIONAL_ATTACK",
+                                                "val": 1,
+                                                "duration": [
+                                                        "N_TURNS"
+                                                ],
+                                                "turns": 2
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas05": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within one turn (two turns).\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "basic": {
+                                "description": "{Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within one turns (two turns).\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within one turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "damageBoost": {
+                                                "type": "CREATURE_DAMAGE",
+                                                "subtype": "creatureDamageBoth",
+                                                "val": 50,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Rage}\r\n\r\nIncreases the damage of any friendly unit by 50% within two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "damageBoost": {
+                                                "type": "CREATURE_DAMAGE",
+                                                "subtype": "creatureDamageBoth",
+                                                "val": 50,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas06": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Etherealness}\r\n\r\nIncreases the defense percentage of any friendly unit by 60% (80%) within two turns.\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "basic": {
+                                "description": "{Rune of Etherealness}\r\n\r\nIncreases the defense percentage of any friendly unit by 60% (80%) within two turns.\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Etherealness}\r\n\r\nIncreases the defense of any friendly unit by 60% within two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "boostDefense": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.defence",
+                                                "val": 60,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Etherealness}\r\n\r\nIncreases the defense of any friendly unit by 80% within two turns.",
+                                "cost": 0,
+                                "effects": {
+                                        "boostDefense": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.defence",
+                                                "val": 80,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas07": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 1,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 20% for one turn (two turns), and makes it immune to all spell damage.\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "basic": {
+                                "description": "{Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 20% for one turn (two turns), and makes it immune to all spell damage.\nUsing this spell requires {Advanced Runes}."
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 20% for one turn, and makes it immune to all spell damage.",
+                                "cost": 0,
+                                "effects": {
+                                        "boostAttack": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.attack",
+                                                "val": 20,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        },
+                                        "boostDefense": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.defence",
+                                                "val": 20,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        },
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "val": 100,
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Dragonform}\r\n\r\nIncreases the attack and defense stats of any friendly unit by 20% for two turns, and makes it immune to all spell damage.",
+                                "cost": 0,
+                                "effects": {
+                                        "boostAttack": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.attack",
+                                                "val": 20,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        },
+                                        "boostDefense": {
+                                                "type": "PRIMARY_SKILL",
+                                                "subtype": "primarySkill.defence",
+                                                "val": 20,
+                                                "valueType": "PERCENT_TO_ALL",
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        },
+                                        "spellDamageReduction": {
+                                                "type": "SPELL_DAMAGE_REDUCTION",
+                                                "subtype": "spellSchool.any",
+                                                "val": 100,
+                                                "duration": "N_TURNS",
+                                                "turns": 2
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:runeBas08": {
+                "levels": {
+                        "base": {
+                                "cost": 0,
+                                "range": "0",
+                                "power": 5,
+                                "targetModifier": {
+                                        "smart": true
+                                }
+                        },
+                        "none": {
+                                "description": "{Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (Power * 40) + 5, and it will not be retained after the battle.",
+                                "cost": 0,
+                                "power": 5,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "resurrect",
+                                                "healPower": "oneBattle",
+                                                "minFullUnits": 1
+                                        }
+                                }
+                        },
+                        "basic": {
+                                "description": "{Basic Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (Power * 40) + 10, and it will not be retained after the battle.",
+                                "cost": 0,
+                                "power": 10,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "resurrect",
+                                                "healPower": "oneBattle",
+                                                "minFullUnits": 1
+                                        }
+                                }
+                        },
+                        "advanced": {
+                                "description": "{Advanced Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (Power * 40) + 20, and it will not be retained after the battle.",
+                                "cost": 0,
+                                "power": 20,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "resurrect",
+                                                "healPower": "oneBattle",
+                                                "minFullUnits": 1
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "description": "{Expert Rune of Resurrection}\n\nResurrect the health of fallen troops; except for war machines, mechanical, golems and undead creatures can be resurrected.\n\nThe resurrection value is (Power * 40) + 20, which is retained after the battle.",
+                                "cost": 0,
+                                "power": 20,
+                                "battleEffects": {
+                                        "heal": {
+                                                "type": "core:heal",
+                                                "healLevel": "resurrect",
+                                                "healPower": "permanent",
+                                                "minFullUnits": 1
+                                        }
+                                }
+                        }
+                }
+        },
+        "highlands-town:barbarity": {
+                "type": "ability",
+                "name": "Frenzy",
+                "school": {
+                        "air": false,
+                        "earth": true,
+                        "fire": false,
+                        "water": false
+                },
+                "level": 5,
+                "power": 10,
+                "defaultGainChance": 0,
+                "canCastOnSelf": true,
+                "canCastWithoutSkip": true,
+                "canCastOnlyOnSelf": true,
+                "gainChance": {
+                        "castle": 0,
+                        "rampart": 0,
+                        "conflux": 0
+                },
+                "animation": {
+                        "affect": [
+                                "C08SPF0"
+                        ]
+                },
+                "flags": {
+                        "positive": true,
+                        "indifferent": true
+                },
+                "graphics": {
+                        "iconBook": "highlandSpells/USELESS",
+                        "iconScroll": "highlandSpells/USELESS2",
+                        "iconScenarioBonus": "highlandSpells/USELESS3",
+                        "iconEffect": "highlandSpells/INBAR"
+                },
+                "sounds": {
+                        "cast": "FRENZY"
+                },
+                "targetType": "LOCATION",
+                "targetCondition": {
+                        "anyOf": {
+                                "highlands:creature.bberserker": "absolute"
+                        }
+                },
+                "levels": {
+                        "base": {
+                                "power": 10,
+                                "range": "0",
+                                "description": "Target troop's attack rating is increased by 200% of the troop's defense rating, and its defense rating is reduced to zero.",
+                                "cost": 0,
+                                "targetModifier": {
+                                        "smart": true
+                                },
+                                "effects": {
+                                        "attacksNearestCreature": {
+                                                "type": "ATTACKS_NEAREST_CREATURE",
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        },
+                                        "inFrenzy": {
+                                                "type": "IN_FRENZY",
+                                                "val": 200,
+                                                "duration": "N_TURNS",
+                                                "turns": 1
+                                        }
+                                }
+                        },
+                        "none": {},
+                        "basic": {},
+                        "advanced": {},
+                        "expert": {}
+                }
+        },
+        "dwarftankSiegeShot": {
+                "targetType": "LOCATION",
+                "type": "ability",
+                "name": "Armored Cannon",
+                "school": {},
+                "level": 1,
+                "power": 1,
+                "defaultGainChance": 0,
+                "animation": {},
+                "targetCondition": {},
+                "gainChance": {},
+                "levels": {
+                        "base": {
+                                "description": "Armored Cannon Siege Shot",
+                                "power": 1,
+                                "cost": 0,
+                                "targetModifier": {
+                                        "smart": true
+                                },
+                                "battleEffects": {
+                                        "catapult": {
+                                                "targetsToAttack": 1,
+                                                "type": "core:catapult"
+                                        }
+                                },
+                                "range": "0"
+                        },
+                        "none": {
+                                "battleEffects": {
+                                        "catapult": {
+                                                "chanceToHitKeep": 5,
+                                                "chanceToHitGate": 25,
+                                                "chanceToHitTower": 10,
+                                                "chanceToHitWall": 50,
+                                                "chanceToNormalHit": 60,
+                                                "chanceToCrit": 30
+                                        }
+                                }
+                        },
+                        "basic": {
+                                "battleEffects": {
+                                        "catapult": {
+                                                "chanceToHitKeep": 7,
+                                                "chanceToHitGate": 60,
+                                                "chanceToHitTower": 15,
+                                                "chanceToHitWall": 60,
+                                                "chanceToNormalHit": 50,
+                                                "chanceToCrit": 50
+                                        }
+                                }
+                        },
+                        "advanced": {
+                                "battleEffects": {
+                                        "catapult": {
+                                                "chanceToHitKeep": 7,
+                                                "chanceToHitGate": 60,
+                                                "chanceToHitTower": 15,
+                                                "chanceToHitWall": 60,
+                                                "chanceToNormalHit": 50,
+                                                "chanceToCrit": 50
+                                        }
+                                }
+                        },
+                        "expert": {
+                                "battleEffects": {
+                                        "catapult": {
+                                                "chanceToHitKeep": 100,
+                                                "chanceToHitGate": 100,
+                                                "chanceToHitTower": 100,
+                                                "chanceToHitWall": 100,
+                                                "chanceToNormalHit": 0,
+                                                "chanceToCrit": 100
+                                        }
+                                }
+                        }
+                },
+                "flags": {
+                        "nonMagical": true,
+                        "indifferent": true,
+                        "special": true
+                }
+        }
+}

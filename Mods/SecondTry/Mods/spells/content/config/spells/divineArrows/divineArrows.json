@@ -47,13 +47,13 @@
 		},
 		"levels": {
 			"base": {
-				"description": "{Divine Arrows}\r\n\r\nChosen shooting stack will be granted 4(6/8) additional shots and the ability to shoot without wall or distance penalties (until the end of combat).",
+				"description": "{Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8(12) additional shots (and the ability to shoot without distance/ and wall penalties until the end of combat).",
 				"range": "0",
 				"power": 10,
 				"targetModifier": {
 					"smart": true
 				},
-				"cost": 12,
+				"cost": 3,
 				"battleEffects": {
 					"divineArrowsEffect": {
 						"type": "core:timed",
@@ -61,15 +61,36 @@
 						"bonus": {
 							"giveArrows": {
 								"type": "SHOTS",
-								"val": 4,
+								"val": 8,
 								"valueType": "ADDITIVE_VALUE",
 								"duration": "PERMANENT"
-							},
-							"noWall": {
-								"type": "NO_WALL_PENALTY",
-								"val": 0,
-								"valueType": "ADDITIVE_VALUE",
-								"duration": "PERMANENT"
+							}
+						}
+					}
+				}
+			},
+			"none": {
+				"cost": 6
+			},
+			"basic": {
+				"description": "{Basic Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8 additional shots.",
+				"battleEffects": {
+					"divineArrowsEffect": {
+						"bonus": {
+							"giveArrows": {
+								"val": 8
+							}
+						}
+					}
+				}
+			},
+			"advanced": {
+				"description": "{Advanced Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8 additional shots and the ability to shoot without distance penalties  (until the end of combat).",
+				"battleEffects": {
+					"divineArrowsEffect": {
+						"bonus": {
+							"giveArrows": {
+								"val": 8
 							},
 							"noDistance": {
 								"type": "NO_DISTANCE_PENALTY",
@@ -81,44 +102,25 @@
 					}
 				}
 			},
-			"none": {
-				"cost": 16
-			},
-			"basic": {
-				"description": "{Basic Divine Arrows}\r\n\r\nChosen shooting stack will be granted 4 additional shots and the ability to shoot without wall or distance penalties (until the end of combat).",
-				"battleEffects": {
-					"divineArrowsEffect": {
-						"bonus": {
-							"giveArrows": {
-								"val": 4
-							}
-						}
-					}
-				}
-			},
-			"advanced": {
-				"description": "{Advanced Divine Arrows}\r\n\r\nChosen shooting stack will be granted 6 additional shots and the ability to shoot without wall or distance penalties (until the end of combat).",
-				"battleEffects": {
-					"divineArrowsEffect": {
-						"type": "core:timed",
-						"cumulative": true,
-						"bonus": {
-							"giveArrows": {
-								"val": 6
-							}
-						}
-					}
-				}
-			},
 			"expert": {
-				"description": "{Expert Divine Arrows}\r\n\r\nChosen shooting stack will be granted 8 additional shots and the ability to shoot without wall or distance penalties (until the end of combat).",
+				"description": "{Expert Divine Arrows}\r\n\r\nChosen shooting stack will be granted 12 additional shots and the ability to shoot without wall or distance penalties  (until the end of combat).",
 				"battleEffects": {
 					"divineArrowsEffect": {
-						"type": "core:timed",
-						"cumulative": true,
 						"bonus": {
 							"giveArrows": {
-								"val": 8
+								"val": 12
+							},
+							"noDistance": {
+								"type": "NO_DISTANCE_PENALTY",
+								"val": 0,
+								"valueType": "ADDITIVE_VALUE",
+								"duration": "PERMANENT"
+							},
+							"noWall": {
+								"type": "NO_WALL_PENALTY",
+								"val": 0,
+								"valueType": "ADDITIVE_VALUE",
+								"duration": "PERMANENT"
 							}
 						}
 					}

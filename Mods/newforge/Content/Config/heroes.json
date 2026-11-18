@@ -304,7 +304,7 @@
                         "biography": "Rialdo, apart from a terrifying appearance even for the standards of a Vampire, boasts the magical skills rare in Erathia. When Deyja was taken over by Kastore, Rialdo was an obvious choice as one of commanders of the new army.",
                         "name": "Rialdo",
                         "specialty": {
-                                "description": "Casts Armageddon wwith damage increased by 5% for every n hero levels, where n is the level of the targeted creature.",
+                                "description": "Casts Armageddon wwith damage increased by 5% for every N hero levels, where N is the level of the targeted creature.",
                                 "tooltip": "Spell Bonus: Armageddon",
                                 "name": "Armageddon"
                         }

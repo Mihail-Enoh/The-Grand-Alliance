@@ -189,18 +189,17 @@
                         "gold": 5000
                     },
                     "description": "The Capitol earns your kingdom 5000 gold per day."
-                }
-            },
-            "dwellingLvl6": {
-                "requires": [
-                    "dwellingLvl4"
-                ]
-            },
-            "dwellingUpLvl7": {
-                "requires": [
-                ],
-                "cost": {
-                    "gold": 20000
+                },
+                "dwellingLvl6": {
+                    "requires": [
+                        "dwellingLvl4"
+                    ]
+                },
+                "dwellingUpLvl7": {
+                    "requires": ["dwellingLvl7"],
+                    "cost": {
+                        "gold": 20000
+                    }
                 }
             }
         }

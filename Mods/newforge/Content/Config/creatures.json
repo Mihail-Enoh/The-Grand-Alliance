@@ -630,6 +630,14 @@
                 "speed": 14
         },
         "forge:mdtSupplyCart": {
-                "special": true
+                "abilities": {
+                        "inactive": null,
+                        "increasedDamage": null,
+                        "shooter": null,
+                        "warmachine": null,
+                        "noRetaliation": null
+                },
+                "special": true,
+                "disabled": true
         }
 }

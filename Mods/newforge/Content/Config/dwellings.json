@@ -4,7 +4,9 @@
                         "reanimatorium": {
                                 "name": "Assembly Line",
                                 "creatures": [
-                                        "juggernaut2k"
+                                        [
+                                                "juggernaut2k"
+                                        ]
                                 ]
                         }
                 }

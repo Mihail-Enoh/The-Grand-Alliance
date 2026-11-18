@@ -18,10 +18,16 @@
     "factions": [
         "Config/towns.json"
     ],
-    "objects" : [
-		"Config/banks.json"
-	],
+    "objects": [
+        "Config/banks.json"
+    ],
+    "artifacts": [
+        "Config/artifacts.json"
+    ],
     "skills": [
         "Config/skills.json"
+    ],
+    "heroes" : [
+        "Config/heroes.json"
     ]
 }

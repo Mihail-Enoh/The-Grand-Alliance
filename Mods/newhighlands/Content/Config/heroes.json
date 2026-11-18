@@ -1,0 +1,346 @@
+{
+        "highlands-town:11bulwarkSylphine": {
+                "special": true,
+                "specialty#override": {
+                        "creature": "bulwarkEXT1"
+                },
+                "texts": {
+                        "specialty": {
+                                "description": "Increases the Speed of any Snow Witches or Ice Sorceresses by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "h_thorin": {
+                "class": "bwarlord",
+                "female": false,
+                "special": true,
+                "texts": {
+                        "name": "Thorin",
+                        "biography": "Thorin is a legendary dwarven king, known for his unyielding resolve and deep connection to the ancient magma dragons of the Vori mountains. Decades ago, during a brutal skirmish against orcs, his famous oakenshield cleaved in two. Facing certain death, he was unexpectedly saved by a fierce Fire Dragon that incinerated his foes. Since that day, he has mastered the art of dragon taming, ensuring these majestic beasts fight by his side.",
+                        "specialty": {
+                                "description": "Increases the Speed of any Fire Dragons or Magma Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature bonus: Fire Dragons",
+                                "name": "Fire Dragons"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/thorin/skill32thorin",
+                        "specialtyLarge": "heroes/thorin/skillthorin",
+                        "large": "heroes/thorin/thorinl",
+                        "small": "heroes/thorin/thorins"
+                },
+                "army": [
+                        {
+                                "creature": "bdefender",
+                                "max": 20,
+                                "min": 15
+                        },
+                        {
+                                "creature": "bjaveliner",
+                                "max": 8,
+                                "min": 5
+                        },
+                        {
+                                "creature": "bbrute",
+                                "max": 3,
+                                "min": 2
+                        }
+                ],
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "luck"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "armorer"
+                        }
+                ],
+                "specialty": {
+                        "creature": "bsfafnir"
+                }
+        },
+        "r_brynhildr": {
+                "class": "bpyromancer",
+                "female": true,
+                "special": true,
+                "texts": {
+                        "name": "Brynhildr",
+                        "biography": "A fierce warrior-maiden who embraced the path of magic, Brynhildr commands both respect and fear among the Amazons. She leads the Valkyries into battle not just with her spear, but with a deep understanding of runic and elemental magic.",
+                        "specialty": {
+                                "description": "Increases the Speed of any Amazons or Valkyries by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature bonus: Amazons",
+                                "name": "Amazons"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/brynhildr/skill32brynhildr",
+                        "specialtyLarge": "heroes/brynhildr/skillbrynhildr",
+                        "large": "heroes/brynhildr/brynhildrl",
+                        "small": "heroes/brynhildr/brynhildrs"
+                },
+                "spellbook": [
+                        "mdtDivineArrows"
+                ],
+                "army": [
+                        {
+                                "creature": "bdefender",
+                                "max": 20,
+                                "min": 15
+                        },
+                        {
+                                "creature": "bjaveliner",
+                                "max": 8,
+                                "min": 5
+                        },
+                        {
+                                "creature": "bbrute",
+                                "max": 3,
+                                "min": 2
+                        }
+                ],
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "leadership"
+                        }
+                ],
+                "specialty": {
+                        "creature": "amazonHigh"
+                }
+        },
+        "highlands-town:a_daive": {
+                "texts": {
+                        "specialty": {
+                                "description": "Increases the Speed of any Defenders or Mountain Guards by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+                        }
+                }
+        },
+        "highlands-town:b_richmond": {
+                "images": {
+                        "specialtySmall": "heroes/richmond/skill32-2",
+                        "specialtyLarge": "heroes/richmond/skill2",
+                        "large": "heroes/richmond/HPL001DW",
+                        "small": "heroes/richmond/HPS001DW"
+                },
+                "texts": {
+                        "specialty": {
+                                "description": "Increases Speed of any Snow Falcons or Blizzard Falcons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+                        }
+                }
+        },
+        "highlands-town:c_harrigan": {
+                "texts": {
+                        "specialty": {
+                                "description": "Increases the Speed of any Javeliners or Harpooners by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+                        }
+                }
+        },
+        "highlands-town:d_austin": {
+                "class": "bwarlord",
+                "female": false,
+                "texts": {
+                        "name": "Austin",
+                        "biography": "Austin is interested in the research of Armored Cannon. He likes learning the mechnical principles and use it into practice. That makes him skilled in artillery.",
+                        "specialty": {
+                                "description": "Increases the Attack and Defense skills of any Armored Cannon by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature bonus: Armored Cannon",
+                                "name": "Armored Cannon"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/austin/skill32-4",
+                        "specialtyLarge": "heroes/austin/skill4",
+                        "large": "heroes/austin/HPL003DW",
+                        "small": "heroes/austin/HPS003DW"
+                },
+                "army": [
+                        {
+                                "creature": "bdefender",
+                                "max": 30,
+                                "min": 20
+                        },
+                        {
+                                "creature": "dwarftank",
+                                "max": 1,
+                                "min": 1
+                        },
+                        {
+                                "creature": "bbrute",
+                                "max": 4,
+                                "min": 2
+                        }
+                ],
+                "skills": [
+                        {
+                                "level": "advanced",
+                                "skill": "artillery"
+                        }
+                ],
+                "specialty#override": {
+                        "creature": "dwarftank",
+                        "stepSize": 20
+                }
+        },
+        "highlands-town:e_princehogg": {
+                "texts": {
+                        "specialty": {
+                                "description": "Increases kingdom's income by 350 gold per day.",
+                                "tooltip": "+350 Gold each day",
+                                "name": "+350 Gold"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/princehogg/skill32-5",
+                        "specialtyLarge": "heroes/princehogg/skill5",
+                        "large": "heroes/princehogg/HPL004DW",
+                        "small": "heroes/princehogg/HPS004DW"
+                }
+        },
+        "highlands-town:f_gestalt": {
+                "texts": {
+                        "specialty": {
+                                "description": "Increases the Speed of any Brutes or Berserks by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+                        }
+                }
+        },
+        "highlands-town:g_aaron": {
+                "texts": {
+                        "specialty": {
+                                "description": "Receives a 5% per level bonus to Learning skill percentage."
+                        }
+                }
+        },
+        "highlands-town:h_craighill": {
+                "texts": {
+                        "specialty": {
+                                "description": "Increases the Speed of any Gladiators or Flame Gladiators by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."
+                        }
+                }
+        },
+        "highlands-town:i_aidan": {
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "sorcery"
+                        }
+                ]
+        },
+        "highlands-town:j_barbara": {
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "intelligence"
+                        }
+                ]
+        },
+        "highlands-town:k_cynthia": {
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "waterMagic"
+                        }
+                ]
+        },
+        "highlands-town:l_astride": {
+                "skills": [
+                        {
+                                "level": "advanced",
+                                "skill": "wisdom"
+                        }
+                ]
+        },
+        "highlands-town:m_mildura": {
+                "texts": {
+                        "name": "Mildura",
+                        "biography": "Spending her early years in an Erathian monastery as an assistant to Sanya the cleric, Mildura returned home to find her peaceful demeanor at odds with her fiercely martial dwarven kin. Refusing to abandon the truths she had learned, she focused her teachings on the noble Thanes. By combining Erathian discipline with dwarven resilience, she tempered their raw fury, turning them into honorable and unwavering protectors of the Highlands.",
+                        "specialty": {
+                                "description": "Increases the Speed of any Thanes or Patriarches by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+                                "tooltip": "Creature bonus: Thanes",
+                                "name": "Thanes"
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/mildura/skill32-13",
+                        "specialtyLarge": "heroes/mildura/skill13",
+                        "large": "heroes/mildura/HPL004PY",
+                        "small": "heroes/mildura/HPS004PY"
+                },
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "eagleEye"
+                        }
+                ],
+                "specialty#override": {
+                        "creature": "bmammoth"
+                }
+        },
+        "highlands-town:n_renee": {
+                "texts": {
+                        "specialty": {
+                                "description": "Receives a 5% per level bonus to Mysticism skill."
+                        }
+                },
+                "images": {
+                        "specialtySmall": "heroes/renee/skill32-14",
+                        "specialtyLarge": "heroes/renee/skill14",
+                        "large": "heroes/renee/HPL005PY",
+                        "small": "heroes/renee/HPS005PY"
+                },
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "mysticism"
+                        }
+                ]
+        },
+        "highlands-town:o_melisa": {
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "fireMagic"
+                        }
+                ]
+        },
+        "highlands-town:p_leslie": {
+                "skills": [
+                        {
+                                "level": "basic",
+                                "skill": "wisdom"
+                        },
+                        {
+                                "level": "basic",
+                                "skill": "logistics"
+                        }
+                ]
+        }
+}

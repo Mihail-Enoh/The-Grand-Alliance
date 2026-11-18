@@ -15,7 +15,8 @@
                 "hota.cove",
                 "hota.factory",
                 "forge",
-                "grandalliance.highlands-town"
+                "grandalliance.newhighlands",
+                "highlands-town"
         ],
         "heroes": [
                 "config/heroest7.json"

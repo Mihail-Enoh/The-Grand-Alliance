@@ -28,11 +28,11 @@
 		],
 		"skills": [
 			{
-				"skill": "offence",
+				"skill": "tactics",
 				"level": "basic"
 			},
 			{
-				"skill": "tactics",
+				"skill": "airMagic",
 				"level": "basic"
 			}
 		],

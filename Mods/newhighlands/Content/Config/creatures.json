@@ -1,0 +1,560 @@
+{
+        "hota.bulwark:jotunn": {
+                "growth": 1
+        },
+        "hota.bulwark:jotunnWarlord": {
+                "growth": 1
+        },
+        "highlands-town:bulwarkEXT1": {
+                "advMapAmount": {
+                        "max": 10,
+                        "min": 4
+                },
+                "faction": "bulwark",
+                "aiValue": 4260,
+                "attack": 19,
+                "cost": {
+                        "gold": 2000
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 45
+                },
+                "defense": 16,
+                "fightValue": 3504,
+                "growth": 1,
+                "hitPoints": 150,
+                "speed": 10,
+                "abilities": {
+                        "castsIceBolt": null,
+                        "castPower": null,
+                        "FLYING_ARMY": {
+                                "type": "FLYING",
+                                "subtype": "movementTeleporting"
+                        },
+                        "freezingAttack": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "freezingShot",
+                                "val": 20,
+                                "description": "{Freezing Attack}\n20% to freeze enemies after attack."
+                        },
+                        "castsAmount": {
+                                "type": "CASTS",
+                                "val": 1
+                        },
+                        "basicSlayer": {
+                                "type": "KING",
+                                "val": 2
+                        },
+                        "combatEvent": {
+                                "type": "ON_COMBAT_EVENT",
+                                "subtype": "combatEventDefend",
+                                "addInfo": {
+                                        "effect": [
+                                                {
+                                                        "action": "bonus",
+                                                        "targetEnemy": false,
+                                                        "bonus": {
+                                                                "type": "CASTS",
+                                                                "val": 2,
+                                                                "duration": [
+                                                                        "ONE_BATTLE"
+                                                                ]
+                                                        }
+                                                }
+                                        ]
+                                },
+                                "hidden": true
+                        },
+                        "castsRune1": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas01",
+                                "val": 2,
+                                "addInfo": 50,
+                                "description": "{Basic Runes}\nRandomly use Rune of {Charge} and {Resistance} at advanced level."
+                        },
+                        "castsRune2": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas02",
+                                "val": 2,
+                                "addInfo": 50,
+                                "description": "{Magic Rebirth}\nGain two spellcasts when defending."
+                        }
+                }
+        },
+        "highlands-town:bulwarkEXT2": {
+                "advMapAmount": {
+                        "max": 8,
+                        "min": 3
+                },
+                "faction": "bulwark",
+                "aiValue": 6760,
+                "attack": 27,
+                "cost": {
+                        "gold": 3800,
+                        "gems": 1
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 45
+                },
+                "defense": 24,
+                "fightValue": 5504,
+                "growth": 1,
+                "hitPoints": 200,
+                "level": 7,
+                "speed": 15,
+                "abilities": {
+                        "castsIceBolt": null,
+                        "castPower": null,
+                        "FLYING_ARMY": {
+                                "type": "FLYING",
+                                "subtype": "movementTeleporting"
+                        },
+                        "freezingAttack": {
+                                "type": "SPELL_AFTER_ATTACK",
+                                "subtype": "freezingShot",
+                                "val": 20,
+                                "description": "{Freezing Attack}\n20% to freeze enemies after attack."
+                        },
+                        "castsAmount": {
+                                "type": "CASTS",
+                                "val": 1
+                        },
+                        "basicSlayer": {
+                                "type": "KING",
+                                "val": 2
+                        },
+                        "combatEvent": {
+                                "type": "ON_COMBAT_EVENT",
+                                "subtype": "combatEventDefend",
+                                "addInfo": {
+                                        "effect": [
+                                                {
+                                                        "action": "bonus",
+                                                        "targetEnemy": false,
+                                                        "bonus": {
+                                                                "type": "CASTS",
+                                                                "val": 2,
+                                                                "duration": [
+                                                                        "ONE_BATTLE"
+                                                                ]
+                                                        }
+                                                }
+                                        ]
+                                },
+                                "hidden": true
+                        },
+                        "castsRune1": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas01",
+                                "val": 3,
+                                "addInfo": 20,
+                                "icon": "bonusIcons/airshield2",
+                                "hidden": true
+                        },
+                        "castsRune2": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas02",
+                                "val": 3,
+                                "addInfo": 20,
+                                "icon": "bonusIcons/airshield2",
+                                "hidden": true
+                        },
+                        "castsRune3": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas04",
+                                "val": 3,
+                                "addInfo": 20,
+                                "icon": "bonusIcons/airshield2",
+                                "hidden": true
+                        },
+                        "castsRune4": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas05",
+                                "val": 3,
+                                "addInfo": 20,
+                                "description": "{Advanced Runes}\nRandomly use Rune of {Charge}, {Resistance}, {Swift}, {Rage} and {Etherealness} at expert level."
+                        },
+                        "castsRune5": {
+                                "type": "SPELLCASTER",
+                                "subtype": "spell.runeBas06",
+                                "val": 3,
+                                "addInfo": 20,
+                                "description": "{Magic Rebirth}\nGain two spellcasts when defending."
+                        }
+                }
+        },
+        "highlands-town:dwarftank": {
+                "name": {
+                        "plural": "Armored Cannons",
+                        "singular": "Armored Cannon"
+                },
+                "faction": "neutral",
+                "level": 7,
+                "aiValue": 2050,
+                "special": true,
+                "attack": 25,
+                "cost": {
+                        "gold": 4500
+                },
+                "damage": {
+                        "max": 11,
+                        "min": 8
+                },
+                "defense": 20,
+                "fightValue": 1587,
+                "doubleWide": true,
+                "growth": 0,
+                "hitPoints": 300,
+                "shots": 12,
+                "speed": 0,
+                "description": "{Armored Cannon}\n\nHighlands War Machine.\n\n{gold|Special Ability: Ranged attack. Can attack siege walls.}\nIs put in place of the Ballista (War Machine 1) slot of a hero. Cannot be put in a backpack.\nAttacks by shooting a heavy projectile at enemy troops. Can also attack enemy fortifications with a precise siege shot.\nBy default, it fires automatically and is controlled by the AI.\n\nEffect of Artillery skill\n{gold|None.} All features work as described above.\n{gold|Basic.} Gives you control of the Armored Cannon. Aimed shot with increased damage on the fortifications.\n{gold|Advanced.} Gives you control of the Armored Cannon. Double damage on unit, aimed shot with increased damage on the fortifications.\n{gold|Expert.} Gives you control of the Armored Cannon. Triple damage on unit, aimed shot with maximum damage on the fortifications.",
+                "abilities": {
+                        "fireball": null,
+                        "shooter": {
+                                "type": "SHOOTER"
+                        },
+                        "noRetaliation": {
+                                "val": 0,
+                                "type": "NO_RETALIATION",
+                                "icon": "bonusIcons/noreta.png",
+                                "description": "{War Machine}\nWar machine is unable to retaliate against attacks."
+                        },
+                        "canShootWalls": {
+                                "type": "CATAPULT",
+                                "subtype": "cannonSiegeShot"
+                        },
+                        "blocksRangedRetaliation": {
+                                "type": "BLOCKS_RANGED_RETALIATION",
+                                "hidden": true
+                        },
+                        "cpuControlledTank": {
+                                "hidden": true,
+                                "type": "CPU_CONTROLLED"
+                        },
+                        "armoredCannonDisplay": {
+                                "type": "NONE",
+                                "description": "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops.",
+                                "icon": "bonusIcons/ballista.png"
+                        },
+                        "warMachine": {
+                                "type": "SIEGE_WEAPON",
+                                "icon": "bonusIcons/ballista.png",
+                                "description": "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops.",
+                                "hidden": true
+                        }
+                }
+        },
+        "core:ballista": {
+                "abilities": {
+                        "noRetaliation": {
+                                "val": 0,
+                                "type": "NO_RETALIATION",
+                                "icon": "bonusIcons/noreta.png",
+                                "description": "{War Machine}\nWar machine is unable to retaliate against attacks."
+                        },
+                        "cpuControlled": {
+                                "hidden": true,
+                                "type": "CPU_CONTROLLED"
+                        }
+                }
+        },
+        "highlands-town:bdefender": {
+                "cost": {
+                        "gold": 55
+                }
+        },
+        "highlands-town:bmountainguard": {
+                "cost": {
+                        "gold": 75
+                }
+        },
+        "highlands-town:bbrute": {
+                "cost": {
+                        "gold": 210
+                },
+                "abilities": {
+                        "fearless": null,
+                        "barbarity": {
+                                "type": "SPELLCASTER",
+                                "subtype": "barbarity",
+                                "val": 0,
+                                "icon": "bonusIcons/frenzy0.png",
+                                "description": "{Spellcaster}\nCan cast Frenzy on self at expert level once."
+                        },
+                        "castsCount": {
+                                "type": "CASTS",
+                                "val": 1
+                        }
+                }
+        },
+        "highlands-town:bberserker": {
+                "aiValue": 483,
+                "attack": 9,
+                "cost": {
+                        "gold": 250
+                },
+                "abilities": {
+                        "fearless": null,
+                        "castsCount": {
+                                "type": "CASTS",
+                                "val": 2
+                        },
+                        "barbarity": {
+                                "type": "SPELLCASTER",
+                                "subtype": "barbarity",
+                                "val": 0,
+                                "icon": "bonusIcons/frenzy0.png",
+                                "description": "{Spellcaster}\nCan cast Frenzy on self at expert level twice."
+                        },
+                        "extraAttack": null
+                }
+        },
+        "highlands-town:bsnowbird": {
+                "cost": {
+                        "gold": 335
+                }
+        },
+        "highlands-town:bblizzardbird": {
+                "aiValue": 778,
+                "attack": 11,
+                "cost": {
+                        "gold": 415
+                },
+                "damage": {
+                        "max": 10,
+                        "min": 6
+                },
+                "defense": 9,
+                "fightValue": 728,
+                "hitPoints": 40,
+                "abilities": {
+                        "immuneToWater": null
+                }
+        },
+        "highlands-town:bgladiator": {
+                "cost": {
+                        "gold": 550
+                },
+                "abilities": {
+                        "noRetaliation": {
+                                "type": "BLOCKS_RETALIATION"
+                        }
+                }
+        },
+        "highlands-town:bflameglad": {
+                "aiValue": 1093,
+                "cost": {
+                        "gold": 650
+                },
+                "fightValue": 1009
+        },
+        "highlands-town:bmammoth": {
+                "aiValue": 1660,
+                "attack": 15,
+                "defense": 16,
+                "fightValue": 1484
+        },
+        "highlands-town:bmammothlord": {
+                "aiValue": 2093,
+                "fightValue": 1860,
+                "damage": {
+                        "max": 23,
+                        "min": 17
+                }
+        },
+        "highlands-town:bsfafnir": {
+                "advMapAmount": {
+                        "max": 10,
+                        "min": 4
+                },
+                "aiValue": 3716,
+                "attack": 16,
+                "cost": {
+                        "gold": 2000
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 35
+                },
+                "defense": 18,
+                "fightValue": 3552,
+                "hitPoints": 180,
+                "speed": 7,
+                "abilities": {
+                        "nonLiving": null,
+                        "castLiquidFlame": null,
+                        "castLiquidFlameStrength": null,
+                        "dragon": {
+                                "type": "DRAGON_NATURE"
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        },
+                        "attackInLava": {
+                                "type": "PRIMARY_SKILL",
+                                "subtype": "attack",
+                                "val": 2,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "defenceInLava": {
+                                "type": "PRIMARY_SKILL",
+                                "subtype": "defence",
+                                "val": 2,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "speedInLava": {
+                                "type": "STACKS_SPEED",
+                                "val": 1,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "dummyLavaLord": {
+                                "type": "NONE",
+                                "description": "{Lava Lord}\nGains +2 attack, defense and +1 speed while fighting on lava terrain.",
+                                "icon": "bonusIcons/lava1.png"
+                        }
+                }
+        },
+        "highlands-town:demonicfafnir": {
+                "aiValue": 6137,
+                "attack": 20,
+                "cost": {
+                        "gold": 3700,
+                        "gems": 1,
+                        "ore": 0
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 35
+                },
+                "defense": 24,
+                "fightValue": 5953,
+                "hitPoints": 280,
+                "speed": 8,
+                "abilities": {
+                        "nonLiving": null,
+                        "castLiquidFlame": null,
+                        "castLiquidFlameStrength": null,
+                        "dragon": {
+                                "type": "DRAGON_NATURE"
+                        },
+                        "dragonSkeleton": {
+                                "type": "SKELETON_TRANSFORMER_TARGET",
+                                "subtype": "boneDragon"
+                        },
+                        "attackInLava": {
+                                "type": "PRIMARY_SKILL",
+                                "subtype": "attack",
+                                "val": 2,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "defenceInLava": {
+                                "type": "PRIMARY_SKILL",
+                                "subtype": "defence",
+                                "val": 2,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "speedInLava": {
+                                "type": "STACKS_SPEED",
+                                "val": 1,
+                                "limiters": [
+                                        {
+                                                "type": "CREATURE_TERRAIN_LIMITER",
+                                                "terrain": "lava"
+                                        }
+                                ],
+                                "hidden": true
+                        },
+                        "dummyLavaLord": {
+                                "type": "NONE",
+                                "description": "{Lava Lord}\nGains +2 attack, defense and +1 speed while fighting on lava terrain.",
+                                "icon": "bonusIcons/lava2.png"
+                        }
+                }
+        },
+        "highlands-town:amazonHigh": {
+                "cost": {
+                        "gold": 2200,
+                        "gems": 1
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                },
+                "defense": 19,
+                "hitPoints": 150,
+                "shots": 4,
+                "speed": 8,
+                "abilities": {
+                        "castsBless": {
+                                "type": "ENCHANTER",
+                                "subtype": "spell.bless",
+                                "val": 3,
+                                "addInfo": 3,
+                                "icon": "bonusIcons/bless3.png",
+                                "description": "{Warrior's Blessing}\nAutomatically casts Expert Bless at the start of her turn if needed, once."
+                        }
+                }
+        },
+        "highlands-town:valkyrieHigh": {
+                "attack": 27,
+                "cost": {
+                        "gold": 4300,
+                        "gems": 2
+                },
+                "damage": {
+                        "max": 50,
+                        "min": 40
+                },
+                "defense": 27,
+                "shots": 8,
+                "speed": 12,
+                "abilities": {
+                        "lightningStrike": null,
+                        "castsBless": {
+                                "type": "ENCHANTER",
+                                "subtype": "spell.bless",
+                                "val": 3,
+                                "addInfo": 3,
+                                "icon": "bonusIcons/bless3.png",
+                                "description": "{Warrior's Blessing}\nAutomatically casts Expert Bless at the start of her turn if needed, twice."
+                        }
+                }
+        }
+        // "highlands-town:bseinherjar": {  // creature is not active in highlands
+        //         "faction" : "neutral",
+        //         "special" : false
+        // }
+}

@@ -11,6 +11,7 @@
 		"vcmi-extras"
 	],
 	"depends": [
+		"highlands-town",
 		"hota",
 		"forge",
 		"hota.confluxvaultofashes"
@@ -18,7 +19,6 @@
 	"licenseName": "Creative Commons Attribution-ShareAlike",
 	"licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
 	"conflicts": [
-		"highlands-town",
 		"tides-of-war",
 		"forge2k",
 		"the-great-expansion"

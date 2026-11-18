@@ -1,0 +1,36 @@
+{
+    "name": "Grand Alliance Highlands",
+    "description": "Bulwark Town Modifications.",
+    "version": "1.0",
+    "author": "Mihail-Enoh Bodnarciuc, Tudor Bordea",
+    "modType": "Mechanics",
+    "creatures": [
+        "Config/creatures.json"
+    ],
+    "objects": [
+        "Config/objects.json"
+    ],
+    "factions": [
+        "Config/towns.json"
+    ],
+    "skills": [
+        "Config/skills.json"
+    ],
+    "artifacts": [
+        "Config/artifacts.json"
+    ],
+    "heroes": [
+        "Config/heroes.json"
+    ],
+    "spells": [
+        "Config/spells.json"
+    ],
+    "depends": [
+        "hota.bulwark",
+        "highlands-town",
+        "highlands-town.gamebalance.heroes",
+        "hota.cannon",
+        "grandalliance.secondtry.game balances",
+        "grandalliance.secondtry.spells"
+    ]
+}
