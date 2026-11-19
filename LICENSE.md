@@ -3,17 +3,21 @@ License Notice
 
 Copyright (c) 2026 Mihail-Enoh Bodnarciuc
 
-Original material created by Mihail-Enoh Bodnarciuc for The Grand Alliance is licensed under the:
+ORIGINAL CONTRIBUTIONS
 
-Creative Commons Attribution-ShareAlike 4.0 International
-(CC BY-SA 4.0)
+Original material created specifically by Mihail-Enoh Bodnarciuc for The Grand Alliance is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
 
-This license applies only to original contributions created by Mihail-Enoh Bodnarciuc, including original heroes, original hero-related content, original building content, original icons, balancing changes, configurations, and other original work specifically created for The Grand Alliance.
+This applies only to original contributions for which Mihail-Enoh Bodnarciuc holds the necessary rights, including original hero designs and related original content, the Astral Spire building, original arrow tower icons, and original project-specific gameplay, configuration, integration and balancing work.
 
-Third-party material included in this project is NOT relicensed by this notice. Such material remains subject to the original author's license, copyright, and/or permission.
+License terms:
+https://creativecommons.org/licenses/by-sa/4.0/
 
-Third-party content is identified in THIRD_PARTY_NOTICES.md.
+THIRD-PARTY MATERIAL
 
-By redistributing or adapting the original material covered by this notice, you must comply with the terms of the Creative Commons Attribution-ShareAlike 4.0 International license, including attribution and ShareAlike requirements.
+This notice does not apply to third-party material included in or required by The Grand Alliance. Third-party creatures, graphics, animations, portraits, sounds, code, configurations and other content remain subject to the copyright, license terms and permissions of their respective authors or rights holders.
 
-This project is a community-made modification for VCMI and Heroes of Might and Magic III. It is not affiliated with or endorsed by Ubisoft or any other original rights holder of Heroes of Might and Magic III.
+Nothing in this notice transfers ownership of third-party material or grants permissions beyond those provided by the relevant rights holders. See THIRD_PARTY_NOTICES.md.
+
+DISCLAIMER
+
+The Grand Alliance is a fan-made community modification for VCMI and Heroes of Might and Magic III. It is not affiliated with, endorsed by, or sponsored by Ubisoft or any other original rights holder.

@@ -2,18 +2,11 @@
 
 **The Grand Alliance** is a large-scale expansion for **Heroes of Might and Magic III**, created for the **VCMI** engine.
 
-The project combines original work with content originating from several major Heroes III modding projects, bringing many towns, creatures, heroes, artifacts, skills and gameplay changes together into one large-scale experience.
+It combines original gameplay design and balancing with content adapted from several Heroes III community projects. The expansion brings together 14 playable factions, expanded creature rosters, the Double Tier 7 system, new heroes, spells, skills, artifacts and Rune mechanics.
 
 ## Features
 
-- **14 playable factions**
-- Classic Heroes III factions
-- Cove
-- Factory
-- Bulwark
-- Highlands
-- Forge
-- Expanded creature rosters
+- 14 playable factions
 - Double Tier 7 system for all factions (except Cove)
 - New creatures and neutral units
 - New heroes
@@ -68,8 +61,6 @@ The Grand Alliance introduces or modifies several gameplay mechanics, including:
 The project includes additional artifacts and artifact combinations, as well as new Rune-based mechanics.
 
 Examples include:
-
-- Sword Breaker
 - Third Eye
 - Binoculars
 - Rune of Charge

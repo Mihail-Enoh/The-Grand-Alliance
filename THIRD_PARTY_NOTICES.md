@@ -1,230 +1,85 @@
-\# Third-Party Notices
+# Third-Party Notices
 
+The Grand Alliance is a community-made VCMI expansion. It combines original work by Mihail-Enoh Bodnarciuc with material originating from other Heroes of Might and Magic III / VCMI projects.
 
+The original authors and rights holders retain their respective copyrights and licensing rights. Mentioning a project here does not mean its material has been relicensed under The Grand Alliance's license.
 
-The Grand Alliance is a community-made VCMI expansion that combines original work by Mihail-Enoh Bodnarciuc with content originating from other Heroes of Might and Magic III / VCMI projects.
+This document is an attribution summary. Before public redistribution, verify the applicable license terms and any permission requirements for every third-party component against its original source and current license.
 
-
-
-The original creators of the third-party material retain their respective copyrights and licensing rights.
-
-
-
-This file is intended to provide attribution and clarify that third-party material is not automatically relicensed under the license of The Grand Alliance.
-
-
-
-\## VCMI
-
-
+## VCMI
 
 The Grand Alliance is made for the VCMI engine.
 
+- Credit: VCMI Team
+- Website: https://vcmi.eu/
+- Repository: https://github.com/vcmi/vcmi
 
+## Horn of the Abyss (HotA)
 
-VCMI Team
+The Grand Alliance depends on HotA and uses or adapts content originating from the project, including content associated with Cove, Factory, Bulwark, creatures, artifacts, skills and gameplay.
 
-https://vcmi.eu/
+- Credit: Horn of the Abyss Team
+- Website: https://h3hota.com/
 
+HotA content remains subject to the project's applicable license terms and permissions.
 
+## Tides of War
 
-VCMI is an open-source engine for Heroes of Might and Magic III.
+The Grand Alliance incorporates creature content and/or other material originating from Tides of War, one of the project's source projects.
 
+- Credit: Tides of War original creators and contributors
 
+The original material remains subject to its original copyright, license and permissions. Add the original project URL and specific author names here before publication if available.
 
-\## Horn of the Abyss (HotA)
+## Highlands Town
 
+The Grand Alliance depends on Highlands Town and uses or adapts Highlands creatures, structures, heroes and related content.
 
+- Credit: Highlands Town original creators and contributors
 
-The Grand Alliance uses and/or incorporates content originating from the Horn of the Abyss project, including content associated with:
+The original material remains subject to its original copyright, license and/or permissions granted by its creators. The Grand Alliance does not claim ownership of it. Add the original project URL and specific creator names here before publication if available.
 
+## Forge
 
+The Grand Alliance depends on the Forge mod and uses or adapts Forge creatures, structures and related content.
 
-\- Cove
+- Credit: MDT and the original Forge contributors
 
-\- Factory
+The original material remains subject to its original copyright, license and permissions. Add the original project URL and any required specific attribution here before publication.
 
-\- Bulwark
+## Forge2k
 
-\- HotA creatures
+The Grand Alliance incorporates selected material originating from Forge2k, including an additional creature.
 
-\- HotA artifacts
+- Credit: Forge2k original creators and contributors
 
-\- HotA skills
+The original material remains subject to its original copyright, license and permissions. Add the original project URL and specific creator names here before publication if available.
 
-\- HotA-related gameplay content
+## The Great Expansion
 
+The Grand Alliance incorporates selected spell content originating from The Great Expansion.
 
+- Credit: The Great Expansion team and original contributors
 
-Credit:
+The original material remains subject to its original copyright, license and permissions. Add the original project URL and specific creator names here before publication if available.
 
+## Original Contributions by Mihail-Enoh Bodnarciuc
 
+Original contributions created specifically for The Grand Alliance include:
 
-Horn of the Abyss Team (HotA Team)
+- Arrow tower icons for the nine classic factions
+- Original heroes and original hero-related content
+- The Astral Spire building for Bulwark
+- Original project-specific gameplay design and balancing
+- Original configuration, integration and adaptation work
+- Other original material specifically created for The Grand Alliance
 
+These contributions, to the extent that Mihail-Enoh Bodnarciuc holds the necessary rights, are licensed under CC BY-SA 4.0 as described in `LICENSE`.
 
+## Redistribution Notice
 
-The original HotA content remains subject to its original license and terms.
+The Grand Alliance is a combined project. Redistribution must respect the copyright, license terms and permissions applicable to every third-party component included in the distribution.
 
+Third-party material is not automatically relicensed under CC BY-SA 4.0 by being included in The Grand Alliance. Nothing in this notice grants additional rights to third-party material.
 
-
-\## The Great Expansion
-
-
-
-The Grand Alliance incorporates content originating from The Great Expansion.
-
-
-
-Credit:
-
-
-
-The Great Expansion Team / original contributors
-
-
-
-The original content remains subject to its original license and terms.
-
-
-
-\## Highlands Town
-
-
-
-The Grand Alliance incorporates content originating from the Highlands Town project, including Highlands creatures, structures, heroes and related content.
-
-
-
-Credit:
-
-
-
-Highlands Town original creators and contributors
-
-
-
-The original Highlands content remains subject to its original license and/or the permission granted by its original creator.
-
-
-
-IMPORTANT:
-
-
-
-The Grand Alliance does not claim ownership of the original Highlands material.
-
-
-
-\## Forge
-
-
-
-The Grand Alliance incorporates content originating from the Forge project, including creatures, structures and related Forge content.
-
-
-
-Credit:
-
-
-
-MDT / original Forge contributors
-
-
-
-The original Forge content remains subject to its original license and terms.
-
-
-
-\## Forge2k
-
-
-
-The Grand Alliance incorporates content originating from the Forge2k project.
-
-
-
-In particular, Forge2k content was used as a source for additional Forge-related creatures and content.
-
-
-
-Credit:
-
-
-
-Forge2k original creators and contributors
-
-
-
-The original Forge2k content remains subject to its original license and terms.
-
-
-
-\## Tides of War
-
-
-
-The Grand Alliance incorporates creatures and other content originating from Tides of War.
-
-
-
-Credit:
-
-
-
-Tides of War original creators and contributors
-
-
-
-The original Tides of War content remains subject to its original license and terms.
-
-
-
-\## Original Contributions by Mihail-Enoh Bodnarciuc
-
-
-
-The following content was created specifically for The Grand Alliance by Mihail-Enoh Bodnarciuc, as described in the project documentation:
-
-
-
-\- Arrow tower icons for the original nine factions
-
-\- Heroes not originating from the standard/ported factions and other credited projects
-
-\- Astral Spire building for Bulwark
-
-\- Original configurations and gameplay changes
-
-\- Original balancing and integration work
-
-\- Other original work specifically created for The Grand Alliance
-
-
-
-These original contributions are licensed under CC BY-SA 4.0 as described in the LICENSE file.
-
-
-
-\## Important Redistribution Notice
-
-
-
-The Grand Alliance is a combined project.
-
-
-
-Redistribution of the project must respect the copyright, licenses and permissions applicable to every third-party component included in the distribution.
-
-
-
-Nothing in this file grants additional rights to third-party material.
-
-
-
-If a third-party component requires attribution, permission, or additional license conditions, those conditions continue to apply.
-
-
-
-If you are a rights holder and believe that your material has been included incorrectly, please contact the project author so the matter can be reviewed and corrected.
-
+If a third-party component requires attribution, permission, source availability or other license conditions, those conditions continue to apply. If a rights holder believes material has been included or attributed incorrectly, please contact the project author so the matter can be reviewed.
