@@ -459,7 +459,8 @@
 							"val": 2,
 							"propagator": "PLAYER",
 							"sourceType": "TOWN_BUILDING",
-							"sourceID": "grail"
+							"sourceID": "grail",
+							"stacking": "grailLuck"
 						}
 					]
 				}
