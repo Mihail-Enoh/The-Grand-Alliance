@@ -106,7 +106,7 @@ Original material created by Mihail-Enoh Bodnarciuc is licensed under:
 
 **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
-See the `LICENSE` file for details.
+See the `LICENSE.md` file for details.
 
 ## Third-Party Content
 
@@ -134,8 +134,6 @@ The Grand Alliance is not affiliated with or endorsed by Ubisoft or any other or
 
 **Version:** 1.0  
 **Compatibility:** VCMI 1.7.3 or newer
-
-The project is currently being prepared for public release and possible inclusion in the official VCMI mod repository.
 
 ## Screenshots
 
