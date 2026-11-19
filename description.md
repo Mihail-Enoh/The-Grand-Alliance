@@ -21,7 +21,7 @@ Additional creatures originate from Tides of War, Highlands, Forge and Forge2k. 
 ### Double Tier 7 highlights
 
 - **Castle — Templar / Paladin:** a durable fighter with a powerful Destroy Undead spell and an army-wide Luck bonus.
-- **Tower — Drake / Dragon Golem:** mechanical dragons with first-strike capabilities and powerful retaliation.
+- **Tower — Drake / Dragon Golem:** mechanical dragons with first-strike capabilities and magic resistance.
 - **Inferno — Succubus / Abyssal Succubus:** ranged attackers that reduce enemy Attack and Defense, prevent ranged retaliation and apply a non-stacking penalty.
 - **Stronghold — Brass Couatl / Quetzalcouatl:** flying units with broad protection against triggered spells.
 - **Conflux — Triton / Abyssal Triton:** melee control units, that make almost all adjacent creatures to deal less damage; the Abyssal Triton can use Trawl twice.
