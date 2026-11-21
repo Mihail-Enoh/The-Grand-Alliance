@@ -2,50 +2,26 @@
 	"name" : "Heroes",
 	"description" : "Added new heroes to each faction.",
 	"modType" : "Heroes",
-	"author" : "Mod Design Team (Witchking, Hobbicus, Trith, Sower, Drwal, Khemiel, avatar), fred79, Andruids, Undead Artist, Ragoon, MURArt, Kuririn, Mihail-Enoh & Florin-Mirel Bodnarciuc, Alexandra-Maria Niculae, Tudor Bordea, Cristian Musceleanu, Andrei-Tudor Georgescu, Alexandru-Andrei Marin",
-	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.8",
-	"downloadSize" : 28.4,
-	"compatibility" : {
-		"min" : "1.3.0"
-	},
+	"author" : "Mod Design Team. Changes made by Mihail-Enoh & Florin-Mirel Bodnarciuc, Alexandra-Maria Niculae, Tudor Bordea, Cristian Musceleanu, Andrei-Tudor Georgescu, Alexandru-Andrei Marin",
 	"depends" : [
 		"grandalliance.secondtry.spells",
 		"grandalliance.secondtry.skills",
 		"hota.bulwark",
 		"hota.cove",
-		"hota.factory"
-	],
-	"heroClasses": [
-		"config/heroes/classes/fantoma"
+		"hota.factory",
+		"hota",
+		"hota.interference"
 	],
 	"heroes" : [
-		"config/heroes/castle/charles",
-		"config/heroes/castle/michael",
-		"config/heroes/rampart/eurydis",
-		"config/heroes/rampart/ghuri",
-		"config/heroes/rampart/clancy",
-		"config/heroes/rampart/new",
-		"config/heroes/tower/verstan",
-		"config/heroes/tower/primus",
-		"config/heroes/inferno/eyzea",
-		"config/heroes/inferno/kreevion",
-		"config/heroes/necropolis/yaverr",
-		"config/heroes/necropolis/quandyxius",
-		"config/heroes/necropolis/new",
-		"config/heroes/dungeon/galuum",
-		"config/heroes/dungeon/collivea",
-		"config/heroes/dungeon/new",
-		"config/heroes/dungeon/daxaroth",
-		"config/heroes/stronghold/ergon",
-		"config/heroes/stronghold/tartarr",
-		"config/heroes/fortress/shroo",
-		"config/heroes/fortress/thyroc",
-		"config/heroes/fortress/new",
-		"config/heroes/conflux/irrigus",
-		"config/heroes/conflux/new",
-		"config/heroes/covefactbul/new"
+		"config/heroes/castle",
+		"config/heroes/rampart",
+		"config/heroes/tower",
+		"config/heroes/inferno",
+		"config/heroes/necropolis",
+		"config/heroes/dungeon",
+		"config/heroes/stronghold",
+		"config/heroes/fortress",
+		"config/heroes/conflux",
+		"config/heroes/covefactbul"
 	]
 }

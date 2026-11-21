@@ -1,5 +1,5 @@
 {
-        "grandalliance.secondtry.heroes:clancy_nou": {
+        "core:clancy": {
                 "special": false
         },
         "grandalliance.secondtry.heroes:mdtGhuri": {
@@ -53,13 +53,13 @@
         "grandalliance.secondtry.heroes:mdtDaxaroth": {
                 "special": false
         },
-        "grandalliance.secondtry.heroes:synca_nou": {
+        "core:synca": {
                 "special": false
         },
         "grandalliance.secondtry.heroes:mdtThyroc": {
                 "special": false
         },
-        "grandalliance.secondtry.heroes:broghild_nou": {
+        "core:broghild": {
                 "special": false
         },
         "grandalliance.secondtry.heroes:kreevionHeretic": {
@@ -71,7 +71,7 @@
         "grandalliance.secondtry.heroes:quandyxius": {
                 "special": false
         },
-        "grandalliance.secondtry.heroes:tamika_nou": {
+        "core:tamika": {
                 "special": false
         },
         "forge:hergon": {

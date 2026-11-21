@@ -17,7 +17,7 @@
 			},
 			{
 				"creature": "stoneGargoyle",
-				"min": 5,
+				"min": 6,
 				"max": 7
 			},
 			{
@@ -49,6 +49,59 @@
 				"name": "Giants",
 				"description": "Increases the Speed of any Giants or Titans by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"tooltip": "Creature Bonus: Giants"
+			}
+		}
+	},
+	"mdtVerstan": {
+		"class": "wizard",
+		"female": false,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/tower/verstan_spec-small.bmp",
+			"specialtyLarge": "heroes/tower/verstan_spec-big.bmp",
+			"large": "heroes/tower/verstan_portrait-big.bmp",
+			"small": "heroes/tower/verstan_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "gremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 6,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 3,
+				"max": 4
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "mdtDrakeGolem"
+		},
+		"spellbook": [
+			"haste"
+		],
+		"texts": {
+			"name": "Verstan",
+			"biography": "Verstan has been fascinated by constructing Golems since childhood. His inquisitiveness and challenging questions often perplexed even the best constructors. Not much time has past before Gavin Magnus himself noticed Verstan's potential and ordered him constructing new kinds of Golems, based on the accomplishments of the Red Dwarves.",
+			"specialty": {
+				"name": "Drake Golems",
+				"description": "Increases the Speed of any Drake Golems or Dragon Golems by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+				"tooltip": "Creature Bonus: Drake Golems"
 			}
 		}
 	}

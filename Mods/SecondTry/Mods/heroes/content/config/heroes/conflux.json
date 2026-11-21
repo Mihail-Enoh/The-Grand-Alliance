@@ -1,4 +1,57 @@
 {
+        "mdtIrrigus": {
+                "class": "elementalist",
+                "female": false,
+                "special": true,
+                "images": {
+                        "specialtySmall": "heroes/conflux/irrigus_spec-small.bmp",
+                        "specialtyLarge": "heroes/conflux/irrigus_spec-large.bmp",
+                        "large": "heroes/conflux/irrigus_portrait-large.bmp",
+                        "small": "heroes/conflux/irrigus_portrait-small.bmp"
+                },
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 5
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "waterMagic",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "mdtTriton"
+                },
+                "spellbook": [
+                        "forgetfulness"
+                ],
+                "texts": {
+                        "name": "Irrigus",
+                        "biography": "Irrigus have never felt loyal to the Triton Empire, which occupies the whole Endless Ocean. Because of that, he gladly serves the Masters of the Elements after he felt called to the Conflux.",
+                        "specialty": {
+                                "name": "Tritons",
+                                "description": "Increases the speed of any Tritons and Abyssal Tritons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature Bonus: Tritons"
+                        }
+                }
+        },
         "helios": {
                 "class": "elementalist",
                 "female": true,
@@ -19,12 +72,12 @@
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
-                                "min": 3,
+                                "min": 4,
                                 "max": 5
                         },
                         {
@@ -150,43 +203,25 @@
                         }
                 }
         },
-        "pasis_nou": {
-                "class": "planeswalker",
-                "female": true,
-                "skills": [
-                        {
-                                "skill": "artillery",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "offence",
-                                "level": "basic"
-                        }
-                ],
+        "core:pasis": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
                                 "min": 3,
                                 "max": 5
-                        },
-                        {
-                                "creature": "airElemental",
-                                "min": 2,
-                                "max": 3
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/pasis_large.bmp",
-                        "small": "heroes/conflux/pasis_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_psychic_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_psychic_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "psychicElemental"
                 },
                 "texts": {
@@ -199,29 +234,17 @@
                         }
                 }
         },
-        "thunar_nou": {
-                "class": "planeswalker",
-                "female": true,
-                "skills": [
-                        {
-                                "skill": "estates",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "armorer",
-                                "level": "basic"
-                        }
-                ],
+        "core:thunar": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
-                                "min": 3,
-                                "max": 5
+                                "min": 4,
+                                "max": 6
                         },
                         {
                                 "creature": "waterElemental",
@@ -229,13 +252,7 @@
                                 "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/thunar_large.bmp",
-                        "small": "heroes/conflux/thunar_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_earth_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_earth_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "earthElemental"
                 },
                 "texts": {
@@ -248,29 +265,17 @@
                         }
                 }
         },
-        "ignissa_nou": {
-                "class": "planeswalker",
-                "female": true,
-                "skills": [
-                        {
-                                "skill": "artillery",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "offence",
-                                "level": "basic"
-                        }
-                ],
+        "core:ignissa": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
-                                "min": 3,
-                                "max": 5
+                                "min": 4,
+                                "max": 6
                         },
                         {
                                 "creature": "waterElemental",
@@ -278,13 +283,7 @@
                                 "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/ignissa_large.bmp",
-                        "small": "heroes/conflux/ignissa_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_fire_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_fire_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "fireElemental"
                 },
                 "texts": {
@@ -297,20 +296,12 @@
                         }
                 }
         },
-        "lacus_nou": {
-                "class": "planeswalker",
-                "female": true,
-                "skills": [
-                        {
-                                "skill": "tactics",
-                                "level": "advanced"
-                        }
-                ],
+        "core:lacus": {
                 "army": [
                         {
-                                "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
                         },
                         {
                                 "creature": "waterElemental",
@@ -319,17 +310,11 @@
                         },
                         {
                                 "creature": "waterElemental",
-                                "min": 2,
-                                "max": 3
+                                "min": 3,
+                                "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/lacus_large.bmp",
-                        "small": "heroes/conflux/lacus_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_water_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_water_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "waterElemental"
                 },
                 "texts": {
@@ -342,43 +327,25 @@
                         }
                 }
         },
-        "monere_nou": {
-                "class": "planeswalker",
-                "female": false,
-                "skills": [
-                        {
-                                "skill": "logistics",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "offence",
-                                "level": "basic"
-                        }
-                ],
+        "core:monere": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
                                 "min": 3,
                                 "max": 5
-                        },
-                        {
-                                "creature": "airElemental",
-                                "min": 2,
-                                "max": 3
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/monere_large.bmp",
-                        "small": "heroes/conflux/monere_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_psychic_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_psychic_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "psychicElemental"
                 },
                 "texts": {
@@ -391,29 +358,17 @@
                         }
                 }
         },
-        "erdamon_nou": {
-                "class": "planeswalker",
-                "female": false,
-                "skills": [
-                        {
-                                "skill": "estates",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "tactics",
-                                "level": "basic"
-                        }
-                ],
+        "core:erdamon": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
-                                "min": 3,
-                                "max": 5
+                                "min": 4,
+                                "max": 6
                         },
                         {
                                 "creature": "waterElemental",
@@ -421,13 +376,7 @@
                                 "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/erdamon_large.bmp",
-                        "small": "heroes/conflux/erdamon_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_earth_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_earth_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "earthElemental"
                 },
                 "texts": {
@@ -440,25 +389,17 @@
                         }
                 }
         },
-        "fiur_nou": {
-                "class": "planeswalker",
-                "female": false,
-                "skills": [
-                        {
-                                "skill": "offence",
-                                "level": "advanced"
-                        }
-                ],
+        "core:fiur": {
                 "army": [
                         {
                                 "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "min": 20,
+                                "max": 30
                         },
                         {
                                 "creature": "airElemental",
-                                "min": 3,
-                                "max": 5
+                                "min": 4,
+                                "max": 6
                         },
                         {
                                 "creature": "waterElemental",
@@ -466,13 +407,7 @@
                                 "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/fiur_large.bmp",
-                        "small": "heroes/conflux/fiur_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_fire_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_fire_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "fireElemental"
                 },
                 "texts": {
@@ -485,24 +420,12 @@
                         }
                 }
         },
-        "kalt_nou": {
-                "class": "planeswalker",
-                "female": false,
-                "skills": [
-                        {
-                                "skill": "tactics",
-                                "level": "basic"
-                        },
-                        {
-                                "skill": "learning",
-                                "level": "basic"
-                        }
-                ],
+        "core:kalt": {
                 "army": [
                         {
-                                "creature": "pixie",
-                                "min": 15,
-                                "max": 25
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
                         },
                         {
                                 "creature": "waterElemental",
@@ -511,17 +434,11 @@
                         },
                         {
                                 "creature": "waterElemental",
-                                "min": 2,
-                                "max": 3
+                                "min": 3,
+                                "max": 5
                         }
                 ],
-                "images": {
-                        "large": "heroes/conflux/kalt_large.bmp",
-                        "small": "heroes/conflux/kalt_small.bmp",
-                        "specialtyLarge": "heroes/conflux/spec_water_large.bmp",
-                        "specialtySmall": "heroes/conflux/spec_water_small.bmp"
-                },
-                "specialty": {
+                "specialty#override": {
                         "creature": "waterElemental"
                 },
                 "texts": {
@@ -533,5 +450,157 @@
                                 "description": "Increases the Speed of any Water or Ice Elementals by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
                         }
                 }
+        },
+        "core:luna": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:brissa": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:ciele": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:labetha": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:inteus": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:aenain": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:gelare": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
+        },
+        "core:grindan": {
+                "army": [
+                        {
+                                "creature": "pixie",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "airElemental",
+                                "min": 4,
+                                "max": 6
+                        },
+                        {
+                                "creature": "waterElemental",
+                                "min": 3,
+                                "max": 5
+                        }
+                ]
         }
 }

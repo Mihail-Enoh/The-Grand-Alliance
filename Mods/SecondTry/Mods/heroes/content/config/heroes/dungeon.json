@@ -1,0 +1,271 @@
+{
+        "core:dace": {
+                "skills": [
+                        {
+                                "skill": "tactics",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "intimidation",
+                                "level": "basic"
+                        }
+                ],
+                "texts": {
+                        "name": "Dace",
+                        "biography": "Dace was born into a warrior clan, learning to fight from masters who seemed older than time. He provides Nighon with exceptional leadership, especially when commanding other minotaurs.",
+                        "specialty": {
+                                "name": "Minotaurs",
+                                "tooltip": "Creature Bonus: Minotaurs",
+                                "description": "Increases the Speed of any Minotaurs or Minotaur Kings by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+                        }
+                }
+        },
+        "core:synca": {
+                "special": true,
+                "skills": [
+                        {
+                                "skill": "hexes",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "scholar",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "troglodyte",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "harpy",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "beholder",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "texts": {
+                        "name": "Synca",
+                        "biography": "Synca was originally an aboveworlder, and though she loyally serves the Dungeon Overlords she really prefers the great outdoors to the dank, cramped spaces of the caverns of Nighon.",
+                        "specialty": {
+                                "name": "Manticores",
+                                "tooltip": "Creature Bonus: Manticores",
+                                "description": "Increases the Speed of any Manticores or Scorpicores by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "andras": {
+                "class": "warlock",
+                "female": false,
+                "special": true,
+                "spellbook": [
+                        "berserk"
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "luck",
+                                "level": "basic"
+                        }
+                ],
+                "army": [
+                        {
+                                "creature": "troglodyte",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "harpy",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "beholder",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "images": {
+                        "large": "heroes/dungeon/andras_large.png",
+                        "small": "heroes/dungeon/andras_small.png",
+                        "specialtyLarge": "heroes/dungeon/spec_speed_large.png",
+                        "specialtySmall": "heroes/dungeon/spec_speed_small.png"
+                },
+                "specialty": {
+                        "bonuses": {
+                                "speed": {
+                                        "type": "STACKS_SPEED",
+                                        "val": 2
+                                }
+                        }
+                },
+                "texts": {
+                        "name": "Andres",
+                        "biography": "Andres spent his youth living among Nighon's Troglodytes. The absolute darkness and the feral environment drove him to the brink of madness, making him sometimes go crazy. Legend says that as a child, he was locked in a dark room full of rats, and that is why he lost his mind—or so it is believed. His friendship with Gunnar only improved his madness. He now moves and acts with an erratic speed, turning every battle into an ambush.",
+                        "specialty": {
+                                "name": "Speed",
+                                "tooltip": "Stat Bonus: Speed",
+                                "description": "All creatures receive +2 speed."
+                        }
+                }
+        },
+        "mdtGaluum": {
+                "class": "warlock",
+                "female": false,
+                "images": {
+                        "specialtySmall": "heroes/dungeon/galuum_spec-small.bmp",
+                        "specialtyLarge": "heroes/dungeon/galuum_spec-large.bmp",
+                        "large": "heroes/dungeon/galuum_portrait-large.bmp",
+                        "small": "heroes/dungeon/galuum_portrait-small.bmp"
+                },
+                "army": [
+                        {
+                                "creature": "troglodyte",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "harpy",
+                                "min": 6,
+                                "max": 8
+                        },
+                        {
+                                "creature": "beholder",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "wisdom",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "intimidation",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "mdtIllithid"
+                },
+                "spellbook": [
+                        "hypnotize"
+                ],
+                "texts": {
+                        "name": "Galuum",
+                        "biography": "Many say that Galuum was once a slave trader, who, due to an ancient ritual, became a monster, but also a very powerful Warlock. No one, however, can prove these rumors. No matter if this legend is true, Galuum is a very talented leader, who frightens his enemies with not only his appearance, but also his skills.",
+                        "specialty": {
+                                "name": "Illithids",
+                                "description": "Increases the Speed of any Illithids and Alhoons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+                                "tooltip": "Creature Bonus: Illithids"
+                        }
+                }
+        },
+        "mdtCollivea": {
+                "class": "overlord",
+                "female": true,
+                "images": {
+                        "specialtySmall": "heroes/dungeon/collivea_spec-small.bmp",
+                        "specialtyLarge": "heroes/dungeon/collivea_spec-large.bmp",
+                        "large": "heroes/dungeon/collivea_portrait-large.bmp",
+                        "small": "heroes/dungeon/collivea_portrait-small.bmp"
+                },
+                "army": [
+                        {
+                                "creature": "troglodyte",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "harpy",
+                                "min": 6,
+                                "max": 8
+                        },
+                        {
+                                "creature": "beholder",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "archery",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "leadership",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "medusa"
+                },
+                "texts": {
+                        "name": "Collivea",
+                        "biography": "When young Collivea joined the forces of Nighon, Warlocks were amazed to find out that she's resistant to the look of a Medusa. That settled her career as an Overlord.",
+                        "specialty": {
+                                "name": "Medusas",
+                                "tooltip": "Creature Bonus: Medusas",
+                                "description": "Increases the Speed of any Medusas and Medusa Queens by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+                        }
+                }
+        },
+        "mdtDaxaroth": {
+                "class": "overlord",
+                "female": false,
+                "special": true,
+                "images": {
+                        "specialtySmall": "heroes/dungeon/daxaroth_spec-small",
+                        "specialtyLarge": "heroes/dungeon/daxaroth_spec-large",
+                        "large": "heroes/dungeon/daxaroth_portrait-large",
+                        "small": "heroes/dungeon/daxaroth_portrait-small"
+                },
+                "army": [
+                        {
+                                "creature": "troglodyte",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "harpy",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "beholder",
+                                "min": 3,
+                                "max": 4
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "offence",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "fireMagic",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "redDragon"
+                },
+                "texts": {
+                        "name": "Daxaroth",
+                        "biography": "Daxaroth was Dragon Queen Mutare's right paw. Some suspect that Mutare's death was really Daxaroth's plot to gain power. Nevertheless, Red and Black Dragons listen to him as if he is their new King.",
+                        "specialty": {
+                                "name": "Red Dragons",
+                                "description": "Increases the Speed of any Red Dragons or Black Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
+                                "tooltip": "Creature Bonus: Red Dragons"
+                        }
+                }
+        }
+}

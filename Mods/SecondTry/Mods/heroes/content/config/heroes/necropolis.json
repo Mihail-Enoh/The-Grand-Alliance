@@ -1,0 +1,139 @@
+{
+        "yaverrDeathknight": {
+                "class": "deathknight",
+                "female": false,
+                "images": {
+                        "specialtySmall": "heroes/necropolis/yaverr_spec-small.bmp",
+                        "specialtyLarge": "heroes/necropolis/yaverr_spec-large.bmp",
+                        "large": "heroes/necropolis/yaverr_portrait-large.bmp",
+                        "small": "heroes/necropolis/yaverr_portrait-small.bmp"
+                },
+                "army": [
+                        {
+                                "creature": "skeleton",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "walkingDead",
+                                "min": 6,
+                                "max": 8
+                        },
+                        {
+                                "creature": "wight",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "intimidation",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "necromancy",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "mdtWerewolf"
+                },
+                "spellbook": [
+                        "haste"
+                ],
+                "texts": {
+                        "name": "Yaverr",
+                        "biography": "When Kastore came to the throne of Deyja, many Undeads, as yet hiding in shadows, blatantly opposed the new authority. Yaverr, once hunting Harmondale's peasants alone, happened to be a very talented commander among the rebels.",
+                        "specialty": {
+                                "name": "Werewolves",
+                                "description": "Increases the Speed of any Werewolves and Dire Werewolves by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+                                "tooltip": "Creature Bonus: Werewolves"
+                        }
+                }
+        },
+        "quandyxius": {
+                "class": "necromancer",
+                "female": false,
+                "special": true,
+                "images": {
+                        "specialtySmall": "heroes/necropolis/quandyxius_spec-small.bmp",
+                        "specialtyLarge": "heroes/necropolis/quandyxius_spec-large.bmp",
+                        "large": "heroes/necropolis/quandyxius_portrait-large.bmp",
+                        "small": "heroes/necropolis/quandyxius_portrait-small.bmp"
+                },
+                "army": [
+                        {
+                                "creature": "skeleton",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "walkingDead",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "wight",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "skills": [
+                        {
+                                "skill": "necromancy",
+                                "level": "basic"
+                        },
+                        {
+                                "skill": "hexes",
+                                "level": "basic"
+                        }
+                ],
+                "specialty": {
+                        "creature": "boneDragon"
+                },
+                "spellbook": [
+                        "deathRipple"
+                ],
+                "texts": {
+                        "name": "Quandyxius",
+                        "biography": "Having devoted his life to the study of dragonkind, Quandyxius uncovered secrets of their existence that transcended mortality. Even after embracing necromancy, his fascination with dragons never faded. Under his command, Ghost Dragons become more powerful, guided by the knowledge of one who understands both their living and spectral forms.",
+                        "specialty": {
+                                "name": "Bone Dragons",
+                                "tooltip": "Creature Bonus: Bone Dragons",
+                                "description": "Increases the Speed of any Bone Dragons or Ghost Dragons by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "core:tamika": {
+                "special": true,
+                "army": [
+                        {
+                                "creature": "skeleton",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "walkingDead",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "wight",
+                                "min": 4,
+                                "max": 6
+                        }
+                ],
+                "texts": {
+                        "name": "Tamika",
+                        "biography": "Tamika's superior combat skills have put her in a position of power within the military forces of Deyja. Besides merely leading troops, she is also responsible for training Black Knights and Dread Knights.",
+                        "specialty": {
+                                "name": "Black Knights",
+                                "tooltip": "Creature Bonus: Black Knights",
+                                "description": "Increases the Speed of any Black Knights or Dread Knights by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up)."
+                        }
+                }
+        },
+        "core:undeadHaart": {
+                "special": true
+        }
+}
