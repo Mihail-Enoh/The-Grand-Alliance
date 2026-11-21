@@ -8,8 +8,8 @@
         "forge",
         "grandalliance",
         "hota.interference",
-        "grandalliance.secondtry.skills",
-        "grandalliance.secondtry.spells",
+        "grandalliance.base.skills",
+        "grandalliance.base.spells",
         "asphalt-terrain"
     ],
     "creatures": [

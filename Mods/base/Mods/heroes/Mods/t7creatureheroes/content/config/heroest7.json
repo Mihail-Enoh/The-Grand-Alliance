@@ -1,0 +1,83 @@
+{
+        "core:clancy": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtGhuri": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtTartarr": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtErgon": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtVerstan": {
+                "special": false
+        },
+        "grandalliance.base.heroes:primus": {
+                "special": false
+        },
+        "grandalliance.base.heroes:michael": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtCharles": {
+                "special": false
+        },
+        "grandalliance.base.heroes:helios": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtIrrigus": {
+                "special": false
+        },
+        "grandalliance.base.heroes:alma": {
+                "special": false
+        },
+        "grandalliance.base.heroes:tudor": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mosadino": {
+                "special": false
+        },
+        "grandalliance.base.heroes:valgard": {
+                "special": false
+        },
+        "highlands-town:11bulwarkSylphine": {
+                "special": false
+        },
+        "grandalliance.newhighlands:r_brynhildr": {
+                "special": false
+        },
+        "grandalliance.newhighlands:h_thorin": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtDaxaroth": {
+                "special": false
+        },
+        "core:synca": {
+                "special": false
+        },
+        "grandalliance.base.heroes:mdtThyroc": {
+                "special": false
+        },
+        "core:broghild": {
+                "special": false
+        },
+        "grandalliance.base.heroes:kreevionHeretic": {
+                "special": false
+        },
+        "grandalliance.base.heroes:eyzeaDemoniac": {
+                "special": false
+        },
+        "grandalliance.base.heroes:quandyxius": {
+                "special": false
+        },
+        "core:tamika": {
+                "special": false
+        },
+        "forge:hergon": {
+                "special": false
+        },
+        "forge:04codgur": {
+                "special": false
+        }
+}

@@ -1,5 +1,5 @@
 {
-        "grandalliance.secondtry:mdtQuetzalcouatl": {
+        "grandalliance.base:mdtQuetzalcouatl": {
                 "abilities": {
                         "stoneGazeImm": {
                                 "description": "{Unbounded}\nImmune to Injury, Freeze, Blind, Acid Breath, Poison, Disease, Death Cloud, Age, Death Stare, Paralyze, Stone Gaze, Dispel Helpful or Bind"
@@ -12,7 +12,7 @@
                         }
                 }
         },
-        "grandalliance.secondtry:mdtCouatl": {
+        "grandalliance.base:mdtCouatl": {
                 "abilities": {
                         "stoneGazeImm": {
                                 "description": "{Unbounded}\nImmune to Injury, Freeze, Blind, Acid Breath, Poison, Disease, Death Cloud, Age, Death Stare, Paralyze, Stone Gaze, Dispel Helpful or Bind"

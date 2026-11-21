@@ -1,0 +1,27 @@
+{
+	"name" : "Heroes",
+	"description" : "Added new heroes to each faction.",
+	"modType" : "Heroes",
+	"author" : "Mod Design Team. Changes made by Mihail-Enoh & Florin-Mirel Bodnarciuc, Alexandra-Maria Niculae, Tudor Bordea, Cristian Musceleanu, Andrei-Tudor Georgescu, Alexandru-Andrei Marin",
+	"depends" : [
+		"grandalliance.base.spells",
+		"grandalliance.base.skills",
+		"hota.bulwark",
+		"hota.cove",
+		"hota.factory",
+		"hota",
+		"hota.interference"
+	],
+	"heroes" : [
+		"config/heroes/castle",
+		"config/heroes/rampart",
+		"config/heroes/tower",
+		"config/heroes/inferno",
+		"config/heroes/necropolis",
+		"config/heroes/dungeon",
+		"config/heroes/stronghold",
+		"config/heroes/fortress",
+		"config/heroes/conflux",
+		"config/heroes/covefactbul"
+	]
+}
