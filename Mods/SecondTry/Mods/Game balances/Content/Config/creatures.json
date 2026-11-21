@@ -442,7 +442,7 @@
         },
         "core:ghostDragon": {
                 "cost": {
-                        "gold": 3600,
+                        "gold": 3500,
                         "mercury": 2
                 },
                 "abilities": {
@@ -515,7 +515,7 @@
                         "max": 8
                 },
                 "cost": {
-                        "gold": 3700,
+                        "gold": 3600,
                         "mercury": 1
                 },
                 "attack": 24,

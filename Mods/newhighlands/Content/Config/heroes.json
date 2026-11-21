@@ -1,5 +1,22 @@
 {
         "highlands-town:11bulwarkSylphine": {
+                "army": [
+                        {
+                                "creature": "kobold",
+                                "min": 20,
+                                "max": 30
+                        },
+                        {
+                                "creature": "mountainRam",
+                                "min": 6,
+                                "max": 7
+                        },
+                        {
+                                "creature": "snowElf",
+                                "min": 3,
+                                "max": 5
+                        }
+                ],
                 "special": true,
                 "specialty#override": {
                         "creature": "bulwarkEXT1"

@@ -31,5 +31,17 @@
                                 "tooltip": "Secondary Skill Bonus: Scouting"
                         }
                 }
+        },
+        "hota.heroes:kinkeria": {
+                "onlyOnMapWithoutWater": false
+        },
+        "hota.heroes:ranloo": {
+                "onlyOnMapWithoutWater": false
+        },
+        "hota.bulwark:13biarma": {
+                "onlyOnMapWithoutWater": false
+        },
+        "hota.cove:05derek": {
+                "onlyOnMapWithoutWater": false
         }
 }
