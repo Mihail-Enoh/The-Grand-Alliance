@@ -1,6 +1,6 @@
 {
-        "name": "Speed Specialists Heroes",
-        "description": "Play with heroes that specialise in speed.",
+        "name": "Special Heroes",
+        "description": "Play with heroes that specialise in speed or horde.",
         "modType": "Heroes",
         "author": "Mihail-Enoh Bodnarciuc",
         "version": "1.0.0",
@@ -13,6 +13,6 @@
                 "grandalliance.base.skills"
         ],
         "heroes": [
-                "config/speedsp.json"
+                "config/special.json"
         ]
 }

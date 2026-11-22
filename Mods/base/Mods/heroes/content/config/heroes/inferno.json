@@ -101,5 +101,180 @@
 				"tooltip": "Creature Bonus: Devils"
 			}
 		}
+	},
+	"theEvil": {
+		"class": "demoniac",
+		"special":true,
+		"female": false,
+		"images": {
+			"specialtySmall": "heroes/inferno/spec-small.bmp",
+			"specialtyLarge": "heroes/inferno/spec-large.bmp",
+			"large": "heroes/inferno/portrait-large.bmp",
+			"small": "heroes/inferno/portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "imp",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "gog",
+				"min": 5,
+				"max": 6
+			},
+			{
+				"creature": "hellHound",
+				"min": 4,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "hexes",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"armyMight": {
+					"type": "GENERAL_DAMAGE_PREMY",
+					"val": 10,
+					"updater": {
+						"type": "TIMES_ARMY_SIZE",
+						"stepSize": 15
+					}
+				}
+			}
+		},
+		// "specialty": { for each tier, too "fair"
+		// 	"bonuses": {
+		// 		"tier7": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 5,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 7,
+		// 					"maxlevel": 8
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 7
+		// 			}
+		// 		},
+		// 		"tier6": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 6,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 6,
+		// 					"maxlevel": 7
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 6
+		// 			}
+		// 		},
+		// 		"tier5": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 7,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 5,
+		// 					"maxlevel": 6
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 5
+		// 			}
+		// 		},
+		// 		"tier4": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 9,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 4,
+		// 					"maxlevel": 5
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 4
+		// 			}
+		// 		},
+		// 		"tier3": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 11,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 3,
+		// 					"maxlevel": 4
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 3
+		// 			}
+		// 		},
+		// 		"tier2": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 13,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 2,
+		// 					"maxlevel": 3
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 2
+		// 			}
+		// 		},
+		// 		"tier1": {
+		// 			"type": "GENERAL_DAMAGE_PREMY",
+		// 			"val": 15,
+		// 			"limiters": [
+		// 				{
+		// 					"type": "CREATURE_LEVEL_LIMITER",
+		// 					"minLevel": 1,
+		// 					"maxlevel": 2
+		// 				}
+		// 			],
+		// 			"updater": {
+		// 				"type": "TIMES_ARMY_SIZE",
+		// 				"stepSize": 15,
+		// 				"filteredLevel": 1
+		// 			}
+		// 		}
+		// 	}
+		// },
+		"texts": {
+			"name": "The Evil",
+			"biography": "No one knows his real name. Fellow demoniacs simply call him The Evil. He is evil incarnate, cruel beyond imagination and utterly devoid of mercy. Some say that Satan himself considers him a bad influence.",
+			"specialty": {
+				"name": "Horde",
+				"description": "Increases the Damage of each stack of creatures in the army by 5% for every 15 units based on the total army count.",
+				"tooltip": "Army Bonus: Horde"
+			}
+		}
 	}
 }

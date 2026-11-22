@@ -4,7 +4,8 @@
                         "hexes": 2,
                         "intimidation": 4,
                         "resistance" : 4,
-                        "interference": 1
+                        "interference": 1,
+                        "fireMagic" : 6
                 }
         },
         "forge:cyborg": {

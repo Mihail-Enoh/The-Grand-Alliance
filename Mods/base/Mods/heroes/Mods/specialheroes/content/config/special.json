@@ -4,5 +4,8 @@
         },
         "grandalliance.base.heroes:andras": {
                 "special": false
+        },
+        "grandalliance.base.heroes:theEvil": {
+                "special": false
         }
 }
