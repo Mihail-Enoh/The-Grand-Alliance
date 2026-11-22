@@ -395,11 +395,11 @@
         },
         "core:ancientBehemoth": {
                 "cost": {
-                        "gold": 3600,
+                        "gold": 3900,
                         "crystal": 1
                 },
-                "attack": 20,
-                "defense": 20,
+                "attack": 21,
+                "defense": 21,
                 "hitPoints": 300
         },
         "core:magog": {
