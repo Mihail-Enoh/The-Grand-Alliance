@@ -135,5 +135,8 @@
         },
         "core:undeadHaart": {
                 "special": true
+        },
+        "core:galthran": {
+                "special": false
         }
 }

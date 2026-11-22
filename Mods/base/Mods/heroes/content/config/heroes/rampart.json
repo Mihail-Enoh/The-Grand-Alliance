@@ -1,4 +1,7 @@
 {
+        "core:thorgrim": {
+                "special": false
+        },
         "core:clancy": {
                 "special": true,
                 "skills": [
