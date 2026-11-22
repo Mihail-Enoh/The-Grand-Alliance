@@ -398,6 +398,8 @@
                         "gold": 3600,
                         "crystal": 1
                 },
+                "attack": 20,
+                "defense": 20,
                 "hitPoints": 300
         },
         "core:magog": {
@@ -1036,6 +1038,64 @@
                         }
                 }
         },
+        "grandalliance.base:mdtCouatl": {
+                "abilities": {
+                        "loveBrassCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtCouatl",
+                                "val": -50,
+                                "description": "{Couatl Kin}\nDamage dealt to all Couatls is reduced by 50%.",
+                                "icon": "icons/couatlfam.png"
+                        },
+                        "loveQuetzalcouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtQuetzalcouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveCrimsonCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.crimsonCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveHotaCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.hotaCouatl",
+                                "val": -50,
+                                "hidden": true
+                        }
+                }
+        },
+        "grandalliance.base:mdtQuetzalcouatl": {
+                "abilities": {
+                        "loveBrassCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtCouatl",
+                                "val": -50,
+                                "description": "{Couatl Kin}\nDamage dealt to all Couatls is reduced by 50%.",
+                                "icon": "icons/couatlfam.png"
+                        },
+                        "loveQuetzalcouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtQuetzalcouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveCrimsonCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.crimsonCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveHotaCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.hotaCouatl",
+                                "val": -50,
+                                "hidden": true
+                        }
+                }
+        },
         "hota.factory:halflingGrenadier": {
                 "cost": {
                         "gold": 65
@@ -1220,6 +1280,31 @@
                 "fightValue": 5364,
                 "hitPoints": 210,
                 "abilities": {
+                        "loveBrassCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtCouatl",
+                                "val": -50,
+                                "description": "{Couatl Kin}\nDamage dealt to all Couatls is reduced by 50%.",
+                                "icon": "icons/couatlfam.png"
+                        },
+                        "loveQuetzalcouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtQuetzalcouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveCrimsonCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.crimsonCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveHotaCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.hotaCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
                         "canFly": {
                                 "type": "FLYING"
                         },
@@ -1257,6 +1342,31 @@
                 "aiValue": 3901,
                 "fightValue": 3687,
                 "abilities": {
+                        "loveBrassCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtCouatl",
+                                "val": -50,
+                                "description": "{Couatl Kin}\nDamage dealt to all Couatls is reduced by 50%.",
+                                "icon": "icons/couatlfam.png"
+                        },
+                        "loveQuetzalcouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.mdtQuetzalcouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveCrimsonCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.crimsonCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
+                        "loveHotaCouatl": {
+                                "type": "HATE",
+                                "subtype": "creature.hotaCouatl",
+                                "val": -50,
+                                "hidden": true
+                        },
                         "canFly": {
                                 "type": "FLYING"
                         },
@@ -1333,14 +1443,14 @@
                 "aiValue": 7320,
                 "attack": 30,
                 "cost": {
-                        "gold": 4300,
+                        "gold": 4200,
                         "sulfur": 2
                 },
                 "damage": {
                         "max": 55,
                         "min": 30
                 },
-                "defense": 15,
+                "defense": 16,
                 "growth": 2,
                 "fightValue": 6120,
                 "abilities": {

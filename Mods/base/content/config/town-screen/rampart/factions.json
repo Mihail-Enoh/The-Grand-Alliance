@@ -377,10 +377,10 @@
 						"gold": 10000,
 						"wood": 10,
 						"ore": 0,
-						"mercury": 0,
-						"crystal": 10,
-						"gems": 10,
-						"sulfur": 0
+						"mercury": 5,
+						"crystal": 5,
+						"gems": 5,
+						"sulfur": 5
 					},
 					"requires": [
 						"allOf",
@@ -394,12 +394,12 @@
 					"description": "The Upg. Unicorn Glade allows you to recruit War Unicorns.",
 					"cost": {
 						"gold": 15000,
-						"wood": 10,
+						"wood": 5,
 						"ore": 0,
-						"mercury": 0,
-						"crystal": 15,
+						"mercury": 5,
+						"crystal": 10,
 						"gems": 5,
-						"sulfur": 0
+						"sulfur": 5
 					},
 					"upgrades": "dwellingLvl7"
 				},

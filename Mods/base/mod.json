@@ -37,6 +37,7 @@
 	"depends": [
 		"hota.bulwark",
 		"hota.cove",
+		"hota.factory",
 		"hota.confluxvaultofashes"
 	],
 	"factions": [

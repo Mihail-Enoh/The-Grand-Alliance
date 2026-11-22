@@ -1,149 +1,147 @@
 {
-	"mdtQuetzalcouatl" : {
-		"name" : {
-			"singular" : "Quetzalcouatl",
-			"plural" : "Quetzalcouatls"
+	"mdtQuetzalcouatl": {
+		"name": {
+			"singular": "Quetzalcouatl",
+			"plural": "Quetzalcouatls"
 		},
-		"faction" : "stronghold",
-		"level" : 7,
-		"doubleWide" : true,
-		"cost" : {
-			"gold" : 3600,
+		"faction": "stronghold",
+		"level": 7,
+		"doubleWide": true,
+		"cost": {
+			"gold": 3600,
 			"crystal": 1
 		},
-		"speed" : 14,
-		"hitPoints" : 210,
-		"attack" : 20,
-		"defense" : 30,
-		"damage" : {
-			"min" : 35,
-			"max" : 45
+		"speed": 14,
+		"hitPoints": 210,
+		"attack": 27,
+		"defense": 21,
+		"damage": {
+			"min": 40,
+			"max": 45
 		},
-		"fightValue" : 5088,
-		"aiValue" : 6129,
+		"fightValue": 5088,
+		"aiValue": 6129,
 		"advMapAmount": {
 			"min": 3,
 			"max": 8
 		},
-		"growth" : 1,
-		"abilities" : {
+		"growth": 1,
+		"abilities": {
 			"dragonSkeleton": {
 				"type": "SKELETON_TRANSFORMER_TARGET",
 				"subtype": "boneDragon"
 			},
-			"3moreretaliation" :
-			{
-				"type" : "ADDITIONAL_RETALIATION",
-				"val" : 1,
-				//"icon": "sprites/icons/quetzal.png"
+			"3moreretaliation": {
+				"type": "ADDITIONAL_RETALIATION",
+				"val": 1,
 				"icon": "icons/quetzal.png"
 			},
 			"canFly": {
 				"type": "FLYING",
 				"icon": "icons/sucfly.png"
 			},
-			"stoneGazeImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "stoneGaze",
-				"addInfo" : 0,
-				"description" : "{Unbounded}\nImmune to Freeze, Blind, Acid Breath, Poison, Disease, Death Cloud, Age, Death Stare, Paralyze, Stone Gaze, Dispel Helpful or Bind"
+			"stoneGazeImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "stoneGaze",
+				"addInfo": 0,
+				"description": "{Unbounded}\nImmune to Freeze, Blind, Acid Breath, Poison, Disease, Death Cloud, Age, Death Stare, Paralyze, Stone Gaze, Dispel Helpful or Bind"
 			},
-			"freezingShotImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "freezingShot",
-				"addInfo" : 0,
-				"hidden" : true
+			"freezingShotImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "freezingShot",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"poisonImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "poison",
-				"addInfo" : 0,
-				"hidden" : true
+			"poisonImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "poison",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"bindImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "bind",
-				"addInfo" : 0,
-				"hidden" : true
+			"bindImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "bind",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"diseaseImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "disease",
-				"addInfo" : 0,
-				"hidden" : true
+			"diseaseImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "disease",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"paralyzeImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "paralyze",
-				"addInfo" : 0,
-				"hidden" : true
+			"paralyzeImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "paralyze",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"ageImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "age",
-				"addInfo" : 0,
-				"hidden" : true
+			"ageImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "age",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"deathCloudImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "deathCloud",
-				"addInfo" : 0,
-				"hidden" : true
+			"deathCloudImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "deathCloud",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"thunderboltImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "blind",
-				"addInfo" : 0,
-				"hidden" : true
+			"thunderboltImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "blind",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"dispelHelpfulImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "dispelHelpful",
-				"addInfo" : 0,
-				"hidden" : true
+			"dispelHelpfulImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "dispelHelpful",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"deathStareImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "deathStare",
-				"addInfo" : 0,
-				"hidden" : true
+			"deathStareImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "deathStare",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"acidBreathImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "acidBreath",
-				"addInfo" : 0,
-				"hidden" : true
+			"acidBreathImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "acidBreath",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"acidBreathDamageImm" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "acidBreathDamage",
-				"addInfo" : 0,
-				"hidden" : true
+			"acidBreathDamageImm": {
+				"type": "SPELL_IMMUNITY",
+				"subtype": "acidBreathDamage",
+				"addInfo": 0,
+				"hidden": true
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
+			"KING_1":
 			{
-				"type" : "KING",
-				"val" : 0
+				"type": "KING",
+				"val": 0
 			}
 		},
-		"graphics" : {
-			"iconLarge" : "creatures/stronghold/iconsbig/qcouatl_big.png",
-			"iconSmall" : "creatures/stronghold/iconssmall/qcouatl_small.png",
-			"map" : "creatures/stronghold/map/mapQcouatl.def",
-			"animation" : "creatures/stronghold/battle/CQouatl.def",
-			"animationTime" : {
-				"attack" : 1,
-				"idle" : 10,
-				"walk" : 1.0
+		"graphics": {
+			"iconLarge": "creatures/stronghold/iconsbig/qcouatl_big.png",
+			"iconSmall": "creatures/stronghold/iconssmall/qcouatl_small.png",
+			"map": "creatures/stronghold/map/mapQcouatl.def",
+			"animation": "creatures/stronghold/battle/CQouatl.def",
+			"animationTime": {
+				"attack": 1,
+				"idle": 10,
+				"walk": 1.0
 			},
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets": 1
 		},
-		"sound" : {
-			"attack" : "creatures/stronghold/couatl/COATATTK.wav",
-			"defend" : "creatures/stronghold/couatl/COATDFND.wav",
-			"killed" : "creatures/stronghold/couatl/COATDEAD.wav",
-			"move" : "creatures/stronghold/couatl/COATMOVE.wav",
-			"wince" : "creatures/stronghold/couatl/COATWNCE.wav"
+		"sound": {
+			"attack": "creatures/stronghold/couatl/COATATTK.wav",
+			"defend": "creatures/stronghold/couatl/COATDFND.wav",
+			"killed": "creatures/stronghold/couatl/COATDEAD.wav",
+			"move": "creatures/stronghold/couatl/COATMOVE.wav",
+			"wince": "creatures/stronghold/couatl/COATWNCE.wav"
 		}
 	}
 }

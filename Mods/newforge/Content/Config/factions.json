@@ -186,25 +186,6 @@
                                                 ]
                                         ]
                                 },
-                                "dwellingLvl8": {
-                                        "description": "The Assembly Line allows you to recruit Annihilators.",
-                                        "name": "Assembly Line",
-                                        "cost": {
-                                                "gold": 10000,
-                                                "ore": 20,
-                                                "sulfur": 5,
-                                                "wood": 20,
-                                                "mercury": 0,
-                                                "crystal": 0,
-                                                "gems": 0
-                                        },
-                                        "requires": [
-                                                "allOf",
-                                                [
-                                                        "dwellingLvl6"
-                                                ]
-                                        ]
-                                },
                                 "dwellingLvl4": {
                                         "cost": {
                                                 "gems": 4,
@@ -284,6 +265,25 @@
                                                 ]
                                         ]
                                 },
+                                "dwellingLvl8": {
+                                        "description": "The Assembly Line allows you to recruit Annihilators.",
+                                        "name": "Assembly Line",
+                                        "cost": {
+                                                "gold": 10000,
+                                                "ore": 15,
+                                                "sulfur": 5,
+                                                "wood": 15,
+                                                "mercury": 5,
+                                                "crystal": 5,
+                                                "gems": 5
+                                        },
+                                        "requires": [
+                                                "allOf",
+                                                [
+                                                        "dwellingLvl6"
+                                                ]
+                                        ]
+                                },
                                 "dwellingUpLvl1": {
                                         "cost": {
                                                 "gold": 1000,
@@ -332,20 +332,6 @@
                                         "name": "Upg. Lava Basin",
                                         "upgrades": "dwellingLvl3"
                                 },
-                                "dwellingUpLvl8": {
-                                        "description": "The Upg. Assembly Line allows you to recruit Terminators.",
-                                        "name": "Upg. Assembly Line",
-                                        "cost": {
-                                                "gold": 20000,
-                                                "ore": 10,
-                                                "sulfur": 15,
-                                                "wood": 10,
-                                                "mercury": 0,
-                                                "crystal": 0,
-                                                "gems": 0
-                                        },
-                                        "upgrades": "dwellingLvl8"
-                                },
                                 "dwellingUpLvl4": {
                                         "cost": {
                                                 "crystal": 5,
@@ -393,6 +379,22 @@
                                 },
                                 "dwellingUpLvl7": {
                                         "cost": {
+                                                "gold": 20000,
+                                                "ore": 10,
+                                                "sulfur": 20,
+                                                "wood": 10,
+                                                "mercury": 0,
+                                                "crystal": 0,
+                                                "gems": 0
+                                        },
+                                        "description": "The Upg. Mutation Vat allows you to recruit Cyborgs.",
+                                        "name": "Upg. Mutation Vat",
+                                        "upgrades": "dwellingLvl7"
+                                },
+                                "dwellingUpLvl8": {
+                                        "description": "The Upg. Assembly Line allows you to recruit Terminators.",
+                                        "name": "Upg. Assembly Line",
+                                        "cost": {
                                                 "gems": 5,
                                                 "mercury": 5,
                                                 "crystal": 5,
@@ -401,9 +403,7 @@
                                                 "sulfur": 5,
                                                 "wood": 5
                                         },
-                                        "description": "The Upg. Mutation Vat allows you to recruit Cyborgs.",
-                                        "name": "Upg. Mutation Vat",
-                                        "upgrades": "dwellingLvl7"
+                                        "upgrades": "dwellingLvl8"
                                 },
                                 "fort": {
                                         "cost": {
@@ -437,7 +437,8 @@
                                 },
                                 "horde2": {
                                         "cost": {
-                                                "gold": 3000
+                                                "gold": 3000,
+                                                "ore": 5
                                         },
                                         "description": "The Arsenal increases Sky Brawlers production by 1 per week.",
                                         "name": "Arsenal",
@@ -445,7 +446,8 @@
                                 },
                                 "horde2Upgr": {
                                         "cost": {
-                                                "gold": 3000
+                                                "gold": 3000,
+                                                "ore": 5
                                         },
                                         "description": "The Arsenal increases Sky Knights production by 1 per week.",
                                         "name": "Arsenal",
