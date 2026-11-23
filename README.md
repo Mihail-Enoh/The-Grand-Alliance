@@ -1,6 +1,6 @@
 # The Grand Alliance
 
-**The Grand Alliance** is a large-scale expansion for **Heroes of Might and Magic III**, created for the **VCMI** engine.
+**The Grand Alliance** is an expansion for **Heroes of Might and Magic III**, created for the **VCMI** engine.
 
 It combines original gameplay design and balancing with content adapted from several Heroes III community projects. The expansion brings together 14 playable factions, expanded creature rosters, the Double Tier 7 system, new heroes, spells, skills, artifacts and Rune mechanics.
 

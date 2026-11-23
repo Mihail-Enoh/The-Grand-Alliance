@@ -1,6 +1,6 @@
 # english
 
-**The Grand Alliance** is a large-scale expansion for **Heroes of Might and Magic III**, created for the **VCMI** engine.
+**The Grand Alliance** is an expansion for **Heroes of Might and Magic III**, created for the **VCMI** engine.
 
 The project combines original gameplay design and balancing with content adapted from several Heroes III community projects. It brings together 14 playable factions, expanded creature rosters, the Double Tier 7 system, new heroes, spells, skills, artifacts and gameplay changes.
 
@@ -76,14 +76,14 @@ New neutral creatures have also been added from multiple projects, including: Ho
 
 ## Heroes
 
-The expansion adds new heroes and revises existing specialties. New creature-specialty heroes include:
+The expansion adds new heroes and revises existing specialties. New heroes include:
 
 - **Castle:** Charles — Templars / Paladins; Michael — Angels / Archangels.
 - **Rampart:** Eurydis — Dryads / Oak Dryads; Ghuri — Green / Gold Dragons.
 - **Tower:** Primus — Giants / Titans; Verstan — Drake / Dragon Golems.
-- **Inferno:** Eyzea — Succubi; Kreevion — Devils / Arch Devils.
+- **Inferno:** Eyzea — Succubi; Kreevion — Devils / Arch Devils; The Evil — Horde (new specialty).
 - **Necropolis:** Yaverr — Werewolves / Dire Werewolves; Quandyxius — Bone / Ghost Dragons.
-- **Dungeon:** Galuum — Illithids / Alhoons; Daxaroth — Red / Black Dragons; Collivea — Medusas / Medusa Queens.
+- **Dungeon:** Galuum — Illithids / Alhoons; Daxaroth — Red / Black Dragons; Collivea — Medusas / Medusa Queens; Andres — Speed.
 - **Stronghold:** Ergon — Brass Couatls / Quetzalcouatls; Tartarr — Behemoths / Ancient Behemoths.
 - **Fortress:** Shroo — Troll Hags / Troll Witches; Thyroc — Hydras / Chaos Hydras.
 - **Conflux:** revised creature-specialty scaling, including specialties for Tritons, Firebirds and Air Elementals.
@@ -91,9 +91,8 @@ The expansion adds new heroes and revises existing specialties. New creature-spe
 - **Factory:** Mosadino — Couatls / Crimson Couatls; Tudor — Dreadnoughts / Juggernauts.
 - **Bulwark:** Valgard — Jotunns / Jotunn Warlords; Sylphine — Snow Witches / Ice Sorceresses.
 - **Highlands:** Thorin — Fire / Magma Dragons; Brynhildr — Amazons / Valkyries.
-- **Forge:** existing hero specialties are revised.
+- **Forge:** existing hero specialties are revised and added both t7 creatures with a designated hero of their specialty.
 
-Andres also receives a Speed specialty.
 
 ## Artifacts and Runes
 
