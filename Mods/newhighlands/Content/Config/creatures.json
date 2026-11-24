@@ -24,6 +24,7 @@
                 "fightValue": 3504,
                 "growth": 1,
                 "hitPoints": 150,
+                "level": 7,
                 "speed": 10,
                 "abilities": {
                         "castsIceBolt": null,
@@ -279,7 +280,7 @@
                         "barbarity": {
                                 "type": "SPELLCASTER",
                                 "subtype": "barbarity",
-                                "val": 0,
+                                "val": 3,
                                 "icon": "bonusIcons/frenzy0.png",
                                 "description": "{Spellcaster}\nCan cast Frenzy on self at expert level once."
                         },
@@ -304,7 +305,7 @@
                         "barbarity": {
                                 "type": "SPELLCASTER",
                                 "subtype": "barbarity",
-                                "val": 0,
+                                "val": 3,
                                 "icon": "bonusIcons/frenzy0.png",
                                 "description": "{Spellcaster}\nCan cast Frenzy on self at expert level twice."
                         },

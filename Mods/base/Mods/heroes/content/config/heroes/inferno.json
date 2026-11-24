@@ -264,7 +264,7 @@
 					"val": 1,
 					"updater": {
 						"type": "TIMES_HERO_LEVEL",
-						"stepSize": 5
+						"stepSize": 2
 					}
 				}
 			}
@@ -274,7 +274,7 @@
 			"biography": "No one knows his real name, rumor has it that he once sought a mysterious ring. Fellow demoniacs simply call him The Evil. He is evil incarnate, cruel beyond imagination and utterly devoid of mercy. Some say that Satan himself considers him a bad influence.",
 			"specialty": {
 				"name": "Horde",
-				"description": "Increases the Damage of each creature stack based on its level: 4% for tiers 1 and 2, 3% for tiers 3 and 4, 2% for tiers 5 and 6, and 1% for tier 7, for every 50 creatures in the army and by 1% for every 5 hero levels.",
+				"description": "Increases the Damage of each creature stack based on its level: 4% for tiers 1 and 2, 3% for tiers 3 and 4, 2% for tiers 5 and 6, and 1% for tier 7, for every 50 creatures in the army and by 1% for every 2 hero levels.",
 				"tooltip": "Army Bonus: Horde"
 			}
 		}

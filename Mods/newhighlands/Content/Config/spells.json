@@ -508,11 +508,11 @@
                 "name": "Frenzy",
                 "school": {
                         "air": false,
-                        "earth": true,
+                        "earth": false,
                         "fire": false,
                         "water": false
                 },
-                "level": 5,
+                "level": 0,
                 "power": 10,
                 "defaultGainChance": 0,
                 "canCastOnSelf": true,
@@ -544,7 +544,8 @@
                 "targetType": "LOCATION",
                 "targetCondition": {
                         "anyOf": {
-                                "highlands:creature.bberserker": "absolute"
+                                "highlands:creature.bberserker": "absolute",
+                                "highlands:creature.bbrute": "absolute"
                         }
                 },
                 "levels": {

@@ -517,10 +517,7 @@
                         "canShoot": {
                                 "type": "SHOOTER"
                         },
-                        "slayer": null,
-                        "noMeleePenalty": {
-                                "type": "NO_MELEE_PENALTY"
-                        }
+                        "slayer": null
                 },
                 "damage": {
                         "max": 16,
@@ -530,7 +527,7 @@
                         "gold": 515
                 },
                 "attack": 13,
-                "hitPoints": 50,
+                "hitPoints": 35,
                 "shots": 8
         },
         "forge:bruiser": {
@@ -546,12 +543,12 @@
                 "attack": 13,
                 "damage": {
                         "max": 16,
-                        "min": 14
+                        "min": 13
                 },
                 "cost": {
                         "gold": 625
                 },
-                "hitPoints": 55,
+                "hitPoints": 40,
                 "shots": 12
         },
         "forge:jumpTrooper": {
