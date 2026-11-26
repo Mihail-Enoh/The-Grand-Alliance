@@ -52,7 +52,7 @@
 			"destroyPower": {
 				"type": "SPECIFIC_SPELL_POWER",
 				"subtype": "spell.destroyUndead",
-				"val": 50
+				"val": 40
 			},
 			"KING_2": {
 				"type": "KING",
