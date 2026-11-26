@@ -164,8 +164,8 @@
 			"dispel"
 		],
 		"texts": {
-			"name": "Mitrandir",
-			"biography": "Known to many as the White Wizard, Mitrandir is a wanderer of ancient lands whose wisdom and power have guided countless peoples through times of darkness. Drawn to the Tower by its pursuit of arcane knowledge, he now lends his experience and mastery of magic to its scholars and armies. With Narya on his finger, Mithrandir is ready to face The Evil, determined to ensure that darkness shall not prevail.",
+			"name": "Mithrandir",
+			"biography": "Known to many as the White Wizard, Mithrandir is a wanderer of ancient lands whose wisdom and power have guided countless peoples through times of darkness. Drawn to the Tower by its pursuit of arcane knowledge, he now lends his experience and mastery of magic to its scholars and armies. With Narya on his finger, Mithrandir is ready to face The Evil, determined to ensure that darkness shall not prevail.",
 			"specialty": {
 				"name": "Horde Magic",
 				"description": "Increases the damage of hero spells by 3% for every 50 creatures in the army and by 2% for every 5 hero levels.",

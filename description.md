@@ -80,7 +80,7 @@ The expansion adds new heroes and revises existing specialties. New heroes inclu
 
 - **Castle:** Charles — Templars / Paladins; Michael — Angels / Archangels.
 - **Rampart:** Eurydis — Dryads / Oak Dryads; Ghuri — Green / Gold Dragons.
-- **Tower:** Primus — Giants / Titans; Verstan — Drake / Dragon Golems.
+- **Tower:** Primus — Giants / Titans; Verstan — Drake / Dragon Golems; Mithrandir — Horde (new specialty).
 - **Inferno:** Eyzea — Succubi; Kreevion — Devils / Arch Devils; The Evil — Horde (new specialty).
 - **Necropolis:** Yaverr — Werewolves / Dire Werewolves; Quandyxius — Bone / Ghost Dragons.
 - **Dungeon:** Galuum — Illithids / Alhoons; Daxaroth — Red / Black Dragons; Collivea — Medusas / Medusa Queens; Andres — Speed.
