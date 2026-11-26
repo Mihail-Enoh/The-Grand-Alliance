@@ -35,7 +35,7 @@
 				"addInfo" : 100,
 				"turns" : 3,
 				"icon" : "icons/hypno3.png",
-				"description" : "{Spellcaster}\nCan cast Hypnotize (once per combat)."
+				"description" : "{Spellcaster}\nCan cast Hypnotize."
 			},
 			"castsCount" : {
 				"type" : "CASTS",
@@ -43,7 +43,10 @@
 			},
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 75
+				"val" : 200
+			},
+			"mindImmune": {
+				"type": "MIND_IMMUNITY"
 			}
 		},
 		"graphics" : {
