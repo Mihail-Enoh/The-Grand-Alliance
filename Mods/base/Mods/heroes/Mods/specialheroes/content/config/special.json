@@ -7,5 +7,8 @@
         },
         "grandalliance.base.heroes:theEvil": {
                 "special": false
+        },
+        "grandalliance.base.heroes:mitrandir": {
+                "special": false
         }
 }

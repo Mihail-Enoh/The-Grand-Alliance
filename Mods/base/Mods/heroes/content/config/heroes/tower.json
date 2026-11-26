@@ -17,13 +17,13 @@
 			},
 			{
 				"creature": "stoneGargoyle",
-				"min": 6,
-				"max": 7
+				"min": 5,
+				"max": 6
 			},
 			{
 				"creature": "ironGolem",
-				"min": 3,
-				"max": 4
+				"min": 4,
+				"max": 5
 			}
 		],
 		"skills": [
@@ -70,13 +70,13 @@
 			},
 			{
 				"creature": "stoneGargoyle",
-				"min": 6,
-				"max": 7
+				"min": 5,
+				"max": 6
 			},
 			{
 				"creature": "ironGolem",
-				"min": 3,
-				"max": 4
+				"min": 4,
+				"max": 5
 			}
 		],
 		"skills": [
@@ -102,6 +102,74 @@
 				"name": "Drake Golems",
 				"description": "Increases the Speed of any Drake Golems or Dragon Golems by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"tooltip": "Creature Bonus: Drake Golems"
+			}
+		}
+	},
+	"mitrandir": {
+		"class": "wizard",
+		"female": false,
+		"special": true,
+		"images": {
+			"specialtySmall": "heroes/tower/mitrandir_spec-small.bmp",
+			"specialtyLarge": "heroes/tower/mitrandir_spec-big.bmp",
+			"large": "heroes/tower/mitrandir_portrait-big.bmp",
+			"small": "heroes/tower/mitrandir_portrait-small.bmp"
+		},
+		"army": [
+			{
+				"creature": "gremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 6
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "advanced"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"spellDamageArmy": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "any",
+					"val": 3,
+					"updater": {
+						"type": "TIMES_ARMY_SIZE",
+						"stepSize": 50
+					}
+				},
+				"spellDamageLevel": {
+					"type": "SPELL_DAMAGE",
+					"subtype": "any",
+					"val": 2,
+					"updater": {
+						"type": "TIMES_HERO_LEVEL",
+						"stepSize": 5
+					}
+				}
+			}
+		},
+		"spellbook": [
+			"dispel"
+		],
+		"texts": {
+			"name": "Mitrandir",
+			"biography": "Known to many as the White Wizard, Mitrandir is a wanderer of ancient lands whose wisdom and power have guided countless peoples through times of darkness. Drawn to the Tower by its pursuit of arcane knowledge, he now lends his experience and mastery of magic to its scholars and armies. With Narya on his finger, Mithrandir is ready to face The Evil, determined to ensure that darkness shall not prevail.",
+			"specialty": {
+				"name": "Horde Magic",
+				"description": "Increases the damage of hero spells by 3% for every 50 creatures in the army and by 2% for every 5 hero levels.",
+				"tooltip": "Army Bonus: Spell Damage"
 			}
 		}
 	}

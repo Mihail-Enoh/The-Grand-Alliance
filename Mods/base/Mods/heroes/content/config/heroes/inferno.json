@@ -275,7 +275,7 @@
 			"specialty": {
 				"name": "Horde Damage",
 				"description": "Increases the Damage of each creature stack based on its level: 4% for tiers 1 and 2, 3% for tiers 3 and 4, 2% for tiers 5 and 6, and 1% for tier 7, for every 50 creatures in the army and by 2% for each tier every 5 hero levels.",
-				"tooltip": "Army Bonus: Damage"
+				"tooltip": "Army Bonus: Creature Damage"
 			}
 		}
 	},
