@@ -1,6 +1,6 @@
 {
         "name": "Special Heroes",
-        "description": "Play with heroes that specialise in speed or horde.",
+        "description": "Play with heroes that specialise in horde.",
         "modType": "Heroes",
         "author": "Mihail-Enoh Bodnarciuc",
         "version": "1.0.0",
